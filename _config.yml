@@ -1,0 +1,17 @@
+# Site settings
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://vibby.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+
+include: ["_pages"]
+
+exclude: ["gulpfile.js", "Gemfile", "Gemfile.lock",
+          "package.json", "README.md", "LICENSE", "node_modules"]
+
+stylus:
+  compress: true
+  path: ./_stylus

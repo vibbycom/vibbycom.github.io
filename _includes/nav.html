@@ -1,0 +1,8 @@
+<nav>
+  <a href="/" class="logo">vibby</a>
+  <ul >
+    <li><a href="/about/" {% if page.url == '/about/' %} class="active"{% endif %}>About</a></li>
+    <li><a href="/support/" {% if page.url == '/support/' %} class="active"{% endif %}>Support</a></li>
+    <li><a href="/product/" {% if page.url == '/product/' %} class="active"{% endif %}>Product</a></li>
+  </ul>
+</nav>
