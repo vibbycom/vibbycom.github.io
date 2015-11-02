@@ -9,9 +9,6 @@ markdown: kramdown
 
 include: ["_pages"]
 
-exclude: ["gulpfile.js", "Gemfile", "Gemfile.lock",
-          "package.json", "README.md", "LICENSE", "node_modules"]
-
 stylus:
   compress: true
   path: ./_stylus
