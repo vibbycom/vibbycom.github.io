@@ -1,2 +1,2 @@
 # vibbycom.github.io
-vibby.com public pages
+vibby.com public pages.
