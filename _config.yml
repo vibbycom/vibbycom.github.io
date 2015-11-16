@@ -1,6 +1,6 @@
 # Site settings
 
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "https://vibbycom.github.io" # the subpath of your site, e.g. /blog/
 url: "http://vibby.com" # the base hostname & protocol for your site
 
 # Build settings
