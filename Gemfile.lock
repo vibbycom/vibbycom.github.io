@@ -112,10 +112,6 @@ GEM
     redcarpet (3.3.2)
     safe_yaml (1.0.4)
     sass (3.4.19)
-    stylus (1.0.1)
-      execjs
-      stylus-source
-    stylus-source (0.49.3)
     terminal-table (1.5.2)
     thread_safe (0.3.5)
     toml (0.1.2)
@@ -131,7 +127,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  stylus
 
 BUNDLED WITH
    1.10.6
