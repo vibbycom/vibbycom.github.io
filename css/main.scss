@@ -1,8 +1,7 @@
 ---
 ---
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout"
-;
+// Import partials _sass
+@import "./reset/index";
+@import "./base/index";
+@import "./layout/index";
