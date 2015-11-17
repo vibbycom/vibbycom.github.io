@@ -1,0 +1,35 @@
+//Nav
+
+.logo
+    display block
+    width 84px
+    height 29px
+    background-image url('/assets/img/logo.png')
+    background-size 100% 100%
+    background-repeat no-repeat
+
+nav.main-nav
+    background-color #ccc
+    position fixed
+    top 0
+    left 0
+    right 0
+    height 40px
+    z-index 9999
+    display flex
+    align-items center
+    wrap()
+    // +below(600px)
+    //     background-color #faa
+    >*
+        flex-shrink 0
+    ul,li,a
+        display inline-block
+    li a
+        font-size 14px
+        color #fff
+    li
+        margin-left 30px
+
+    .right-nav
+        margin-left auto
