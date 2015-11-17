@@ -19,4 +19,13 @@
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
+    <!-- Our js -->
+    {% if jekyll.environment == 'production' %}
+      <script type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.url }}"></script>
+    {% else %}
+      <script type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>

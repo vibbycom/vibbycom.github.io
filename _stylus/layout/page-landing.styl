@@ -2,13 +2,38 @@
 .landing
     //
     .hero
-        background-color #363C4D
-        // height 650px
-        padding 200px 0 400px
+        background-color $nav-bg
+        padding 200px 0 200px
+        margin 0
+        .block__title
+            color #fff
+        .block__description
+            color #7D8BB5
         .wrap
             w(700px)
             text-align center
             wrap()
+
     .benefits
         .benefit
             column(1/3, cycle: 3)
+            text-align center
+            &__icon
+                height 140px
+                width 140px
+                border-radius 50%
+                border 1px solid #BBE1FF
+                margin 0 auto
+                display flex
+                align-items center
+                justify-content center
+                margin-bottom 30px
+                .fa
+                    font-size 40px
+                    color #2CA3FF
+
+
+    .demo-video
+        position relative
+        text-align center
+        top -140px

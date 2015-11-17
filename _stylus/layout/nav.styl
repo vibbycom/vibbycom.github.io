@@ -9,18 +9,20 @@
     background-repeat no-repeat
 
 nav.main-nav
-    background-color #ccc
+    // background-color #ccc
     position fixed
     top 0
     left 0
     right 0
-    height 40px
+    height 52px
     z-index 9999
     display flex
     align-items center
     wrap()
-    // +below(600px)
-    //     background-color #faa
+
+    padding-top 10px
+    transition all 0.2s ease
+
     >*
         flex-shrink 0
     ul,li,a
@@ -28,8 +30,16 @@ nav.main-nav
     li a
         font-size 14px
         color #fff
+        opacity 0.6
+        font-weight 500
+        &:hover
+            opacity 1
     li
         margin-left 30px
 
     .right-nav
         margin-left auto
+
+    &.scroll
+        background-color $nav-bg
+        padding-top 0
