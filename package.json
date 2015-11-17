@@ -1,0 +1,31 @@
+{
+  "name": "vibbycom.github.io",
+  "version": "1.0.0",
+  "description": "vibby.com public pages.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibbycom/vibbycom.github.io.git"
+  },
+  "author": "vibby.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vibbycom/vibbycom.github.io/issues"
+  },
+  "homepage": "https://github.com/vibbycom/vibbycom.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.1.0",
+    "gulp-util": "^3.0.7",
+    "jeet": "^6.1.2",
+    "nib": "^1.1.0",
+    "normalize-styl": "^3.0.3",
+    "run-sequence": "^1.1.4",
+    "rupture": "^0.6.1"
+  }
+}

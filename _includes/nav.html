@@ -1,8 +1,14 @@
 <nav>
-  <a href="/" class="logo">vibby</a>
-  <ul >
+  <a href="/" class="logo"></a>
+  <ul class="left-nav">
     <li><a href="/about/" {% if page.url == '/about/' %} class="active"{% endif %}>About</a></li>
     <li><a href="/support/" {% if page.url == '/support/' %} class="active"{% endif %}>Support</a></li>
     <li><a href="/product/" {% if page.url == '/product/' %} class="active"{% endif %}>Product</a></li>
+  </ul>
+  <ul class="right-nav">
+    <li><a href="">Register</a></li>
+    <li><a href="">Login</a></li>
+    <!-- Dodati na scrool prikaz -->
+    <!-- <li><a href="">Create yout vib</a></li> -->
   </ul>
 </nav>
