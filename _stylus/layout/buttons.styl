@@ -3,3 +3,27 @@
 
 a
     // background-color #aff
+
+.cta
+
+    font-weight 700
+    font-size 14px
+    color #fff
+    padding 0.7em 1em
+    border-radius 2px
+
+
+.cta__primary
+    @extend .cta
+    .fa
+        margin-right 5px
+        // font-size 16px
+        color $link-color
+
+.cta__primary--big
+    @extend .cta__primary
+    background-color $link-color
+    &:hover
+        background-color darken($link-color, 20%)
+    .fa
+        color #fff
