@@ -1,0 +1,72 @@
+//
+
+.accordion-tabs
+    // cf()
+    padding 0
+    text-align center
+    // border-bottom 1px solid $link-color
+    position relative
+    w(1600px)
+
+
+    .tab-header-and-content
+        list-style none
+        display inline
+
+        // display inline-block
+
+    .tab-link
+        // display block
+        // padding-right 1em
+        display inline-block
+        // background-color #ffa
+        text-align center
+        padding 5px 20px
+        color $text-color
+        // border-bottom 1px solid $link
+        border-bottom 4px solid transparent
+        font-weight 600
+        font-size 18px
+
+    .is-active
+        // color #ff0000
+        // background-color #faf
+        border-bottom 4px solid $link-color
+
+    .tab-content
+        display none
+        width 100%
+        float left
+        // background-color #ccc
+        margin-top 60px
+        text-align left
+        // position absolute
+        overflow visible
+        height 600px
+
+        background-size 100%
+        background-position 0 100%
+        background-repeat no-repeat
+
+        p
+            w(600px)
+
+        &.cm
+            background-image url('/assets/img/cm-bg.png')
+        &.education
+            background-image url('/assets/img/education-bg.png')
+        &.gaming
+            background-image url('/assets/img/gamers-bg.png')
+        &.sports
+            background-image url('/assets/img/sports-bg.png')
+
+
+
+
+
+
+
+
+
+
+            //
