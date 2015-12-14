@@ -1,0 +1,228 @@
+//
+//
+
+.public-page
+  position relative
+  font-family $font-regular
+
+  .hero
+    position relative
+    z-index 1
+    padding-top 56px
+
+    .content
+      width: 100%;
+      padding 200px 0
+      transition: all 0.5s ease;
+      @media (max-width: 1060px)
+        padding 100px 0
+      h1
+        color #fff
+        font-size 60px
+        line-height 1.333333
+        font-weight 300
+        font-family $font-light
+        text-align center
+        width 100%
+        transition: all 0.5s ease;
+        @media (max-width: 1060px)
+          font-size 40px
+        @media (max-width 520px)
+          font-size 30px
+
+
+  main
+    position relative
+    z-index 999
+    max-width 970px
+    margin 0 auto
+    padding-top 100px
+
+  .block
+    display flex
+    margin-left -90px
+    @media (max-width 1150px)
+      margin 0
+
+  .path
+    position relative
+    max-width 90px
+    margin-bottom 4px
+    &:after
+      content ""
+      position: absolute
+      top 0
+      left calc(50% - 4px)
+
+      height 100%
+      width 4px
+
+      background-image: url(../img/side-dot.png)
+      background-repeat: repeat-y
+
+    img
+      width 100%
+      position relative
+      z-index 999
+      background-color #fff
+
+  article
+    max-width 660px
+    padding 0 15px
+    margin 0 auto
+    padding-bottom 100px
+    p
+      margin-bottom 30px
+
+    .list
+      padding-left 40px
+      line-height 28px
+      font-size 19px
+      li
+        margin-bottom 10px
+        position relative
+        color #696a80
+        &:last-child
+          margin 0
+        &:before
+          content ""
+          width 10px
+          height 10px
+          position absolute
+          top 8px
+          left -25px
+          background-color $link
+          border-radius 50%
+
+
+  h2
+    font-size 38px
+    text-align center
+    font-family $font-bold
+    margin-bottom 24px
+    color #545566
+  p, ul
+    font-size 19px
+    line-height 28px
+    font-weight 400
+
+.blue-bg
+  position relative
+  z-index 999
+  background-color $color-bg
+  &:after
+    content ""
+    position absolute
+    height 450px
+    bottom 0
+    left 0
+    right 0
+    background: linear-gradient(to bottom, $color-bg, #f5fcff)
+
+/////////////////////
+//Cities - New York, Zagreb
+
+.cities
+    background-color #fff
+    z-index 999
+    position relative
+    .city
+        width 50%
+        float left
+        height 440px
+        position: relative
+        overflow: hidden
+        @media (max-width: 640px)
+            width 100%
+        &:hover
+            header
+                transform translateY(-40px)
+            aside
+                transform translateY(-164px)
+                opacity 1
+        header
+            transition: all 0.5s ease;
+            margin-top 190px
+            p,h4
+                color #fff
+                text-align center
+            h4
+                font-size 40px
+                font-family $font-bold
+            p
+                text-transform: uppercase
+        aside
+            width 100%
+            position: absolute
+            opacity 0
+            transition: all 0.5s ease;
+            bottom -164px
+            p
+                background-color #fff
+                padding 40px 90px
+                max-width 480px
+                margin: 0 auto
+                text-align: center
+                border-top-left-radius: 2px;
+                border-top-right-radius: 2px;
+                @media (max-width: 1060px)
+                    padding 40px 40px
+    .new-york
+        background: url(../img/town-ny.jpg) no-repeat center center
+        background-size cover
+    .zagreb
+        background: url(../img/town-zg.jpg) no-repeat center center
+        background-size cover
+
+///////////
+
+.about
+  .hero
+    background url(../img/team-bg.jpg) fixed;
+    background-repeat no-repeat
+    background-position center bottom
+    background-size cover
+
+  .block.our-team .path:after
+    display none
+
+  .team
+    display flex
+    justify-content flex-start
+    flex-wrap wrap
+    align-content space-between
+    margin-left -30px
+    margin-top 50px
+    li
+      position: relative
+      margin-left 30px
+      margin-bottom 60px
+      img
+        width 100px
+        height 100px
+        border-radius 50%
+      .info
+        position: absolute
+        width 200%
+        left -50%
+        text-align: center
+        margin-top 10px
+        h4
+          font-family: $font-hind
+          font-size 14px
+          line-height 16px
+          font-weight 600
+          word-break keep-all
+        p
+          font-family: $font-medium
+          font-size 14px
+          line-height 1
+          color #aaaee5
+          color #C3C5E7
+  .hiring
+    display block
+    text-align: center
+    padding-bottom 60px
+    h2
+      font-size 50px
+      font-family: $font-light
