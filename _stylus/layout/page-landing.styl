@@ -1,6 +1,12 @@
 //
 .landing
     //
+    .block
+        &__title
+            font-weight 300
+            margin-bottom 20px
+            font-weight 24px
+            
     .hero
         background-color $nav-bg
         background-image url(../../assets/img/landing-bg.jpg)
@@ -18,6 +24,7 @@
             wrap()
 
     .benefits
+        padding 60px 0 0
         .benefit
             column(1/2, cycle: 2)
             text-align center
@@ -38,16 +45,30 @@
     .use-cases
         cf()
         w(100%)
+        padding-top 80px
+        .tab-content
+            text-align center
+            p
+                text-align left
+                margin-bottom 40px
+
 
     .demo-video
         position relative
         text-align center
-        top -140px
+        // top -40px
 
     .features
         // background-color #aaa
         cf()
-
+        margin-bottom 60px
+    .try
+        padding 0
+        text-align center
+        margin-bottom 60px
+        h2
+            font-weight 300
+            margin-bottom 40px
     .user-quotes
         background-color #E1E5F1
         padding 30px
