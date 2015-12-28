@@ -15,7 +15,6 @@ a
 
 .cta__primary
     @extend .cta
-    background-color $link-color
     .fa
         margin-right 5px
         // font-size 16px
@@ -23,7 +22,7 @@ a
 
 .cta__primary--big
     @extend .cta__primary
-    font-size 20px
+    background-color $link-color
     &:hover
         background-color darken($link-color, 20%)
     .fa
