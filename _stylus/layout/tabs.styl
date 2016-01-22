@@ -2,12 +2,9 @@
     display flex
 
     .tabs-titles
-        // float left
-        width 40%
-        // width 100%
-        // margin 0
-        // margin-right 10px
-
+        col(2/5)
+        +below($md)
+            center(max-width = $xs - 30)
 
     .tabs-titles li
         cursor pointer
@@ -43,9 +40,10 @@
         // margin-left 100px
         // padding 5px
         // float right
-        margin-left 60px
-        width 60%
         height 100%
+        col(3/5)
+        +below($md)
+            display none
 
         .content
             height 100%
