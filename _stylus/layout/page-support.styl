@@ -1,0 +1,81 @@
+//Page FAQ Support
+
+.faq
+    padding 200px 0 100px
+    background-color #32333D
+    h1
+        color #fff
+        font-size 40px
+        font-family $font-light
+    &__wrap
+        max-width 1170px
+        margin 0 auto
+        width 100%
+        padding 0 3%
+    &__questions
+        margin-top 40px
+        .accordions
+            float left
+            width 100%
+            max-width calc(70% - 30px);
+            margin-right 30px
+            @media (max-width 800px)
+                max-width 100%
+        h2
+            text-align left
+            font-size 20px
+            margin-top 40px
+            font-family $font-medium
+        img
+            max-width 100%
+            display block
+            &:not(:last-of-type)
+                margin-bottom 20px
+        .panel-group .panel
+            border 0
+            background-color #3F404D
+            margin-bottom 20px
+            box-shadow: 0px 1px 2px 0px rgba(21,21,26,0.50), 0px 1px 10px 0px rgba(20,21,25,0.20);
+            a.accordion-toggle
+                color #fff
+                font-size 20px
+                font-family $font-medium
+                padding 14px 20px
+                display inline-block
+                width 100%
+                outline 0 !important
+        .panel-heading
+            background-color #7D7F98
+            padding 0
+
+        .panel-body
+            border none !important
+            font-size 16px
+            color #fff
+            line-height 1.6
+
+        .contact
+            background-color #3F404C
+            float left
+            max-width 30%
+            width 100%
+            margin-top 85px
+            border-radius 2px
+            padding 30px
+            box-shadow: 0px 1px 2px 0px rgba(21,21,26,0.50), 0px 1px 10px 0px rgba(20,21,25,0.20);
+            text-align center
+            @media (max-width 800px)
+                max-width 270px
+            h2
+                font-size 26px
+                font-family $font-medium
+                line-height 1
+                color #fff
+                text-align center
+                margin 0
+            p
+                color #fff
+                line-height 1.2
+                padding 20px 0
+            a
+                margin-top 20px

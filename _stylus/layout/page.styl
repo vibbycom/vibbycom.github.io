@@ -3,15 +3,40 @@
 .page
     .block
         // background-color #ccc
-        margin-bottom 140px
-        w(1170px)
+        margin-bottom 100px
+        w($xl)
         &__header
             // background-color #aca
             text-align center
             wrap()
-            w(700px)
-            margin-bottom 80px
+            w($xl)
+            margin-bottom 50px
         &__title
-            color #363C4F
+            color $dark-color
+            margin-bottom 10px
         &__description
-            color #808897
+            color #000 + 30%
+
+    .esports
+        .hero
+            background-image url(../../assets/img/esports-bg.jpg)
+            
+    .dark
+        background $nav-bg
+        color #fff !important
+        .block
+            &__title
+                color $light-color
+                margin-bottom 10px
+            &__description
+                color #fff - 20%
+                
+    .darker
+        background $nav-bg -40%
+        color #fff !important
+        .block
+            &__title
+                color $light-color
+                margin-bottom 10px
+            &__description
+                color #fff - 20%            

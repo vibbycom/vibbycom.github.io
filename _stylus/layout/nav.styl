@@ -1,12 +1,12 @@
 //Nav
 
 .logo
-    display block
     width 84px
     height 29px
-    background-image url('/assets/img/logo.png')
-    background-size 100% 100%
-    background-repeat no-repeat
+    display inline-block
+    padding-top: 10px
+    img
+        width 100%
 
 nav.main-nav
     // background-color #ccc
@@ -16,7 +16,6 @@ nav.main-nav
     right 0
     height 52px
     z-index 9999
-    display flex
     align-items center
     wrap()
 
@@ -27,18 +26,20 @@ nav.main-nav
         flex-shrink 0
     ul,li,a
         display inline-block
+        line-height 52px
     li a
-        font-size 14px
-        color #fff
-        opacity 0.6
+        color #fff - 30%
         font-weight 500
         &:hover
-            opacity 1
+            color #fff
     li
         margin-left 30px
+        float left
 
+    .left-nav
+        float left
     .right-nav
-        margin-left auto
+        float right
 
     &.scroll
         background-color $nav-bg

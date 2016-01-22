@@ -2,3 +2,17 @@
 
 .grid
     cf()
+
+.container
+    center()
+    @media(max-width:$xs)
+        max-width $xs - 30
+    @media(max-width:$sm)
+        max-width $sm - 30
+    @media(max-width:$md)
+        max-width $md - 30
+    @media(max-width:$lg)
+        max-width $lg - 30
+    @media(min-width:$xl)
+        max-width $xl - 30
+    

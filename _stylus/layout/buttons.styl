@@ -7,13 +7,14 @@ a
 .cta
 
     font-weight 700
-    font-size 14px
     color #fff
     padding 0.7em 1em
     border-radius 2px
+    display inline-block
 
 
 .cta__primary
+    margin-top 30px
     @extend .cta
     .fa
         margin-right 5px
@@ -27,3 +28,10 @@ a
         background-color darken($link-color, 20%)
     .fa
         color #fff
+        
+.cta__secondary
+    margin-top 30px
+    @extend .cta
+    background-color $h-color + 20%
+    &:hover
+        background-color $h-color + 10%

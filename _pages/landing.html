@@ -1,60 +1,92 @@
 ---
 layout: page
 permalink: /
-title: Home
+title: Vibby
 description: Vibby homepage
 ---
 <div class="landing">
 
-  <section class="hero">
-    <div class="wrap">
-      <div class="block__header">
-        <h1 class="block__title">Too Long; Didn’t Watch</h1>
+  <section class="hero landing-page z-shadow">
+    <div class="container">
+      <div class="wrap">
+          <h1 class="block__title">Video highlights, unleashed.</h1>
 
-        <p class="block__description">
-          Focus your viewers on the moments that really matter.<br>
-        </p>
-
+          <h3 class="block__description">
+            Focus your viewers on the moments that really matter.<br>
+          </h3>
+          <a href="https://www.vibby.com/create/" class="cta__primary--big z-shadow-1"><i class="fa fa-plus-circle"></i>Try now, it's free</a>
       </div>
-      <a href="" class="cta__primary--big">Try now, it's free</a>
     </div>
   </section>
 
   <section class="demo-video">
-   <iframe src="https://www.vibby.com/embed/?vib=Q1_3zqcb-L9" frameborder="0" scrolling="no" seamless="yes" style="overflow: hidden; width: 100%; max-width: 920px; height: 565px;" allowfullscreen=""></iframe>
+    <div class="container">
+     <iframe src="https://www.vibby.com/embed/?vib=Q1_3zqcb-L9" frameborder="0" scrolling="no" seamless="yes" style="overflow: hidden; width: 100%; max-width: 920px; height: 565px;" allowfullscreen="" class="z-shadow"></iframe>
+    </div>
   </section>
 
-  <section class="block benefits">
-     <div class="block__header">
-      <h2 class="block__title">How Vibby can help you</h2>
-    </div>
-    <div class="block__header">
-      <p class="block__description">Vibby is the fastest and easiest way to repurpose exisitnig video content from the web.</p>
-    </div>
-    <div class="grid">
-      <div class="benefit">
-        <div class="benefit__icon">
-          <i class="fa fa-eye"></i>
-        </div>
-        <p class="bebefit__description">When given the option, <b>5x more viewers</b> will choose to watch a highlighted video rather than the full video.</p>
+  <!-- Block START -->
+  <section class="block features">
+    <div class="container">
+      <div class="block__header">
+        <h2 class="block__title">Features</h2>
+        <h4 class="block__description">Vibby provides the tools to make video more flexible,<br>enabling you to share the moments that matter most.</h4>
       </div>
-      <div class="benefit">
-        <div class="benefit__icon">
-          <i class="fa fa-clock-o"></i>
-        </div>
-        <p class="bebefit__description"><b>Save time and money</b> spent on creating videos from scratch by making the most of the content that exists online.</p>
+      <!-- tabs -->
+      <div class="vertical-tabs">
+        <ul class="tabs-titles">
+            <li class="current"> <!-- default (on page load), first one is currently displayed -->
+              <img src="/assets/img/icons/icon-highlights.png" alt="">
+              <div class="text">
+                <h3>Trim</h3>
+                <p>Pick any YouTube video, trim and highlight the moments you want to share.</p>
+              </div>
+            </li>
+            <li>
+              <img src="/assets/img/icons/icon-comments.png" alt="">
+              <div class="text">
+                <h3>Comment</h3>
+                <p>Start a conversation around the moments that matter to your audience.</p>
+              </div>
+            </li>
+            <li>
+              <img src="/assets/img/icons/icon-shareing.png" alt="">
+              <div class="text">
+                <h3>Share</h3>
+                <p>Share your vib on any social media site or seamlessly embed it on a website or blog you manage.</p>
+              </div>
+            </li>
+        </ul>
+        <ul class="tabs-contents">
+            <li>
+                <div class="content highlights">
+                  <img src="/assets/img/features-highlights.png" alt="">
+                </div>
+            </li>
+            <li>
+                <div class="content comment">
+                  <img src="/assets/img/features-comments.png" alt="">
+                </div>
+            </li>
+            <li>
+                <div class="content shareing">
+                  <img src="/assets/img/features-share.png" alt="">
+                </div>
+            </li>
+        </ul>
       </div>
+      <p class="text-center">
+        <a href="/features/" class="cta__secondary z-shadow-1">Explore more features</a>
+      </p>
     </div>
   </section>
   <!-- Block END -->
 
   <!-- Block START -->
-  <section class="block use-cases">
+  <section class="block use-cases dark z-shadow">
     <div class="block__header">
       <h2 class="block__title">What people are doing with Vibby</h2>
-    </div>
-     <div class="block__header">
-      <p class="block__description">Here are just a few of the many examples of how our users from all over the world are turning to Vibby to unleash the power of video.</p>
+      <h4 class="block__description">Here are just a few of the many examples of how our users from<br> all over the world are turning to Vibby to unleash the power of video.</h4>
     </div>
     <div class="tabs">
       <ul class="accordion-tabs">
@@ -62,24 +94,27 @@ description: Vibby homepage
           <a href="javascript:void(0)" class="tab-link">eSports</a>
           <div class="tab-content gaming">
             <p>Whether you’re a competitive gamer, Let’s Player, or just a huge fan of gaming, Vibby helps you make the most of video. Highlight and share exciting moments from long streams and ditch all the stuff in between. Engage your friends and fans. Archive the important clips.</p>
+            <p class="text-center">
+              <a href="/esports/" class="cta__secondary z-shadow-1">More about eSports</a>
+            </p>
           </div>
         </li>
         <li class="tab-header-and-content">
           <a href="javascript:void(0)" class="tab-link">Education</a>
           <div class="tab-content education">
             <p>There’s an incredible amount of high-quality educational content available for free online. However, all too often the clips they want to share with students are locked within a longer video. Educators turn to Vibby to harness the moments that matter and to more effectively incorporate video into the classroom.</p>
+            <p class="text-center">
+              <a href="/education/" class="cta__secondary z-shadow-1">More about Education</a>
+            </p>
           </div>
         </li>
         <li class="tab-header-and-content">
           <a href="javascript:void(0)" class="tab-link">Sports</a>
           <div class="tab-content sports">
             <p>Vibby Sports is a tool that allows coaches, athletes, and fans to highlight and share the most relevant parts of any game tape.</p>
-          </div>
-        </li>
-        <li class="tab-header-and-content">
-          <a href="javascript:void(0)" class="tab-link">Content Marketing</a>
-          <div class="tab-content cm">
-            <p>It’s no secret that video is the most effective way to engage your audience. But creating quality videos from scratch is both time consuming and costly. Content marketers that don’t have an endless amount of time or money turn to Vibby to repurpose existing online content.</p>
+            <p class="text-center">
+              <a href="/sports/" class="cta__secondary z-shadow-1">More about Sports</a>
+            </p>
           </div>
         </li>
       </ul><!-- accordion-tabs END -->
@@ -87,87 +122,48 @@ description: Vibby homepage
   </section>
   <!-- Block END -->
 
-
-
-  <!-- Block START -->
-  <section class="block features">
-    <div class="block__header"><h2 class="block__title">Features</h2>
-      <p class="block__description">Vibby provides the tools to make video more flexible, enabling you to share the moments that matter most.</p>
-    </div>
-    <!-- tabs -->
-    <div class="vertical-tabs">
-      <ul class="tabs-titles">
-          <li class="current"> <!-- default (on page load), first one is currently displayed -->
-            <img src="/assets/img/icons/icon-highlights.png" alt="">
-            <div class="text">
-              <h3>Highlight</h3>
-              <p>Pick any YouTube video and highlight the moments you want to share.</p>
-            </div>
-          </li>
-          <li>
-            <img src="/assets/img/icons/icon-comments.png" alt="">
-            <div class="text">
-              <h3>Comment</h3>
-              <p>Start a conversation around the moments that matter to your audience.</p>
-            </div>
-          </li>
-          <li>
-            <img src="/assets/img/icons/icon-shareing.png" alt="">
-            <div class="text">
-              <h3>Share</h3>
-              <p>Share your vib on any social media site or seamlessly embed it on a website or blog you manage.</p>
-            </div>
-          </li>
-      </ul>
-      <ul class="tabs-contents">
-          <li>
-              <div class="content highlights">
-                <img src="/assets/img/features-highlights.png" alt="">
-              </div>
-          </li>
-          <li>
-              <div class="content comment">
-                <img src="/assets/img/features-comments.png" alt="">
-              </div>
-          </li>
-          <li>
-              <div class="content shareing">
-                <img src="/assets/img/features-share.png" alt="">
-              </div>
-          </li>
-      </ul>
-    </div>
-  </section>
-  <!-- Block END -->
-
   <!-- user quotes -->
   <section class="user-quotes">
-    <div class="quote">
-      <div class="user">
-        <div class="user__img"></div>
-        <div class="user__wrap">
-          <h4 class="user__name">Lauren S.</h4>
-          <p class="user__role">Spanish Langauge Educator</p>
+    <div class="container">
+      <div class="quote z-shadow">
+        <div class="user">
+          <div class="user__img"></div>
+          <div class="user__wrap">
+            <h4 class="user__name">Laura S.</h4>
+            <p class="user__role">Spanish Langauge Educator</p>
+          </div>
         </div>
+        <p class="quote__text">
+          “Vibby is proving a godsend for my Spanish classes to help show their interpretive listening skills! They just pick out the parts they understand and comment with what they think they mean.”
+        </p>
       </div>
-      <p class="quote__text">
-        “Vibby is proving a godsend for my Spanish classes to help show their interpretive listening skills! They just pick out the parts they understand and comment with what they think they mean.”
-      </p>
-    </div>
 
-    <div class="quote">
-      <div class="user">
-        <div class="user__img"></div>
-        <div class="user__wrap">
-          <h4 class="user__name">Rebecca M.</h4>
-          <p class="user__role">Gamer</p>
+      <div class="quote z-shadow">
+        <div class="user">
+          <div class="user__img"></div>
+          <div class="user__wrap">
+            <h4 class="user__name">Rebecca M.</h4>
+            <p class="user__role">eLearning Specialist</p>
+          </div>
         </div>
+        <p class="quote__text">
+          “I use Vibby to teach graduate courses in library and information studies. It’s easy to use, and helpful when my adult learners have a wide range of experiences with digital tools."
+        </p>
       </div>
-      <p class="quote__text">
-        “I use Vibby to teach graduate courses in library and information studies. It’s easy to use, and helpful when my adult learners have a wide range of experiences with digital tools."
-      </p>
-    </div>
 
+      <div class="quote z-shadow">
+        <div class="user">
+          <div class="user__img"></div>
+          <div class="user__wrap">
+            <h4 class="user__name">Jessica Heart</h4>
+            <p class="user__role">Gamer</p>
+          </div>
+        </div>
+        <p class="quote__text">
+          "Vibby is awesome because it's so much easier to use than those professional-grade editing softwares that bombard me with feature overload."      
+          </p>
+      </div>
+    </div>
   </section>
 
 </div>
