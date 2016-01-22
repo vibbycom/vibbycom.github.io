@@ -12,7 +12,15 @@
       <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
     {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.canonical }}">
-
+    <link rel="icon" href="/vibby/img/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} &mdash; vibby.com">
+    <meta property="og:url" content="https://www.vibby.com">
+    <meta property="og:site_name" content="Vibby">
+    <meta property="og:description" content="Every second counts. Intelligent playback of highlights cuts the fluff and saves you time. Smooth conversation flow and one-click social sharing help you connect with friends. Easy-to-use platform makes creating and sharing highlights a breeze.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/vibby-static/vibby-landing-page-fb-preview.png">
+    <meta name="google-site-verification" content="G0GQH2TQnk4IghCGXrQdUNZhbSydhbYfUQBVfMPkA5c" />
+    
     <!-- Google font -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
 
