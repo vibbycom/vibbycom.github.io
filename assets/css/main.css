@@ -1,2 +1,2708 @@
+
+/* line 286 : /Users/neven/Developer/vibbycom.github.io/_stylus/_main.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/node_modules/stylus/lib/functions/index.styl */
+
+/* line 17 : /Users/neven/Developer/vibbycom.github.io/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/index.styl */
+
+/* line 11 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/index.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_settings.styl */
+
+/* line 64 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_settings.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_functions.styl */
+
+/* line 281 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_functions.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_grid.styl */
+
+/* line 260 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_grid.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+
+/* line 3 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/_index.styl */
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/_index.styl */
+
+/* line 3 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/variables.styl */
+
+/* line 39 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/variables.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/reset.styl */
+
+/* line 380 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/reset.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
 /* normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*,*:before,*:after{box-sizing:border-box}h1,h2,h3,h4,h5,h6,p,ul,a{margin:0;padding:0}a{text-decoration:none}ul{list-style:none}b,strong{font-weight:700}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}.accordion-tabs{padding:0;text-align:center;position:relative;width:100%;max-width:1600px;margin-left:auto;margin-right:auto;}.accordion-tabs .tab-header-and-content{list-style:none;display:inline}.accordion-tabs .tab-link{display:inline-block;text-align:center;padding:5px 20px;border-bottom:4px solid transparent;font-size:1.618rem}.accordion-tabs .is-active{border-bottom:4px solid #2ca3ff}.accordion-tabs .tab-content{display:none;width:100%;float:left;margin-top:60px;text-align:left;overflow:visible;height:600px;background-size:100%;background-position:0 100%;background-repeat:no-repeat;}.accordion-tabs .tab-content p{width:100%;max-width:600px;margin-left:auto;margin-right:auto}.accordion-tabs .tab-content.cm{background-image:url("/assets/img/cm-bg.png")}.accordion-tabs .tab-content.education{background-image:url("/assets/img/education-bg.png")}.accordion-tabs .tab-content.gaming{background-image:url("/assets/img/gamers-bg.png")}.accordion-tabs .tab-content.sports{background-image:url("/assets/img/sports-bg.png")}html{font-size:14px}body{font-family:'Roboto',Arial,sans-serif;font-size:14px;font-weight:400;color:#535b68;background-color:#fff;line-height:1.4;position:relative;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:geometricPrecision}a{position:relative;transition:all .2s ease;color:#2ca3ff}.z-shadow,.scroll{box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23)}.z-shadow-1{box-shadow:0 1px 3px rgba(0,0,0,0.12);transition:all .2s ease-in-out;}.z-shadow-1:hover{box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);translate:0 -2px}h1{font-size:4.236rem;letter-spacing:-.3px;font-weight:200;}@media only screen and (max-width:992px){h1{font-size:2.618rem}}h2{font-size:2.618rem;font-weight:400;}@media only screen and (max-width:992px){h2{font-size:1.618rem}}h3{font-size:1.618rem;font-weight:300;}@media only screen and (max-width:992px){h3{font-size:1rem;font-weight:400}}h4{font-size:1.618rem;font-weight:300;}@media only screen and (max-width:992px){h4{font-size:1rem;font-weight:400}}.text-center{text-align:center}.page .block{margin-bottom:100px;width:100%;max-width:1200px;margin-left:auto;margin-right:auto;}.page .block__header{text-align:center;padding:0 20px;width:100%;max-width:1200px;margin-left:auto;margin-right:auto;margin-bottom:50px}@media only screen and (max-width:600px){.page .block__header{padding:0 3%}}.page .block__title{color:#333;margin-bottom:10px}.page .block__description{color:#4d4d4d}.page .esports .hero{background-image:url("../../assets/img/esports-bg.jpg")}.page .sports .hero{background-image:url("../../assets/img/sports-bg.jpg")}.page .dark{background:#363c4d;color:#fff !important;}.page .dark .block__title{color:#f4f4f4;margin-bottom:10px}.page .dark .block__description{color:#ccc}.page .darker{background:#2e3341;color:#fff !important;}.page .darker .block__title{color:#f4f4f4;margin-bottom:10px}.page .darker .block__description{color:#ccc}.grid:before,.grid:after{content:"";display:table}.grid:after{clear:both}.container{width:auto;max-width:1440px;float:none;display:block;margin-right:auto;margin-left:auto;padding-left:0;padding-right:0;}.container:before,.container:after{content:"";display:table}.container:after{clear:both}@media (max-width:544px){.container{max-width:514px}}@media (max-width:730px){.container{max-width:700px}}@media (max-width:992px){.container{max-width:962px}}@media (max-width:1024px){.container{max-width:994px}}@media (min-width:1200px){.container{max-width:1170px}}.vertical-tabs{display:-webkit-flex;display:-ms-flexbox;display:flex;}.vertical-tabs .tabs-titles{float:left;clear:none;text-align:inherit;width:38.2%;margin-left:0%;margin-right:3%;}.vertical-tabs .tabs-titles:before,.vertical-tabs .tabs-titles:after{content:"";display:table}.vertical-tabs .tabs-titles:after{clear:both}.vertical-tabs .tabs-titles:last-child{margin-right:0%}@media only screen and (max-width:992px){.vertical-tabs .tabs-titles{width:auto;max-width:514px;float:none;display:block;margin-right:auto;margin-left:auto;padding-left:0;padding-right:0}.vertical-tabs .tabs-titles:before,.vertical-tabs .tabs-titles:after{content:"";display:table}.vertical-tabs .tabs-titles:after{clear:both}}.vertical-tabs .tabs-titles li{cursor:pointer;padding:25px 20px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;border:1px solid #d5edff;margin-bottom:10px;}.vertical-tabs .tabs-titles li .text{margin-left:20px}.vertical-tabs .tabs-titles li h3{color:#363c4d;border-bottom:2px solid #d5edff;padding-bottom:15px;margin-bottom:15px}.vertical-tabs .tabs-titles li p{color:#808996}.vertical-tabs .tabs-titles li.current{background:#d5edff;}.vertical-tabs .tabs-titles li.current h3{border-bottom:2px solid #2ca3ff}.vertical-tabs .tabs-contents{height:100%;float:left;clear:none;text-align:inherit;width:58.8%;margin-left:0%;margin-right:3%;}.vertical-tabs .tabs-contents:before,.vertical-tabs .tabs-contents:after{content:"";display:table}.vertical-tabs .tabs-contents:after{clear:both}.vertical-tabs .tabs-contents:last-child{margin-right:0%}@media only screen and (max-width:992px){.vertical-tabs .tabs-contents{display:none}}.vertical-tabs .tabs-contents .content{height:100%;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.vertical-tabs .tabs-contents li{height:100%;display:none}.vertical-tabs .tabs-contents li:first-child{display:block}.logo{width:84px;height:29px;display:inline-block;padding-top:10px;}.logo img{width:100%}nav.main-nav{position:fixed;top:0;left:0;right:0;height:52px;z-index:9999;-webkit-align-items:center;-ms-flex-align:center;align-items:center;padding:0 20px;padding-top:10px;transition:all .2s ease;}@media only screen and (max-width:600px){nav.main-nav{padding:0 3%}}nav.main-nav >*{-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0}nav.main-nav ul,nav.main-nav li,nav.main-nav a{display:inline-block;line-height:52px}nav.main-nav li a{color:#b3b3b3;font-weight:500;}nav.main-nav li a:hover{color:#fff}nav.main-nav li{margin-left:30px;float:left}nav.main-nav .left-nav{float:left}nav.main-nav .right-nav{float:right}nav.main-nav.scroll{background-color:#363c4d;padding-top:0}.cta,.cta__primary,.cta__primary--big,.cta__secondary{font-weight:700;color:#fff;padding:.7em 1em;border-radius:2px;display:inline-block}.cta__primary,.cta__primary--big{margin-top:30px;}.cta__primary .fa,.cta__primary--big .fa{margin-right:5px;color:#2ca3ff}.cta__primary--big{background-color:#2ca3ff;}.cta__primary--big:hover{background-color:#0087ef}.cta__primary--big .fa{color:#fff}.cta__secondary{margin-top:30px;background-color:#555f7a;}.cta__secondary:hover{background-color:#464d63}.landing .hero{background-color:#363c4d;background-size:cover;background-repeat:no-repeat;padding:165px 0 240px;margin:0;}.landing .hero .block__title{color:#fff;margin-bottom:10px}.landing .hero .block__description{color:#f4f4f4}.landing .hero .wrap{width:100%;max-width:1200px;margin-left:auto;margin-right:auto;text-align:center;padding:0 20px;}@media only screen and (max-width:600px){.landing .hero .wrap{padding:0 3%}}.landing .landing-page{background-image:url("../../assets/img/landing-bg.jpg")}.landing .giveaway{background-color:#363c4d;background-image:url("../../assets/img/lol-giveaway.jpg");background-size:cover;background-repeat:no-repeat;padding:200px 0 200px;margin:0;}.landing .giveaway .block__title{color:#fff}.landing .giveaway .block__description{color:#7d8bb5}.landing .giveaway .wrap{width:100%;max-width:1200px;margin-left:auto;margin-right:auto;text-align:center;padding:0 20px;}@media only screen and (max-width:600px){.landing .giveaway .wrap{padding:0 3%}}.landing .benefits .benefit{float:left;clear:none;text-align:inherit;width:31.33333333333333%;margin-left:0%;margin-right:3%;text-align:center;}.landing .benefits .benefit:before,.landing .benefits .benefit:after{content:"";display:table}.landing .benefits .benefit:after{clear:both}.landing .benefits .benefit:nth-child(3n){margin-right:0%;float:right}.landing .benefits .benefit:nth-child(3n+1){clear:both}.landing .benefits .benefit__icon{height:140px;width:140px;border-radius:50%;border:1px solid #bbe1ff;margin:0 auto;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-bottom:30px;}.landing .benefits .benefit__icon .fa{font-size:4.236rem;color:#2ca3ff}.landing .use-cases{width:100%;max-width:100%;margin-left:auto;margin-right:auto;margin-bottom:0;padding-top:40px}.landing .use-cases:before,.landing .use-cases:after{content:"";display:table}.landing .use-cases:after{clear:both}.landing .demo-video{position:relative;text-align:center;top:-100px}.landing .features:before,.landing .features:after{content:"";display:table}.landing .features:after{clear:both}.landing .user-quotes{background-color:#e1e5f1;padding:50px 30px;float:left;clear:none;text-align:inherit;width:100%;margin-left:0%;margin-right:0%;}.landing .user-quotes:before,.landing .user-quotes:after{content:"";display:table}.landing .user-quotes:after{clear:both}.landing .user-quotes .quote{text-align:left;background-color:#fff;padding:30px;float:left;clear:none;text-align:inherit;width:31.33333333333333%;margin-left:0%;margin-right:3%;}.landing .user-quotes .quote:before,.landing .user-quotes .quote:after{content:"";display:table}.landing .user-quotes .quote:after{clear:both}.landing .user-quotes .quote:nth-child(3n){margin-right:0%;float:right}.landing .user-quotes .quote:nth-child(3n+1){clear:both}@media only screen and (max-width:992px){.landing .user-quotes .quote{float:left;clear:none;text-align:inherit;width:100%;margin-left:0%;margin-right:0%;margin-bottom:30px}.landing .user-quotes .quote:before,.landing .user-quotes .quote:after{content:"";display:table}.landing .user-quotes .quote:after{clear:both}.landing .user-quotes .quote:last-child{margin-bottom:0}}.landing .user-quotes .quote .user{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;}.landing .user-quotes .quote .user__img{height:44px;width:44px;background-color:#aff;border-radius:50%}.landing .user-quotes .quote .user__wrap{margin-left:10px}.landing .user-quotes .quote .user__name{font-size:1.618rem}.landing .user-quotes .quote .user__role{color:#808996}.landing .user-quotes .quote__text{color:#808996;margin-top:25px}.public-page{position:relative;font-family:$font-regular;}.public-page .hero{position:relative;z-index:1;padding-top:56px;}.public-page .hero .content{width:100%;padding:200px 0;transition:all .5s ease;}@media (max-width:1060px){.public-page .hero .content{padding:100px 0}}.public-page .hero .content h1{color:#fff;line-height:1.333333;font-weight:300;font-family:$font-light;text-align:center;width:100%;transition:all .5s ease;}@media (max-width:1060px){.public-page .hero .content h1{font-size:40px}}@media (max-width:520px){.public-page .hero .content h1{font-size:30px}}.public-page main{position:relative;z-index:999;max-width:970px;margin:0 auto;padding-top:100px}.public-page .block{display:-webkit-flex;display:-ms-flexbox;display:flex;margin-left:-90px;}@media (max-width:1150px){.public-page .block{margin:0}}.public-page .path{position:relative;max-width:90px;margin-bottom:4px;}.public-page .path:after{content:"";position:absolute;top:0;left:calc(50% - 4px);height:100%;width:4px;background-image:url("../img/side-dot.png");background-repeat:repeat-y}.public-page .path img{width:100%;position:relative;z-index:999;background-color:#fff}.public-page article{max-width:660px;padding:0 15px;margin:0 auto;padding-bottom:100px;}.public-page article p{margin-bottom:30px}.public-page article .list{padding-left:40px;line-height:28px;}.public-page article .list li{margin-bottom:10px;position:relative;color:#696a80;}.public-page article .list li:last-child{margin:0}.public-page article .list li:before{content:"";width:10px;height:10px;position:absolute;top:8px;left:-25px;background-color:$link;border-radius:50%}.public-page h2{text-align:center;margin-bottom:24px;color:#545566}.public-page p,.public-page ul{line-height:28px;font-weight:400}.blue-bg{position:relative;z-index:999;background-color:$color-bg;}.blue-bg:after{content:"";position:absolute;height:450px;bottom:0;left:0;right:0;background:linear-gradient(to bottom,$color-bg,#f5fcff)}.cities{background-color:#fff;z-index:999;position:relative;}.cities .city{width:50%;float:left;height:440px;position:relative;overflow:hidden;}@media (max-width:640px){.cities .city{width:100%}}.cities .city:hover header{-webkit-transform:translateY(-40px);transform:translateY(-40px)}.cities .city:hover aside{-webkit-transform:translateY(-164px);transform:translateY(-164px);opacity:1}.cities .city header{transition:all .5s ease;margin-top:190px;}.cities .city header p,.cities .city header h4{color:#fff;text-align:center}.cities .city header h4{font-size:40px;font-family:$font-bold}.cities .city header p{text-transform:uppercase}.cities .city aside{width:100%;position:absolute;opacity:0;transition:all .5s ease;bottom:-164px;}.cities .city aside p{background-color:#fff;padding:40px 90px;max-width:480px;margin:0 auto;text-align:center;border-top-left-radius:2px;border-top-right-radius:2px;}@media (max-width:1060px){.cities .city aside p{padding:40px 40px}}.cities .new-york{background:url("../img/town-ny.jpg") no-repeat center center;background-size:cover}.cities .zagreb{background:url("../img/town-zg.jpg") no-repeat center center;background-size:cover}.about .hero{background:url("../img/team-bg.jpg") fixed;background-repeat:no-repeat;background-position:center bottom;background-size:cover}.about .block.our-team .path:after{display:none}.about .team{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-align-content:space-between;-ms-flex-line-pack:justify;align-content:space-between;margin-left:-30px;margin-top:50px;}.about .team li{position:relative;margin-left:30px;margin-bottom:60px;}.about .team li img{width:100px;height:100px;border-radius:50%}.about .team li .info{position:absolute;width:200%;left:-50%;text-align:center;margin-top:10px;}.about .team li .info h4{font-family:$font-hind;font-size:14px;line-height:16px;font-weight:600;word-break:keep-all}.about .team li .info p{font-family:$font-medium;font-size:14px;line-height:1;color:#aaaee5;color:#c3c5e7}.about .hiring{display:block;text-align:center;padding-bottom:60px;}.about .hiring h2{font-size:50px;font-family:$font-light}.faq{padding:200px 0 100px;background-color:#32333d;}.faq h1{color:#fff;font-size:40px;font-family:$font-light}.faq__wrap{max-width:1170px;margin:0 auto;width:100%;padding:0 3%}.faq__questions{margin-top:40px;}.faq__questions .accordions{float:left;width:100%;max-width:calc(70% - 30px);margin-right:30px;}@media (max-width:800px){.faq__questions .accordions{max-width:100%}}.faq__questions h2{text-align:left;font-size:20px;margin-top:40px;font-family:$font-medium}.faq__questions img{max-width:100%;display:block;}.faq__questions img:not(:last-of-type){margin-bottom:20px}.faq__questions .panel-group .panel{border:0;background-color:#3f404d;margin-bottom:20px;box-shadow:0 1px 2px 0 rgba(21,21,26,0.5),0 1px 10px 0 rgba(20,21,25,0.2);}.faq__questions .panel-group .panel a.accordion-toggle{color:#fff;font-size:20px;font-family:$font-medium;padding:14px 20px;display:inline-block;width:100%;outline:0 !important}.faq__questions .panel-heading{background-color:#7d7f98;padding:0}.faq__questions .panel-body{border:none !important;font-size:16px;color:#fff;line-height:1.6}.faq__questions .contact{background-color:#3f404c;float:left;max-width:30%;width:100%;margin-top:85px;border-radius:2px;padding:30px;box-shadow:0 1px 2px 0 rgba(21,21,26,0.5),0 1px 10px 0 rgba(20,21,25,0.2);text-align:center;}@media (max-width:800px){.faq__questions .contact{max-width:270px}}.faq__questions .contact h2{font-size:26px;font-family:$font-medium;line-height:1;color:#fff;text-align:center;margin:0}.faq__questions .contact p{color:#fff;line-height:1.2;padding:20px 0}.faq__questions .contact a{margin-top:20px}.page .embedded{padding-bottom:30px;margin-bottom:0;}.page .embedded .vib-embed{float:left;clear:none;text-align:inherit;width:48.5%;margin-left:0%;margin-right:3%;margin-bottom:30px}.page .embedded .vib-embed:before,.page .embedded .vib-embed:after{content:"";display:table}.page .embedded .vib-embed:after{clear:both}.page .embedded .vib-embed:nth-child(2n){margin-right:0%;float:right}.page .embedded .vib-embed:nth-child(2n+1){clear:both}.features .hero{background:url("../../assets/img/features-bg.jpg") fixed;}.features .hero:after{background-color:$color-bg-dark}.features article{padding:0;}.features article header{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;}.features article header img{min-width:90px}@media (max-width:700px){.features article header h2{padding-left:20px}}.features article header p{text-align:center;padding:0 30px;}@media (max-width:700px){.features article header p{padding:30px 0 0 0}}.features .inovative-player{padding-bottom:200px;position:relative;}@media (min-width:700px){.features .inovative-player:before{content:"";position:absolute;top:64px;left:44px;z-index:1;width:545px;height:1412px;background-image:url("../../assets/img/put.svg");background-repeat:no-repeat}}@media (max-width:700px){.features .inovative-player{padding-bottom:200px}.features .inovative-player:before{content:"";position:absolute;top:64px;left:calc(7% - 4px);z-index:1;height:calc(100% - 64px);width:4px;background-image:url("../../assets/img/side-dot.png");background-repeat:repeat-y;opacity:.6}}.features .powerfull-analytics{max-width:none;}.features .powerfull-analytics .wrap{position:relative;z-index:999;max-width:800px;margin:0 auto;}.features .powerfull-analytics .wrap >p{text-align:center}.features .powerfull-analytics .wrap img{margin:0 auto}@media (min-width:700px){.features .powerfull-analytics .wrap header{display:block}}.features .powerfull-analytics .wrap header img{display:block;margin:0 auto;margin-bottom:30px;}@media (max-width:700px){.features .powerfull-analytics .wrap header img{max-width:90px;margin:0}}.features .dashboard{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;position:relative;margin-top:60px;}@media (max-width:700px){.features .dashboard{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}}.features .dashboard .dashboard-img{-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;position:relative;overflow:hidden;height:50vh;}@media (max-width:700px){.features .dashboard .dashboard-img{width:100%}}.features .dashboard .dashboard-img img{position:absolute;right:0;top:0;height:auto;width:100%}.features .dashboard aside{-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;max-width:50%;padding-left:30px;text-align:center;}@media (max-width:700px){.features .dashboard aside{max-width:100%;padding:30px 3%}}.features .dashboard aside h3{margin-bottom:60px}.features .dashboard aside .cta-a,.features .dashboard aside span{display:block;margin-top:20px}.features .blue-bg{background-color:$color-bg-dark;}.features .blue-bg:after{content:none}.features .feature-list{margin-top:130px;position:relative;z-index:999;}@media (max-width:700px){.features .feature-list{margin-top:60px}}.features .feature-list figure{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end;margin-bottom:200px;}.features .feature-list figure:last-child{margin:0}@media (max-width:700px){.features .feature-list figure{-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-flex-direction:column-reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;margin-bottom:120px}.features .feature-list figure .info{padding:30px 0 0 15%}}.features .feature-list .info{-webkit-order:1;-ms-flex-order:1;order:1;padding-right:30px}.features .feature-list h3{margin-bottom:10px}.features .feature-list figcaption{font-size:22px;line-height:32px}@media (min-width:700px){.features .feature-list .comment .info{-webkit-order:2;-ms-flex-order:2;order:2;padding:0 0 0 30px;text-align:right}}.features .feature-list img{-webkit-order:2;-ms-flex-order:2;order:2;min-width:370px;border-radius:4px;box-shadow:0 0 10px 1px #2a2b33;}@media (max-width:410px){.features .feature-list img{min-width:200px;width:100%}}footer{background-color:#363c4d;float:left;clear:none;text-align:inherit;width:100%;margin-left:0%;margin-right:0%;}footer:before,footer:after{content:"";display:table}footer:after{clear:both}footer .wrap{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:50px 30px 25px;font-family:$font-regular;font-size:14px;}footer .wrap ul li a{font-size:14px;color:#8487b2;font-weight:600;}footer .wrap ul li a:hover{color:$color-a-hover}footer .wrap ul li:not(:last-child){margin-right:20px}footer .wrap .logo{display:block}footer .wrap .company ul,footer .wrap .connect ul,footer .wrap .legal ul{display:-webkit-flex;display:-ms-flexbox;display:flex}footer .wrap .company ul,footer .wrap .connect ul{margin-top:20px}footer .wrap .company{width:60%}footer .wrap .connect{width:40%;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;text-align:right;}footer .wrap .connect ul{-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end}footer .wrap .connect h5{color:#fff;font-family:$font-bold}footer .wrap .legal{margin-top:30px;}@media (max-width:520px){footer .wrap .legal{width:100%}footer .wrap .legal ul{margin:0 auto;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}footer .wrap .legal ul li{text-align:center;margin-right:0;margin-bottom:10px}}
+
+/* line 9 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+body {
+  margin: 0;
+}
+
+/* line 31 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 51 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 63 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 72 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 85 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+a {
+  background-color: transparent;
+}
+
+/* line 87 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 98 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 105 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 113 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+dfn {
+  font-style: italic;
+}
+
+/* line 121 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 129 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 137 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+small {
+  font-size: 80%;
+}
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 151 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+sup {
+  top: -0.5em;
+}
+
+/* line 154 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 164 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+img {
+  border: 0;
+}
+
+/* line 171 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 181 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 188 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 196 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+pre {
+  overflow: auto;
+}
+
+/* line 203 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 225 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 238 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+button {
+  overflow: visible;
+}
+
+/* line 248 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 260 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 271 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 279 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 289 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+input {
+  line-height: normal;
+}
+
+/* line 300 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 311 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 320 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+/* line 330 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 338 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 348 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 356 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+textarea {
+  overflow: auto;
+}
+
+/* line 364 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 374 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 378 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+td,
+th {
+  padding: 0;
+}
+
+/* line 6 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/reset.styl */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* line 10 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/reset.styl */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/reset.styl */
+a {
+  text-decoration: none;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/reset.styl */
+ul {
+  list-style: none;
+}
+
+/* line 21 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/reset.styl */
+b,
+strong {
+  font-weight: 700;
+}
+
+/* line 33 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/reset.styl */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 37 : /Users/neven/Developer/vibbycom.github.io/_stylus/reset/reset.styl */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 4 : /Users/neven/Developer/vibbycom.github.io/node_modules/normalize-styl/normalize.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/_index.styl */
+
+/* line 23 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/_index.styl */
+
+/* line 247 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+
+/* line 70 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+
+/* line 3 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+.accordion-tabs {
+  padding: 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 12 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+.accordion-tabs .tab-header-and-content {
+  list-style: none;
+  display: inline;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+.accordion-tabs .tab-link {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 20px;
+  border-bottom: 4px solid transparent;
+  font-size: 1.618rem;
+}
+
+/* line 29 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+.accordion-tabs .is-active {
+  border-bottom: 4px solid #2ca3ff;
+}
+
+/* line 34 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+.accordion-tabs .tab-content {
+  display: none;
+  width: 100%;
+  float: left;
+  margin-top: 60px;
+  text-align: left;
+  overflow: visible;
+  height: 600px;
+  background-size: 100%;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+}
+
+/* line 49 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+.accordion-tabs .tab-content p {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 52 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+.accordion-tabs .tab-content.cm {
+  background-image: url("/assets/img/cm-bg.png");
+}
+
+/* line 54 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+.accordion-tabs .tab-content.education {
+  background-image: url("/assets/img/education-bg.png");
+}
+
+/* line 56 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+.accordion-tabs .tab-content.gaming {
+  background-image: url("/assets/img/gamers-bg.png");
+}
+
+/* line 58 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+.accordion-tabs .tab-content.sports {
+  background-image: url("/assets/img/sports-bg.png");
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/tabs.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_index.styl */
+
+/* line 24 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_index.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/base.styl */
+
+/* line 2 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/base.styl */
+body {
+  font-weight: 400;
+  background-color: #fff;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+}
+
+/* line 10 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/base.styl */
+a {
+  position: relative;
+  transition: all 0.2s ease;
+  color: #2ca3ff;
+}
+
+/* line 15 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/base.styl */
+.z-shadow,
+.scroll {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.16);
+}
+
+/* line 19 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/base.styl */
+.z-shadow-1 {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
+  transition: all 0.2s ease-in-out;
+}
+@media only screen and (min-width: 992px) {
+
+/* line 23 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/base.styl */
+  .z-shadow-1:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.2);
+  }
+}
+
+/* line 410 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/base.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+@charset "UTF-8";
+
+/* line 195 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+html {
+  font-size: 87.5%;
+}
+
+/* line 199 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.428571428571429;
+}
+
+/* line 210 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+
+/* line 211 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 216 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 400;
+  color: #535b68;
+}
+
+/* line 224 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* line 247 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+h1,
+.h1 {
+  margin-bottom: 0.27284432790475em;
+  font-size: 2.617924em;
+  line-height: 1.637065967428499;
+}
+@media (min-width: 43.75em) {
+
+/* line 251 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+  h1,
+  .h1 {
+    margin-bottom: 0.168630610571539em;
+    font-size: 4.235801032000001em;
+    line-height: 1.34904488457231;
+  }
+}
+@media (min-width: 56.25em) {
+
+/* line 257 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+  h1,
+  .h1 {
+    margin-bottom: 0.104221638177712em;
+    font-size: 6.853526069776002em;
+    line-height: 1.042216381777125;
+  }
+}
+
+/* line 263 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+h2,
+.h2 {
+  margin-bottom: 0.441462122549885em;
+  font-size: 1.618em;
+  line-height: 2.207310612749426;
+}
+@media (min-width: 43.75em) {
+
+/* line 267 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+  h2,
+  .h2 {
+    margin-bottom: 0.27284432790475em;
+    font-size: 2.617924em;
+    line-height: 1.637065967428499;
+  }
+}
+@media (min-width: 56.25em) {
+
+/* line 272 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+  h2,
+  .h2 {
+    margin-bottom: 0.168630610571539em;
+    font-size: 4.235801032000001em;
+    line-height: 1.34904488457231;
+  }
+}
+
+/* line 278 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+h3,
+.h3 {
+  margin-bottom: 0.441462122549885em;
+  font-size: 1.618em;
+  line-height: 2.207310612749426;
+}
+@media (min-width: 56.25em) {
+
+/* line 282 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+  h3,
+  .h3 {
+    margin-bottom: 0.27284432790475em;
+    font-size: 2.617924em;
+    line-height: 1.637065967428499;
+  }
+}
+
+/* line 288 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+h4,
+.h4 {
+  margin-bottom: 0.441462122549885em;
+  font-size: 1.618em;
+  line-height: 2.207310612749426;
+}
+
+/* line 293 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+h5,
+.h5,
+h6,
+.h6 {
+  margin-bottom: 0.714285714285714em;
+  font-size: 1em;
+  line-height: 2.857142857142857;
+}
+
+/* line 299 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+p {
+  margin-top: 0;
+  margin-bottom: 1.428571428571429em;
+  padding-top: 0;
+  padding-bottom: 0;
+  max-width: 68.57142857142857em;
+}
+
+/* line 319 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+small,
+.font-small {
+  font-size: 0.618046971569839em;
+  line-height: 3.467142857142858;
+}
+
+/* line 324 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+em {
+  font-style: italic;
+}
+
+/* line 328 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+strong {
+  font-weight: bold;
+}
+
+/* line 332 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+blockquote {
+  margin-top: 2.857142857142857em;
+  margin-bottom: 2.857142857142857em;
+  margin-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 2.857142857142857em;
+  border-left: 10px solid #808080;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* line 342 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+blockquote p {
+  margin-bottom: 1.428571428571429em;
+}
+
+/* line 346 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+
+/* line 347 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+
+/* line 348 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+blockquote footer cite:before {
+  content: " – ";
+}
+
+/* line 355 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+pre,
+code {
+  font-family: 'Lucida Console', Monaco, monospace;
+}
+
+/* line 360 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+time,
+.time {
+  text-transform: uppercase;
+}
+
+/* line 365 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 2.857142857142857em;
+  margin-left: 2.857142857142857em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 375 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+ul ul,
+ol ol,
+dl dl {
+  margin-left: 0;
+}
+
+/* line 381 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+ul {
+  list-style: none;
+}
+
+/* line 385 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+ol {
+  list-style: decimal;
+}
+
+/* line 390 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+abbr {
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+/* line 397 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+abbr[title]:hover {
+  cursor: help;
+}
+
+/* line 403 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+hr {
+  margin-top: 2.857142857142857em;
+  margin-bottom: 0;
+  border: none;
+  border-top-color: #535b68;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-top: 2.785714285714286em;
+}
+
+/* line 35 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/_typesettings.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/typography.styl */
+
+/* line 3 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/typography.styl */
+h1 {
+  font-size: 4.235801032000001em;
+  line-height: 1.180414274000771;
+  letter-spacing: -0.3px;
+  font-weight: 100;
+}
+@media only screen and (max-width: 992px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  h1 {
+    font-size: 2.617924em;
+    line-height: 1.364221639523749;
+  }
+}
+
+/* line 10 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/typography.styl */
+h2 {
+  font-size: 2.617924em;
+  line-height: 1.364221639523749;
+  font-weight: 400;
+}
+@media only screen and (max-width: 992px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  h2 {
+    font-size: 1.618em;
+    line-height: 1.324386367649656;
+  }
+}
+
+/* line 16 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/typography.styl */
+h3 {
+  font-size: 1.618em;
+  line-height: 1.324386367649656;
+  font-weight: 300;
+}
+@media only screen and (max-width: 992px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  h3 {
+    font-size: 1;
+    line-height: 1.428571428571429;
+    font-weight: 400;
+  }
+}
+
+/* line 23 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/typography.styl */
+h4 {
+  font-size: 1.618em;
+  line-height: 1.324386367649656;
+  font-weight: 300;
+}
+@media only screen and (max-width: 992px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  h4 {
+    font-size: 1;
+    line-height: 1.428571428571429;
+    font-weight: 400;
+  }
+}
+
+/* line 30 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/typography.styl */
+h5 {
+  font-size: 1;
+  line-height: 1.428571428571429;
+  font-weight: 500;
+}
+
+/* line 34 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/typography.styl */
+.text-center {
+  text-align: center;
+}
+
+/* line 12 : /Users/neven/Developer/vibbycom.github.io/_stylus/base/typography.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/_index.styl */
+
+/* line 61 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/_index.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+
+/* line 3 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+
+/* line 4 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .block {
+  margin-bottom: 100px;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 8 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .block__header {
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+/* line 13 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .block__title {
+  color: #333;
+  margin-bottom: 0.505891831714616em;
+}
+
+/* line 16 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .block__description {
+  color: #4d4d4d;
+}
+
+/* line 19 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+@media only screen and (max-width: 730px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  .page .benefits {
+    padding-top: 40px;
+  }
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .benefits .benefit {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+  text-align: center;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.page .benefits .benefit:before,
+.page .benefits .benefit:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.page .benefits .benefit:after {
+  clear: both;
+}
+
+/* line 42 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_grid.styl */
+.page .benefits .benefit:nth-child(3n) {
+  margin-right: 0%;
+  float: right;
+}
+
+/* line 45 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_grid.styl */
+.page .benefits .benefit:nth-child(3n+1) {
+  clear: both;
+}
+
+/* line 25 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .benefits .benefit__icon {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  border: 1px solid #bbe1ff;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* line 35 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .benefits .benefit__icon .fa {
+  font-size: 4.236rem;
+  color: #2ca3ff;
+}
+
+/* line 39 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+
+/* line 40 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .sports .hero {
+  background-image: url("../../assets/img/sports-bg.jpg");
+}
+
+/* line 43 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .dark {
+  background: #363c4d;
+  color: #fff !important;
+}
+
+/* line 46 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+
+/* line 47 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .dark .block__title {
+  color: #f4f4f4;
+  margin-bottom: 10px;
+}
+
+/* line 50 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .dark .block__description {
+  color: #ccc;
+}
+
+/* line 53 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .darker {
+  background: #2e3341;
+  color: #fff !important;
+}
+
+/* line 56 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+
+/* line 57 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .darker .block__title {
+  color: #f4f4f4;
+  margin-bottom: 10px;
+}
+
+/* line 60 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+.page .darker .block__description {
+  color: #ccc;
+}
+
+/* line 19 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/grid.styl */
+
+/* line 3 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/grid.styl */
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.grid:before,
+.grid:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.grid:after {
+  clear: both;
+}
+
+/* line 6 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/grid.styl */
+.container {
+  width: auto;
+  max-width: 1440px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.container:after {
+  clear: both;
+}
+@media (max-width: 544px) {
+
+/* line 10 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/grid.styl */
+  .container {
+    max-width: 514px;
+  }
+}
+@media (max-width: 730px) {
+
+/* line 12 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/grid.styl */
+  .container {
+    max-width: 700px;
+  }
+}
+@media (max-width: 992px) {
+
+/* line 14 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/grid.styl */
+  .container {
+    max-width: 962px;
+  }
+}
+@media (max-width: 1024px) {
+
+/* line 16 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/grid.styl */
+  .container {
+    max-width: 994px;
+  }
+}
+@media (min-width: 1200px) {
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/grid.styl */
+  .container {
+    max-width: 1170px;
+  }
+}
+
+/* line 48 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/grid.styl */
+
+/* line 19 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+.vertical-tabs {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.vertical-tabs:before,
+.vertical-tabs:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.vertical-tabs:after {
+  clear: both;
+}
+
+/* line 4 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+.vertical-tabs .tabs-titles {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 38.2%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.vertical-tabs .tabs-titles:before,
+.vertical-tabs .tabs-titles:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.vertical-tabs .tabs-titles:after {
+  clear: both;
+}
+
+/* line 48 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_grid.styl */
+.vertical-tabs .tabs-titles:last-child {
+  margin-right: 0%;
+}
+@media only screen and (max-width: 992px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  .vertical-tabs .tabs-titles {
+    width: auto;
+    max-width: 514px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+  .vertical-tabs .tabs-titles:before,
+  .vertical-tabs .tabs-titles:after {
+    content: "";
+    display: table;
+  }
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+  .vertical-tabs .tabs-titles:after {
+    clear: both;
+  }
+}
+
+/* line 9 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+.vertical-tabs .tabs-titles li {
+  cursor: pointer;
+  padding: 25px 20px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* line 15 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+.vertical-tabs .tabs-titles li .text {
+  margin-left: 20px;
+}
+
+/* line 17 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+.vertical-tabs .tabs-titles li h3 {
+  color: #363c4d;
+  border-bottom: 2px solid #d5edff;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 23 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+@media only screen and (min-width: 992px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  .vertical-tabs .tabs-titles li.current {
+    background: #d5edff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.2);
+  }
+
+/* line 27 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+  .vertical-tabs .tabs-titles li.current h3 {
+    border-bottom: 2px solid #2ca3ff;
+  }
+}
+
+/* line 32 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+.vertical-tabs .tabs-contents {
+  height: 100%;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 58.8%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.vertical-tabs .tabs-contents:before,
+.vertical-tabs .tabs-contents:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.vertical-tabs .tabs-contents:after {
+  clear: both;
+}
+
+/* line 48 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_grid.styl */
+.vertical-tabs .tabs-contents:last-child {
+  margin-right: 0%;
+}
+@media only screen and (max-width: 992px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  .vertical-tabs .tabs-contents {
+    display: none;
+  }
+}
+
+/* line 38 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+.vertical-tabs .tabs-contents .content {
+  height: 100%;
+  text-align: center;
+}
+
+/* line 42 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+.vertical-tabs .tabs-contents li {
+  height: 100%;
+  display: none;
+}
+
+/* line 47 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+.vertical-tabs .tabs-contents li:first-child {
+  display: block /* first one content displayed by default */;
+}
+
+/* line 76 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+
+/* line 3 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+.logo {
+  width: 84px;
+  height: 29px;
+  display: inline-block;
+  padding-top: 10px;
+  float: left;
+  margin-right: 30px;
+}
+
+/* line 10 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+.logo img {
+  width: 100%;
+}
+
+/* line 13 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  z-index: 9999;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 10px;
+  transition: all 0.2s ease;
+}
+
+/* line 25 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav >* {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+/* line 27 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav ul,
+nav.main-nav li,
+nav.main-nav a {
+  display: inline-block;
+  line-height: 52px;
+}
+
+/* line 30 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav ul {
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 33 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav li a {
+  color: #d9d9d9;
+}
+
+/* line 35 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav li a:hover {
+  color: #fff;
+}
+
+/* line 37 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav li {
+  float: left;
+}
+
+/* line 40 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .left-nav {
+  float: left;
+}
+
+/* line 42 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .left-nav li {
+  margin-right: 30px;
+}
+
+/* line 44 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .right-nav {
+  float: right;
+}
+
+/* line 47 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav.scroll {
+  background-color: #363c4d;
+  padding-top: 0;
+}
+
+/* line 51 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .menu-icon {
+  display: none;
+  cursor: pointer;
+  z-index: 10000;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 17px;
+}
+
+/* line 57 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .sh {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 5px;
+  transition: all 0.2s ease;
+  border-radius: 2px;
+}
+
+/* line 66 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav--active .sh2 {
+  background-color: rgba(0,0,0,0);
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+
+/* line 69 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav--active .sh1 {
+  -webkit-transform: rotate(45deg) translateX(4px) translateY(7px);
+  transform: rotate(45deg) translateX(4px) translateY(7px);
+}
+
+/* line 71 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav--active .sh3 {
+  -webkit-transform: rotate(-45deg) translateX(4px) translateY(-8px);
+  transform: rotate(-45deg) translateX(4px) translateY(-8px);
+}
+
+/* line 73 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav--active .text {
+  display: none;
+}
+
+/* line 75 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .sh3 {
+  margin: 0px;
+}
+
+/* line 35 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+
+/* line 4 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+
+/* line 7 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+.cta,
+.cta__primary,
+.cta__primary--big,
+.cta__secondary {
+  color: #fff;
+  padding: 0.7em 1em;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+/* line 14 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+.cta__primary,
+.cta__primary--big {
+  margin-top: 2.142857142857143em;
+}
+
+/* line 17 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+.cta__primary .fa,
+.cta__primary--big .fa {
+  margin-right: 5px;
+  color: #2ca3ff;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+.cta__primary--big {
+  background-color: #2ca3ff;
+}
+
+/* line 25 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+.cta__primary--big:hover {
+  background-color: #0087ef;
+}
+
+/* line 27 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+.cta__primary--big .fa {
+  color: #fff;
+}
+
+/* line 30 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+.cta__secondary {
+  margin-top: 2.142857142857143em;
+  background-color: #555f7a;
+}
+
+/* line 34 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+.cta__secondary:hover {
+  background-color: #464d63;
+}
+
+/* line 88 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+
+/* line 2 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+
+/* line 4 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .hero {
+  background-color: #363c4d;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 165px 0 240px;
+  margin: 0;
+}
+@media only screen and (max-width: 730px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  .landing .hero {
+    padding: 130px 0px 110px;
+  }
+}
+
+/* line 13 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .hero .block__title {
+  color: #fff;
+}
+
+/* line 15 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .hero .block__description {
+  color: #f4f4f4;
+}
+
+/* line 17 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .hero .container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* line 20 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .landing-page {
+  background-image: url("../../assets/img/landing-bg.jpg");
+}
+
+/* line 23 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .use-cases {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-top: 40px;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.landing .use-cases:before,
+.landing .use-cases:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.landing .use-cases:after {
+  clear: both;
+}
+
+/* line 29 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .demo-video {
+  position: relative;
+  text-align: center;
+  top: -100px;
+}
+@media only screen and (max-width: 730px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  .landing .demo-video {
+    display: none;
+  }
+}
+
+/* line 36 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.landing .features:before,
+.landing .features:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.landing .features:after {
+  clear: both;
+}
+@media only screen and (max-width: 730px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  .landing .features {
+    padding-top: 40px;
+  }
+}
+
+/* line 42 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .user-quotes {
+  background-color: #e1e5f1;
+  padding: 50px 30px;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.landing .user-quotes:before,
+.landing .user-quotes:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.landing .user-quotes:after {
+  clear: both;
+}
+
+/* line 46 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .user-quotes .quote {
+  text-align: left;
+  background-color: #fff;
+  padding: 30px;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.landing .user-quotes .quote:before,
+.landing .user-quotes .quote:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.landing .user-quotes .quote:after {
+  clear: both;
+}
+
+/* line 42 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_grid.styl */
+.landing .user-quotes .quote:nth-child(3n) {
+  margin-right: 0%;
+  float: right;
+}
+
+/* line 45 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_grid.styl */
+.landing .user-quotes .quote:nth-child(3n+1) {
+  clear: both;
+}
+@media only screen and (max-width: 992px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  .landing .user-quotes .quote {
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 30px;
+  }
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+  .landing .user-quotes .quote:before,
+  .landing .user-quotes .quote:after {
+    content: "";
+    display: table;
+  }
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+  .landing .user-quotes .quote:after {
+    clear: both;
+  }
+
+/* line 55 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+  .landing .user-quotes .quote:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+/* line 57 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+
+/* line 58 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .user-quotes .quote .user__name {
+  font-size: $ms-up;
+}
+
+/* line 60 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .user-quotes .quote .user__role {
+  color: #808996;
+}
+
+/* line 62 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+.landing .user-quotes .quote__text {
+  color: #808996;
+  margin-top: 25px;
+}
+
+/* line 223 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+
+/* line 2 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+
+/* line 4 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page {
+  position: relative;
+  font-family: $font-regular;
+}
+
+/* line 8 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page .hero {
+  position: relative;
+  z-index: 1;
+  padding-top: 56px;
+}
+
+/* line 13 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page .hero .content {
+  width: 100%;
+  padding: 200px 0;
+  transition: all 0.5s ease;
+}
+@media (max-width: 1060px) {
+
+/* line 17 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+  .public-page .hero .content {
+    padding: 100px 0;
+  }
+}
+
+/* line 19 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page .hero .content h1 {
+  color: #fff;
+  line-height: 1.333333;
+  font-weight: 300;
+  font-family: $font-light;
+  text-align: center;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+@media (max-width: 1060px) {
+
+/* line 27 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+  .public-page .hero .content h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 520px) {
+
+/* line 29 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+  .public-page .hero .content h1 {
+    font-size: 30px;
+  }
+}
+
+/* line 33 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page main {
+  position: relative;
+  z-index: 999;
+  max-width: 970px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+/* line 40 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page .block {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -90px;
+}
+@media (max-width: 1150px) {
+
+/* line 43 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+  .public-page .block {
+    margin: 0;
+  }
+}
+
+/* line 46 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page .path {
+  position: relative;
+  max-width: 90px;
+  margin-bottom: 4px;
+}
+
+/* line 50 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page .path:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(50% - 4px);
+  height: 100%;
+  width: 4px;
+  background-image: url("../img/side-dot.png");
+  background-repeat: repeat-y;
+}
+
+/* line 62 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page .path img {
+  width: 100%;
+  position: relative;
+  z-index: 999;
+  background-color: #fff;
+}
+
+/* line 68 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page article {
+  max-width: 660px;
+  padding: 0 15px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+/* line 73 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page article p {
+  margin-bottom: 30px;
+}
+
+/* line 76 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page article .list {
+  padding-left: 40px;
+  line-height: 28px;
+}
+
+/* line 79 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page article .list li {
+  margin-bottom: 10px;
+  position: relative;
+  color: #696a80;
+}
+
+/* line 83 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page article .list li:last-child {
+  margin: 0;
+}
+
+/* line 85 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page article .list li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 8px;
+  left: -25px;
+  background-color: $link;
+  border-radius: 50%;
+}
+
+/* line 96 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #545566;
+}
+
+/* line 100 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.public-page p,
+.public-page ul {
+  line-height: 28px;
+  font-weight: 400;
+}
+
+/* line 104 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.blue-bg {
+  position: relative;
+  z-index: 999;
+  background-color: $color-bg;
+}
+
+/* line 108 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.blue-bg:after {
+  content: "";
+  position: absolute;
+  height: 450px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, $color-bg, #f5fcff);
+}
+
+/* line 120 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities {
+  background-color: #fff;
+  z-index: 999;
+  position: relative;
+}
+
+/* line 124 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities .city {
+  width: 50%;
+  float: left;
+  height: 440px;
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+
+/* line 130 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+  .cities .city {
+    width: 100%;
+  }
+}
+
+/* line 132 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+
+/* line 133 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities .city:hover header {
+  -webkit-transform: translateY(-40px);
+  transform: translateY(-40px);
+}
+
+/* line 135 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities .city:hover aside {
+  -webkit-transform: translateY(-164px);
+  transform: translateY(-164px);
+  opacity: 1;
+}
+
+/* line 138 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities .city header {
+  transition: all 0.5s ease;
+  margin-top: 190px;
+}
+
+/* line 141 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities .city header p,
+.cities .city header h4 {
+  color: #fff;
+  text-align: center;
+}
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities .city header h4 {
+  font-size: 40px;
+  font-family: $font-bold;
+}
+
+/* line 147 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities .city header p {
+  text-transform: uppercase;
+}
+
+/* line 149 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities .city aside {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s ease;
+  bottom: -164px;
+}
+
+/* line 155 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities .city aside p {
+  background-color: #fff;
+  padding: 40px 90px;
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+@media (max-width: 1060px) {
+
+/* line 163 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+  .cities .city aside p {
+    padding: 40px 40px;
+  }
+}
+
+/* line 165 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities .new-york {
+  background: url("../img/town-ny.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 168 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.cities .zagreb {
+  background: url("../img/town-zg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 174 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+
+/* line 175 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.about .hero {
+  background: url("../img/team-bg.jpg") fixed;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+/* line 181 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.about .block.our-team .path:after {
+  display: none;
+}
+
+/* line 184 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.about .team {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: space-between;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  margin-left: -30px;
+  margin-top: 50px;
+}
+
+/* line 191 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.about .team li {
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+
+/* line 195 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.about .team li img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* line 199 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.about .team li .info {
+  position: absolute;
+  width: 200%;
+  left: -50%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* line 205 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.about .team li .info h4 {
+  font-family: $font-hind;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  word-break: keep-all;
+}
+
+/* line 211 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.about .team li .info p {
+  font-family: $font-medium;
+  font-size: 14px;
+  line-height: 1;
+  color: #aaaee5;
+  color: #c3c5e7;
+}
+
+/* line 217 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.about .hiring {
+  display: block;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+/* line 221 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+.about .hiring h2 {
+  font-size: 50px;
+  font-family: $font-light;
+}
+
+/* line 81 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+
+/* line 3 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq {
+  padding: 200px 0 100px;
+  background-color: #32333d;
+}
+
+/* line 6 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: $font-light;
+}
+
+/* line 10 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__wrap {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 3%;
+}
+
+/* line 15 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions {
+  margin-top: 40px;
+}
+
+/* line 17 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions .accordions {
+  float: left;
+  width: 100%;
+  max-width: calc(70% - 30px);
+  margin-right: 30px;
+}
+@media (max-width: 800px) {
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+  .faq__questions .accordions {
+    max-width: 100%;
+  }
+}
+
+/* line 24 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions h2 {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 40px;
+  font-family: $font-medium;
+}
+
+/* line 29 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions img {
+  max-width: 100%;
+  display: block;
+}
+
+/* line 32 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions img:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+/* line 34 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions .panel-group .panel {
+  border: 0;
+  background-color: #3f404d;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 2px 0px rgba(21,21,26,0.5), 0px 1px 10px 0px rgba(20,21,25,0.2);
+}
+
+/* line 39 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions .panel-group .panel a.accordion-toggle {
+  color: #fff;
+  font-size: 20px;
+  font-family: $font-medium;
+  padding: 14px 20px;
+  display: inline-block;
+  width: 100%;
+  outline: 0 !important;
+}
+
+/* line 47 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions .panel-heading {
+  background-color: #7d7f98;
+  padding: 0;
+}
+
+/* line 51 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions .panel-body {
+  border: none !important;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* line 57 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions .contact {
+  background-color: #3f404c;
+  float: left;
+  max-width: 30%;
+  width: 100%;
+  margin-top: 85px;
+  border-radius: 2px;
+  padding: 30px;
+  box-shadow: 0px 1px 2px 0px rgba(21,21,26,0.5), 0px 1px 10px 0px rgba(20,21,25,0.2);
+  text-align: center;
+}
+@media (max-width: 800px) {
+
+/* line 67 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+  .faq__questions .contact {
+    max-width: 270px;
+  }
+}
+
+/* line 69 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions .contact h2 {
+  font-size: 26px;
+  font-family: $font-medium;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 76 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions .contact p {
+  color: #fff;
+  line-height: 1.2;
+  padding: 20px 0;
+}
+
+/* line 80 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+.faq__questions .contact a {
+  margin-top: 20px;
+}
+
+/* line 11 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-support.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-esports.styl */
+
+/* line 3 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-esports.styl */
+
+/* line 4 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-esports.styl */
+.esports .hero {
+  background-image: url("../../assets/img/esports-bg.jpg");
+}
+
+/* line 6 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-esports.styl */
+.embedded {
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+/* line 9 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-esports.styl */
+.embedded .vib-embed {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+  margin-bottom: 30px;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.embedded .vib-embed:before,
+.embedded .vib-embed:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+.embedded .vib-embed:after {
+  clear: both;
+}
+
+/* line 42 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_grid.styl */
+.embedded .vib-embed:nth-child(2n) {
+  margin-right: 0%;
+  float: right;
+}
+
+/* line 45 : /Users/neven/Developer/vibbycom.github.io/node_modules/jeet/stylus/jeet/_grid.styl */
+.embedded .vib-embed:nth-child(2n+1) {
+  clear: both;
+}
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-esports.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+
+/* line 4 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+
+/* line 5 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .hero {
+  background-image: url("../../assets/img/features-bg.jpg");
+}
+
+/* line 7 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .hero:after {
+  background-color: $color-bg-dark;
+}
+
+/* line 9 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features article {
+  padding: 0;
+}
+
+/* line 11 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features article header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+/* line 14 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features article header img {
+  min-width: 90px;
+}
+
+/* line 16 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+@media (max-width: 700px) {
+
+/* line 17 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features article header h2 {
+    padding-left: 20px;
+  }
+}
+
+/* line 19 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features article header p {
+  text-align: center;
+  padding: 0 30px;
+}
+@media (max-width: 700px) {
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features article header p {
+    padding: 30px 0 0 0;
+  }
+}
+
+/* line 24 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .inovative-player {
+  padding-bottom: 200px;
+  position: relative;
+}
+@media (min-width: 700px) {
+
+/* line 28 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .inovative-player:before {
+    content: "";
+    position: absolute;
+    top: 64px;
+    left: 44px;
+    z-index: 1;
+    width: 545px;
+    height: 1412px;
+    background-image: url("../../assets/img/put.svg");
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 700px) {
+
+/* line 38 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .inovative-player {
+    padding-bottom: 200px;
+  }
+
+/* line 40 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .inovative-player:before {
+    content: "";
+    position: absolute;
+    top: 64px;
+    left: calc(7% - 4px);
+    z-index: 1;
+    height: calc(100% - 64px);
+    width: 4px;
+    background-image: url("../../assets/img/side-dot.png");
+    background-repeat: repeat-y;
+    opacity: 0.6;
+  }
+}
+
+/* line 54 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .powerfull-analytics {
+  max-width: none;
+}
+
+/* line 56 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .powerfull-analytics .wrap {
+  position: relative;
+  z-index: 999;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* line 62 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .powerfull-analytics .wrap >p {
+  text-align: center;
+}
+
+/* line 64 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .powerfull-analytics .wrap img {
+  margin: 0 auto;
+}
+
+/* line 66 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+@media (min-width: 700px) {
+
+/* line 67 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .powerfull-analytics .wrap header {
+    display: block;
+  }
+}
+
+/* line 69 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .powerfull-analytics .wrap header img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+@media (max-width: 700px) {
+
+/* line 73 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .powerfull-analytics .wrap header img {
+    max-width: 90px;
+    margin: 0;
+  }
+}
+
+/* line 77 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .dashboard {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  margin-top: 60px;
+}
+@media (max-width: 700px) {
+
+/* line 82 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .dashboard {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+/* line 84 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .dashboard .dashboard-img {
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+  height: 50vh;
+}
+@media (max-width: 700px) {
+
+/* line 89 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .dashboard .dashboard-img {
+    width: 100%;
+  }
+}
+
+/* line 91 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .dashboard .dashboard-img img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: auto;
+  width: 100%;
+}
+
+/* line 101 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .dashboard aside {
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 50%;
+  padding-left: 30px;
+  text-align: center;
+}
+@media (max-width: 700px) {
+
+/* line 106 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .dashboard aside {
+    max-width: 100%;
+    padding: 30px 3%;
+  }
+}
+
+/* line 109 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .dashboard aside h3 {
+  margin-bottom: 60px;
+}
+
+/* line 111 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .dashboard aside .cta-a,
+.features .dashboard aside span {
+  display: block;
+  margin-top: 20px;
+}
+
+/* line 115 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .blue-bg {
+  background-color: $color-bg-dark;
+  padding-top: 40px;
+}
+
+/* line 118 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .blue-bg:after {
+  content: none;
+}
+
+/* line 121 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .feature-list {
+  margin-top: 130px;
+  position: relative;
+  z-index: 999;
+}
+@media (max-width: 700px) {
+
+/* line 125 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .feature-list {
+    margin-top: 60px;
+  }
+}
+
+/* line 127 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .feature-list figure {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-bottom: 200px;
+}
+
+/* line 131 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .feature-list figure:last-child {
+  margin: 0;
+}
+@media (max-width: 700px) {
+
+/* line 133 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .feature-list figure {
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    margin-bottom: 120px;
+  }
+
+/* line 138 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .feature-list figure .info {
+    padding: 30px 0 0 15%;
+  }
+}
+
+/* line 141 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .feature-list .info {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  padding-right: 30px;
+}
+
+/* line 145 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .feature-list h3 {
+  margin-bottom: 10px;
+}
+
+/* line 148 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .feature-list figcaption {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+/* line 152 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+@media (min-width: 700px) {
+
+/* line 153 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .feature-list .comment .info {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    padding: 0 0 0 30px;
+    text-align: right;
+  }
+}
+
+/* line 158 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+.features .feature-list img {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  min-width: 370px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 1px #2a2b33;
+}
+@media (max-width: 410px) {
+
+/* line 163 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+  .features .feature-list img {
+    min-width: 200px;
+    width: 100%;
+  }
+}
+
+/* line 52 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-features.styl */
+
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+
+/* line 2 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer {
+  background-color: #363c4d;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+footer:before,
+footer:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+footer:after {
+  clear: both;
+}
+
+/* line 6 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container {
+  padding: 50px 30px 25px;
+}
+
+/* line 9 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+
+/* line 10 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container ul li a {
+  color: #8487b2;
+  font-weight: 600;
+}
+
+/* line 13 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container ul li a:hover {
+  color: $color-a-hover;
+}
+
+/* line 16 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .company {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 66.66666666666666%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+/* line 17 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .company ul {
+  margin-top: 40px;
+}
+
+/* line 19 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .company ul li {
+  float: left;
+}
+
+/* line 21 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .company ul li:not(:last-child) {
+  margin-right: 20px;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+footer .container .company:before,
+footer .container .company:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+footer .container .company:after {
+  clear: both;
+}
+
+/* line 25 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .connect {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 33.33333333333333%;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: right;
+}
+
+/* line 26 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .connect ul {
+  margin-top: 20px;
+}
+
+/* line 28 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .connect ul li {
+  float: right;
+}
+
+/* line 30 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .connect ul li:not(:last-child) {
+  margin-left: 20px;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+footer .container .connect:before,
+footer .container .connect:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+footer .container .connect:after {
+  clear: both;
+}
+
+/* line 34 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .connect h5 {
+  color: #fff;
+}
+
+/* line 37 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .legal {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 30px;
+}
+
+/* line 38 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+
+/* line 39 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .legal ul li {
+  float: left;
+}
+
+/* line 41 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+footer .container .legal ul li:not(:last-child) {
+  margin-right: 20px;
+}
+
+/* line 18 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+footer .container .legal:before,
+footer .container .legal:after {
+  content: "";
+  display: table;
+}
+
+/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/modules/mixins.styl */
+footer .container .legal:after {
+  clear: both;
+}
+@media (max-width: 520px) {
+
+/* line 45 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+  footer .container .legal {
+    width: 100%;
+  }
+
+/* line 47 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+  footer .container .legal ul {
+    margin: 0 auto;
+  }
+
+/* line 49 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/footer.styl */
+  footer .container .legal ul li {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

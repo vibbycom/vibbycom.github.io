@@ -9,7 +9,8 @@ var gutil = require('gulp-util');
 gulp.task('stylus', function () {
   return gulp.src('./_stylus/_main.styl')
     .pipe(stylus({
-      compress: true
+      compress: false,
+      linenos: true
     }))
     .on('error', errorHandler('stylus error'))
     .pipe(autoprefixer({

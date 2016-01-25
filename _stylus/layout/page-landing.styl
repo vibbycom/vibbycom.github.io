@@ -4,55 +4,21 @@
     .hero
         background-color $nav-bg
         background-size cover
+        background-position center center
         background-repeat no-repeat
         padding 165px 0 240px
         margin 0
+        +below($sm)
+            padding 130px 0px 110px
         .block__title
             color #fff
-            margin-bottom 10px
         .block__description
             color $light-color
-        .wrap
+        .container
             w($xl)
             text-align center
-            wrap()
     .landing-page
         background-image url(../../assets/img/landing-bg.jpg)
-
-    .giveaway
-        background-color $nav-bg
-        background-image url(../../assets/img/lol-giveaway.jpg)
-        background-size cover
-        background-repeat no-repeat
-        padding 200px 0 200px
-        margin 0
-        .block__title
-            color #fff
-        .block__description
-            color #7D8BB5
-        .wrap
-            w($xl)
-            text-align center
-            wrap()
-
-
-    .benefits
-        .benefit
-            column(1/3, cycle: 3)
-            text-align center
-            &__icon
-                height 140px
-                width 140px
-                border-radius 50%
-                border 1px solid #BBE1FF
-                margin 0 auto
-                display flex
-                align-items center
-                justify-content center
-                margin-bottom 30px
-                .fa
-                    font-size 4.236rem
-                    color #2CA3FF
 
     .use-cases
         cf()
@@ -64,10 +30,14 @@
         position relative
         text-align center
         top -100px
+        +below($sm)
+            display none
 
     .features
         // background-color #aaa
         cf()
+        +below($sm)
+            padding-top 40px
 
     .user-quotes
         background-color #E1E5F1
@@ -85,17 +55,8 @@
                 &:last-child
                     margin-bottom 0px
             .user
-                display flex
-                align-items center
-                &__img
-                    height 44px
-                    width 44px
-                    background-color #aff
-                    border-radius 50%
-                &__wrap
-                    margin-left 10px
                 &__name
-                    font-size 1.618rem
+                    font-size $ms-up
                 &__role
                     color #808996
             &__text

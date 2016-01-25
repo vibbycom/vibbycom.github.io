@@ -1,9 +1,8 @@
-<nav class="main-nav"> <!-- add .scrool on scroll -->
+<nav class="main-nav"> 
 <div class="container">
   <div class="left-nav">
-    
+    <a href="/" class="logo"><img src="/assets/img/logo.png" alt="Vibby Logo"/></a>
     <ul>
-      <li><a href="/" class="logo"><img src="/assets/img/logo.png" alt="Vibby Logo"/></a></li>
       <li><a href="https://www.vibby.com/explore/">Explore Vibs</a></li>
       <li><a href="/features/" {% if page.url == '/features/' %} class="active"{% endif %}>Features</a></li>
       <li><a href="/esports/" {% if page.url == '/esports/' %} class="active"{% endif %}>eSports</a></li>
@@ -17,6 +16,11 @@
       <!-- Dodati na scrool prikaz -->
       <!-- <li><a href="">Create yout vib</a></li> -->
     </ul>
+  </div>
+  <div class="menu-icon">
+    <div class="sh sh1"></div>
+    <div class="sh sh2"></div>
+    <div class="sh sh3"></div>
   </div>
 </div>
 </nav>

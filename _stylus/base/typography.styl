@@ -1,31 +1,35 @@
 //Typography
 
 h1
-    font-size 4.236rem
+    setType(7, $ms-up3)
     letter-spacing -0.3px
-    font-weight 200
+    font-weight 100
     +below($md)
-        font-size 2.618rem
+        setType(5, $ms-up2)
 
 h2
-    font-size 2.618rem
+    setType(5, $ms-up2)
     font-weight 400
     +below($md)
-        font-size 1.618rem
+        setType(3, $ms-up1)
 
 h3
-    font-size 1.618rem
+    setType(3, $ms-up1)
     font-weight 300
     +below($md)
-        font-size 1rem
+        setType(2, 1)
         font-weight 400
     
 h4
-    font-size 1.618rem
+    setType(3, $ms-up1)
     font-weight 300
     +below($md)
-        font-size 1rem
+        setType(2, 1)
         font-weight 400
+        
+h5
+    setType(2, 1)
+    font-weight 500
     
 .text-center
     text-align center
