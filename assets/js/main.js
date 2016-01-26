@@ -51,3 +51,10 @@ $(document).ready(function () {
 
 
 });
+
+
+function addShowRightMenu(elem) {
+  elem.classList.toggle('menu-icon--active');
+  var mainNav = document.querySelector('.main-nav');
+  mainNav.classList.toggle('mobile-menu');
+}
