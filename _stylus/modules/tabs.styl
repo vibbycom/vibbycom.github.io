@@ -1,10 +1,8 @@
 //
 
 .accordion-tabs
-    // cf()
     padding 0
     text-align center
-    // border-bottom 1px solid $link-color
     position relative
     w(1600px)
 
@@ -13,39 +11,30 @@
         list-style none
         display inline
 
-        // display inline-block
-
     .tab-link
-        // display block
-        // padding-right 1em
         display inline-block
-        // background-color #ffa
         text-align center
         padding 5px 20px
-        // border-bottom 1px solid $link
         border-bottom 4px solid transparent
         font-size 1.618rem
 
     .is-active
-        // color #ff0000
-        // background-color #faf
         border-bottom 4px solid $link-color
 
     .tab-content
         display none
         width 100%
         float left
-        // background-color #ccc
         margin-top 60px
         text-align left
-        // position absolute
         overflow visible
         height 600px
-
         background-size 100%
         background-position 0 100%
         background-repeat no-repeat
-
+        +below($sm)
+            height 300px
+            padding 0px 15px
         p
             w(600px)
 
@@ -57,14 +46,3 @@
             background-image url('/assets/img/gamers-bg.png')
         &.sports
             background-image url('/assets/img/sports-bg.png')
-
-
-
-
-
-
-
-
-
-
-            //
