@@ -1289,7 +1289,7 @@ h5 {
   display: block /* first one content displayed by default */;
 }
 
-/* line 77 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
 
 /* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
 
@@ -1372,17 +1372,86 @@ nav.main-nav .left-nav li {
 /* line 44 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
 nav.main-nav .right-nav {
   float: right;
+  transition: all 0.4s ease;
 }
 
-/* line 47 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+/* line 48 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+
+/* line 49 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+@media only screen and (min-width: 730px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  nav.main-nav.translate-right .right-nav {
+    -webkit-transform: translateX(155px);
+    transform: translateX(155px);
+  }
+}
+
+/* line 53 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav li.c2a-btn {
+  line-height: 20px;
+  margin-top: 9px;
+}
+@media only screen and (min-width: 730px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  nav.main-nav li.c2a-btn {
+    margin-left: 20px;
+  }
+}
+
+/* line 58 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav li.c2a-btn a {
+  line-height: 20px;
+  color: #fff;
+}
+
+/* line 62 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
 nav.main-nav.scroll {
   background-color: #363c4d;
   padding-top: 0;
 }
 
-/* line 51 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+/* line 66 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .navs {
+  transition: all 0.4s ease;
+}
+@media only screen and (max-width: 730px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  nav.main-nav .navs {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    background-color: #2e3341;
+    padding: 60px 30px 0px 30px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.16);
+  }
+
+/* line 76 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+  nav.main-nav .navs ul,
+  nav.main-nav .navs li,
+  nav.main-nav .navs a {
+    float: none;
+    display: block;
+  }
+
+/* line 79 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+  nav.main-nav .navs .right-nav {
+    clear: both;
+    float: left;
+  }
+}
+
+/* line 82 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .navs.mobile-menu {
+  right: 0;
+}
+
+/* line 85 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
 nav.main-nav .menu-icon {
-  display: none;
+  float: right;
   right: 100px;
   cursor: pointer;
   z-index: 10000;
@@ -1391,10 +1460,23 @@ nav.main-nav .menu-icon {
   -ms-user-select: none;
   user-select: none;
   margin-top: 17px;
+  display: block;
 }
 
-/* line 58 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
-nav.main-nav .sh {
+/* line 93 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .menu-icon:focus {
+  outline: none;
+}
+@media only screen and (min-width: 730px) {
+
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  nav.main-nav .menu-icon {
+    display: none;
+  }
+}
+
+/* line 97 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .menu-icon .sh {
   content: "";
   width: 30px;
   height: 3px;
@@ -1405,36 +1487,41 @@ nav.main-nav .sh {
   border-radius: 2px;
 }
 
-/* line 67 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
-nav.main-nav--active .sh2 {
+/* line 106 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .menu-icon .sh:focus {
+  outline: none;
+}
+
+/* line 108 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .menu-icon--active .sh2 {
   background-color: rgba(0,0,0,0);
   -webkit-transform: translateX(-5px);
   transform: translateX(-5px);
 }
 
-/* line 70 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
-nav.main-nav--active .sh1 {
+/* line 111 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .menu-icon--active .sh1 {
   -webkit-transform: rotate(45deg) translateX(4px) translateY(7px);
   transform: rotate(45deg) translateX(4px) translateY(7px);
 }
 
-/* line 72 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
-nav.main-nav--active .sh3 {
+/* line 113 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .menu-icon--active .sh3 {
   -webkit-transform: rotate(-45deg) translateX(4px) translateY(-8px);
   transform: rotate(-45deg) translateX(4px) translateY(-8px);
 }
 
-/* line 74 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
-nav.main-nav--active .text {
+/* line 115 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .menu-icon--active .text {
   display: none;
 }
 
-/* line 76 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
-nav.main-nav .sh3 {
+/* line 117 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+nav.main-nav .menu-icon .sh3 {
   margin: 0px;
 }
 
-/* line 35 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
+/* line 43 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/nav.styl */
 
 /* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
 
@@ -1444,6 +1531,7 @@ nav.main-nav .sh3 {
 .cta,
 .cta__primary,
 .cta__primary--big,
+.cta__primary--sm,
 .cta__secondary {
   color: #fff;
   padding: 0.7em 1em;
@@ -1452,45 +1540,59 @@ nav.main-nav .sh3 {
 }
 
 /* line 14 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
-.cta__primary,
-.cta__primary--big {
-  margin-top: 2.142857142857143em;
-}
 
-/* line 17 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+/* line 16 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
 .cta__primary .fa,
-.cta__primary--big .fa {
+.cta__primary--big .fa,
+.cta__primary--sm .fa {
   margin-right: 5px;
   color: #2ca3ff;
 }
 
-/* line 22 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+/* line 20 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
 .cta__primary--big {
+  margin-top: 2.142857142857143em;
   background-color: #2ca3ff;
 }
 
-/* line 25 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+/* line 24 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
 .cta__primary--big:hover {
   background-color: #0087ef;
 }
 
-/* line 27 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+/* line 26 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
 .cta__primary--big .fa {
   color: #fff;
 }
 
-/* line 30 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+/* line 29 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+.cta__primary--sm {
+  background-color: #2ca3ff;
+  padding: 0.5em 0.7em;
+}
+
+/* line 33 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+.cta__primary--sm:hover {
+  background-color: #0087ef;
+}
+
+/* line 35 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+.cta__primary--sm .fa {
+  color: #fff;
+}
+
+/* line 38 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
 .cta__secondary {
   margin-top: 2.142857142857143em;
   background-color: #555f7a;
 }
 
-/* line 34 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+/* line 42 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
 .cta__secondary:hover {
   background-color: #464d63;
 }
 
-/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
+/* line 91 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/buttons.styl */
 
 /* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 

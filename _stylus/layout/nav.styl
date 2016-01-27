@@ -43,35 +43,77 @@ nav.main-nav
             margin-right 30px
     .right-nav
         float right
+        transition all 0.4s ease
+        
+    &.translate-right
+        .right-nav
+            +above($sm)
+                transform translateX(155px)
+            
+    li.c2a-btn
+        line-height 20px
+        margin-top 9px
+        +above($sm)
+            margin-left 20px
+        a
+            line-height 20px
+            color #fff
 
     &.scroll
         background-color $nav-bg
         padding-top 0
     
+    .navs
+        transition all 0.4s ease
+        +below($sm)
+            position fixed
+            right -100%
+            top 0
+            bottom 0
+            background-color $nav-bg - 15%
+            padding 60px 30px 0px 30px
+            box-shadow 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.16)
+            ul,li,a
+                float none
+                display block
+            .right-nav
+                clear both
+                float left
+        &.mobile-menu
+            right 0
+    
     .menu-icon
-        display none
+        float right
         right 100px
         cursor pointer
         z-index: 10000
         user-select none
         margin-top 17px
-    .sh
-        content ""
-        width 30px
-        height 3px
-        background-color #fff
-        position relative
-        margin-bottom 5px
-        transition all 0.2s ease
-        border-radius 2px
-    &--active .sh2
-        background-color rgba(0, 0, 0, 0)
-        transform translateX(-5px)
-    &--active .sh1
-        transform rotate(45deg) translateX(4px) translateY(7px)
-    &--active .sh3
-        transform rotate(-45deg) translateX(4px) translateY(-8px)
-    &--active .text
-        display none
-    .sh3
-        margin 0px    
+        display block
+        &:focus
+            outline none
+        +above($sm)
+            display none
+        .sh
+            content ""
+            width 30px
+            height 3px
+            background-color #fff
+            position relative
+            margin-bottom 5px
+            transition all 0.2s ease
+            border-radius 2px
+            &:focus
+                outline none
+        &--active .sh2
+            background-color rgba(0, 0, 0, 0)
+            transform translateX(-5px)
+        &--active .sh1
+            transform rotate(45deg) translateX(4px) translateY(7px)
+        &--active .sh3
+            transform rotate(-45deg) translateX(4px) translateY(-8px)
+        &--active .text
+            display none
+        .sh3
+            margin 0px
+        

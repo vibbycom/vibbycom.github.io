@@ -1,21 +1,22 @@
-<nav class="main-nav">
+<nav class="main-nav translate-right">
 <div class="container">
-  <div class="left-nav">
-    <a href="/" class="logo"><img src="/assets/img/logo.png" alt="Vibby Logo"/></a>
-    <ul>
-      <li><a href="https://www.vibby.com/explore/">Explore Vibs</a></li>
-      <li><a href="/features/" {% if page.url == '/features/' %} class="active"{% endif %}>Features</a></li>
-      <li><a href="/esports/" {% if page.url == '/esports/' %} class="active"{% endif %}>eSports</a></li>
-      <li><a href="/sports/" {% if page.url == '/sports/' %} class="active"{% endif %}>Sports</a></li>
-      <!-- <li><a href="/education/" {% if page.url == '/education/' %} class="active"{% endif %}>Education</a></li> -->
-    </ul>
-  </div>
-  <div class="right-nav">
-    <ul>
-      <li><a href="https://www.vibby.com/login/">Log in</a></li>
-      <!-- Dodati na scrool prikaz -->
-      <!-- <li><a href="">Create yout vib</a></li> -->
-    </ul>
+  <a href="/" class="logo"><img src="/assets/img/logo.png" alt="Vibby Logo"/></a>
+  <div class="navs">
+    <div class="left-nav">
+      <ul>
+        <li><a href="https://www.vibby.com/explore/">Explore Vibs</a></li>
+        <li><a href="/features/" {% if page.url == '/features/' %} class="active"{% endif %}>Features</a></li>
+        <li><a href="/esports/" {% if page.url == '/esports/' %} class="active"{% endif %}>eSports</a></li>
+        <li><a href="/sports/" {% if page.url == '/sports/' %} class="active"{% endif %}>Sports</a></li>
+        <!-- <li><a href="/education/" {% if page.url == '/education/' %} class="active"{% endif %}>Education</a></li> -->
+      </ul>
+    </div>
+    <div class="right-nav">
+      <ul>
+        <li><a href="https://www.vibby.com/login/">Log in</a></li>
+        <li class="c2a-btn"><a href="https://www.vibby.com/create/" class="cta__primary--sm"><i class="fa fa-plus-circle"></i>Try now, it's free</a></li>
+      </ul>
+    </div>
   </div>
   <div class="menu-icon" onclick="addShowRightMenu(this)" >
     <div class="sh sh1"></div>

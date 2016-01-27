@@ -12,16 +12,24 @@ a
 
 
 .cta__primary
-    margin-top emRhythm(3, 1)
     @extend .cta
     .fa
         margin-right 5px
-        // font-size 16px
         color $link-color
 
 .cta__primary--big
+    margin-top emRhythm(3, 1)
     @extend .cta__primary
     background-color $link-color
+    &:hover
+        background-color darken($link-color, 20%)
+    .fa
+        color #fff
+        
+.cta__primary--sm
+    @extend .cta__primary
+    background-color $link-color
+    padding 0.5em 0.7em
     &:hover
         background-color darken($link-color, 20%)
     .fa
