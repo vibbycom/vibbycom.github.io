@@ -12,7 +12,9 @@
             // background-color #aca
             text-align center
             w($xl)
-            margin-bottom 50px
+            margin-bottom emRhythm(5, $base-em-font-size)
+            +below($sm)
+                margin-bottom emRhythm(2, $base-em-font-size)
         &__title
             color $dark-color
             margin-bottom emRhythm(3, $ms-up3)

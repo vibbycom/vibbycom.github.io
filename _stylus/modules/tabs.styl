@@ -4,6 +4,7 @@
     padding 0
     text-align center
     position relative
+    margin-bottom 0px
     w(1600px)
 
 
@@ -17,6 +18,8 @@
         padding 5px 20px
         border-bottom 4px solid transparent
         font-size 1.618rem
+        +below($xs)
+            padding 5px 10px
 
     .is-active
         border-bottom 4px solid $link-color
@@ -25,18 +28,22 @@
         display none
         width 100%
         float left
-        margin-top 60px
+        margin-top emRhythm(5, $base-em-font-size)
         text-align left
         overflow visible
         height 600px
         background-size 100%
         background-position 0 100%
         background-repeat no-repeat
+        +below($lg)
+            height 450px
         +below($sm)
             height 300px
             padding 0px 15px
+            margin-top emRhythm(3, $base-em-font-size)
         p
             w(600px)
+            margin-bottom 0px
 
         &.cm
             background-image url('/assets/img/cm-bg.png')
