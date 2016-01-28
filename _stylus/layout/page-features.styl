@@ -2,164 +2,25 @@
 
 
 .features
-  .hero
-    background-image url(../../assets/img/features-bg.jpg);
-    &:after
-      background-color $color-bg-dark
-  article
-    padding 0
-    header
-      display flex
-      align-items flex-start
-      img
-        min-width 90px
-      h2
-        @media (max-width 700px)
-          padding-left 20px
-      p
-        text-align center
-        padding 0 30px
-        @media (max-width 700px)
-          padding: 30px 0 0 0;
-  .inovative-player
-    padding-bottom 200px
-    position relative
-    @media (min-width 700px)
-      &:before
-        content ""
-        position: absolute
-        top 64px
-        left 44px
-        z-index 1
-        width 545px
-        height 1412px
-        background-image: url(../../assets/img/put.svg)
-        background-repeat no-repeat
-    @media (max-width 700px)
-      padding-bottom 200px
-      &:before
-        content ""
-        position: absolute
-        top 64px
-        left calc(7% - 4px)
-        z-index 1
-        
-        height calc(100% - 64px)
-        width 4px
-        
-        background-image: url(../../assets/img/side-dot.png)
-        background-repeat: repeat-y
-        opacity 0.6
-        
-  .powerfull-analytics
-    max-width none
-    .wrap
-      position: relative;
-      z-index: 999;
-      max-width: 800px;
-      margin: 0 auto;
-      // padding-top: 100px;
-      >p
-        text-align center
-      img
-        margin 0 auto
-      header
-        @media (min-width 700px)
-          display block
-        img
-          display block
-          margin 0 auto
-          margin-bottom 30px
-          @media (max-width 700px)
-            max-width 90px
-            margin 0
+    .hero
+        background-image url(../../assets/img/features-bg.jpg);
     
-  .dashboard
-    display flex
-    align-items center
-    position relative
-    margin-top 60px
-    @media (max-width 700px)
-      flex-direction column
-    .dashboard-img
-      flex-grow 1
-      position relative
-      overflow hidden
-      height 50vh
-      @media (max-width 700px)
-        width 100%
-      img
-        position absolute
-        right 0
-        top 0
-        // max-width 900px
-        height auto
-        width 100%
-        // margin-left -100%
-        // position apsolute
-        // float left
-    aside
-      flex-grow 1
-      max-width 50%
-      padding-left 30px
-      text-align center
-      @media (max-width 700px)
-        max-width 100%
-        padding 30px 3%
-      h3
-        margin-bottom 60px
-      .cta-a,span
-        display block
-        margin-top 20px
-
-  .blue-bg
-    background-color $color-bg-dark
-    padding-top 40px
-    &:after
-      content none
-    
-  .feature-list
-    margin-top 130px
-    position: relative;
-    z-index: 999;
-    @media (max-width 700px)
-      margin-top 60px
-    figure
-      display flex
-      align-items flex-end
-      margin-bottom 200px
-      &:last-child
-        margin 0
-      @media (max-width 700px)
-        align-items flex-start
-        // background-color #afa
-        flex-direction column-reverse
-        margin-bottom 120px
-        .info
-          padding 30px 0 0 15%
-      
-    .info
-      order 1
-      padding-right 30px
-      
-    h3
-      margin-bottom 10px
-      
-    figcaption
-      font-size 22px
-      line-height 32px
-      
-    .comment .info
-      @media (min-width 700px)
-        order 2
-        padding 0 0 0 30px
-        text-align right
-      
-    img
-      order 2
-      min-width 370px
-      border-radius 4px
-      box-shadow: 0px 0px 10px 1px rgba(42,43,51,1);
-      @media (max-width 410px)
-        min-width 200px
-        width 100%
+    .feature_list
+        margin-top emRhythm(4, $base-em-font-size)
+        .feature_section
+            span()
+            .feature_image
+                span(1/2)
+            .feature_description
+                span(1/2)
+                text-align center
+                padding-top emRhythm(15, $base-em-font-size)
+                h3
+                    display inline-block
+                    border-bottom 2px solid $link-color
+                    rhythmBorderBottom(2, 3, $ms-up1)
+                p
+                    margin 0 auto
+                    margin-top emRhythm(3, $base-em-font-size)
+                    max-width 250px
+                    
