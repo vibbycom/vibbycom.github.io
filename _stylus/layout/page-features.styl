@@ -9,12 +9,31 @@
         margin-top emRhythm(4, $base-em-font-size)
         .feature_section
             span()
+            &:nth-child(odd)
+                shift(1/2, span)
+                +below($sm + 100)
+                    unshift()
+                .feature_image
+                    shift(-2/2, span)
+                    +below($sm + 100)
+                        unshift()
             .feature_image
                 span(1/2)
+                // &:nth-child(even)
+                //     shift(1/2, span)
+                +below($sm + 100)
+                    stack()
+                    text-align center
+                    img
+                        max-width 100%
             .feature_description
                 span(1/2)
                 text-align center
                 padding-top emRhythm(15, $base-em-font-size)
+                +below($sm + 100)
+                    stack()
+                    text-align center
+                    padding-top emRhythm(4, $base-em-font-size)
                 h3
                     display inline-block
                     border-bottom 2px solid $link-color
@@ -23,4 +42,6 @@
                     margin 0 auto
                     margin-top emRhythm(3, $base-em-font-size)
                     max-width 250px
+                    +below($sm + 100)
+                        margin-bottom emRhythm(3, $base-em-font-size)
                     

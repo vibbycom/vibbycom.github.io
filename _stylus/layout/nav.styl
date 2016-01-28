@@ -3,8 +3,8 @@
 .logo
     width 84px
     height 29px
-    display inline-block
-    padding-top 10px
+    display block
+    margin-top 10px
     float left
     margin-right 30px
     img
@@ -25,7 +25,7 @@ nav.main-nav
     .container
         overflow hidden
 
-    ul,li,a
+    ul,li
         display inline-block
         line-height 52px
     ul
@@ -41,20 +41,21 @@ nav.main-nav
     .left-nav
         float left
         li
-            margin-right 30px
+            &:not(:last-child)
+                margin-right 30px
     .right-nav
         float right
         transition all 0.4s ease
         
     &.translate-right
         .right-nav
-            +above($sm)
+            +above($sm + 30)
                 transform translateX(155px)
             
     li.c2a-btn
         line-height 20px
         margin-top 9px
-        +above($sm)
+        +above($sm + 30)
             margin-left 20px
         a
             line-height 20px
@@ -66,7 +67,7 @@ nav.main-nav
     
     .navs
         transition all 0.4s ease
-        +below($sm)
+        +below($sm + 30)
             position fixed
             right -100%
             top 0
@@ -93,7 +94,7 @@ nav.main-nav
         display block
         &:focus
             outline none
-        +above($sm)
+        +above($sm + 30)
             display none
         .sh
             content ""
