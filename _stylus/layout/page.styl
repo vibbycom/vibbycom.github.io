@@ -28,6 +28,8 @@
         .benefit
             text-align center
             center(max-width = $xs)
+            +below($md)
+                margin-bottom emRhythm(3, $base-em-font-size)
             +above($md)
                 col(1/3, cycle: 3)
                 text-align center
