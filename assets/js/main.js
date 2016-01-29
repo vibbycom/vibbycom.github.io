@@ -1,23 +1,34 @@
 //
 
+var tabsInterval = undefined;
+var tabs; //grab tabs
+var contents; //grab contents
+
+var currentIndex = 0;
+var totalNumberOfFeatureTabs = 3;
+
 $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll < 70) {
-        $(".main-nav").removeClass("scroll");
-    }
-    if (scroll >= 70) {
-        $(".main-nav").addClass("scroll");
-    }
-    if (scroll >= 400) {
-        $(".main-nav").removeClass("translate-right");
-    }
-    if (scroll < 400) {
-        $(".main-nav").addClass("translate-right");
-    }
+  var scroll = $(window).scrollTop();
+  if (scroll < 70) {
+    $(".main-nav").removeClass("scroll");
+  }
+  if (scroll >= 70) {
+    $(".main-nav").addClass("scroll");
+  }
+  if (scroll >= 400) {
+    $(".main-nav").removeClass("translate-right");
+  }
+  if (scroll < 400) {
+    $(".main-nav").addClass("translate-right");
+  }
 });
 
 //Tabs on landing
 $(document).ready(function () {
+
+  tabs = $('.tabs-titles li'); //grab tabs
+  contents = $('.tabs-contents li'); //grab contents
+
   $('.accordion-tabs').each(function() {
     $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
   });
@@ -35,14 +46,22 @@ $(document).ready(function () {
     }
   });
 
-  var tabs = $('.tabs-titles li'); //grab tabs
-  var contents = $('.tabs-contents li'); //grab contents
+  tabsInterval = setInterval(function(){
+    currentIndex ++;
+    currentIndex %= totalNumberOfFeatureTabs;
+    switchTabContent(currentIndex);
+  }, 5000);
 
-  tabs.bind('click',function(){
+  function switchTabContent(idx) {
     contents.hide(); //hide all contents
     tabs.removeClass('current'); //remove 'current' classes
-    $(contents[$(this).index()]).show(); //show tab content that matches tab title index
-    $(this).addClass('current'); //add current class on clicked tab title
+    $(contents[idx]).show(); //show tab content that matches tab title index
+    $(tabs[idx]).addClass('current'); //add current class on clicked tab title
+  }
+
+  tabs.bind('click',function(){
+    clearInterval(tabsInterval);
+    switchTabContent($(this).index());
   });
 
   //change call to action link on small screens
