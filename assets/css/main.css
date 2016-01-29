@@ -826,22 +826,22 @@ h5 {
 
 /* line 48 : /Developer/Vibby/vibbycom.github.io/_stylus/modules/tabs.styl */
 .accordion-tabs .tab-content.cm {
-  background-image: url("/assets/img/cm-bg.png");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/cm-bg.png");
 }
 
 /* line 50 : /Developer/Vibby/vibbycom.github.io/_stylus/modules/tabs.styl */
 .accordion-tabs .tab-content.education {
-  background-image: url("/assets/img/education-bg.png");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/education-bg.png");
 }
 
 /* line 52 : /Developer/Vibby/vibbycom.github.io/_stylus/modules/tabs.styl */
 .accordion-tabs .tab-content.gaming {
-  background-image: url("/assets/img/gamers-bg.png");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/gamers-bg.png");
 }
 
 /* line 54 : /Developer/Vibby/vibbycom.github.io/_stylus/modules/tabs.styl */
 .accordion-tabs .tab-content.sports {
-  background-image: url("/assets/img/sports-bg.png");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/sports-bg.png");
 }
 
 /* line 14 : /Developer/Vibby/vibbycom.github.io/_stylus/modules/tabs.styl */
@@ -1689,7 +1689,7 @@ nav.main-nav .menu-icon .sh3 {
 
 /* line 25 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .landing-page {
-  background-image: url("../../assets/img/landing-bg.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/landing-bg.jpg");
 }
 
 /* line 28 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-landing.styl */
@@ -2130,13 +2130,13 @@ nav.main-nav .menu-icon .sh3 {
 
 /* line 165 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-about.styl */
 .cities .new-york {
-  background: url("../img/town-ny.jpg") no-repeat center center;
+  background: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/about/town-ny.jpg") no-repeat center center;
   background-size: cover;
 }
 
 /* line 168 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-about.styl */
 .cities .zagreb {
-  background: url("../img/town-zg.jpg") no-repeat center center;
+  background: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/about/town-zg.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -2144,7 +2144,7 @@ nav.main-nav .menu-icon .sh3 {
 
 /* line 175 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-about.styl */
 .about .hero {
-  background: url("../img/team-bg.jpg") fixed;
+  background: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/about/team-bg.jpg") fixed;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -2374,7 +2374,7 @@ nav.main-nav .menu-icon .sh3 {
 
 /* line 4 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-esports.styl */
 .esports .hero {
-  background-image: url("../../assets/img/esports-bg.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/esports-bg.jpg");
 }
 
 /* line 6 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-esports.styl */
@@ -2417,7 +2417,7 @@ nav.main-nav .menu-icon .sh3 {
   clear: both;
 }
 
-/* line 1 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-esports.styl */
+/* line 63 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-esports.styl */
 
 /* line 1 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-sports.styl */
 
@@ -2686,7 +2686,7 @@ nav.main-nav .menu-icon .sh3 {
   -webkit-filter: grayscale(0%);
 }
 
-/* line 46 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-sports.styl */
+/* line 1 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-sports.styl */
 
 /* line 1 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-features.styl */
 
@@ -2694,7 +2694,7 @@ nav.main-nav .menu-icon .sh3 {
 
 /* line 5 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-features.styl */
 .features .hero {
-  background-image: url("../../assets/img/features-bg.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/features/features-bg.jpg");
 }
 
 /* line 8 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-features.styl */
@@ -2880,7 +2880,7 @@ nav.main-nav .menu-icon .sh3 {
 
 /* line 4 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-education.styl */
 .education .hero {
-  background-image: url("../../assets/img/education-bg1.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/education-bg1.jpg");
 }
 
 /* line 83 : /Developer/Vibby/vibbycom.github.io/_stylus/layout/page-education.styl */
