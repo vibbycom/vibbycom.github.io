@@ -1146,9 +1146,9 @@ h5 {
   }
 }
 
-/* line 48 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/grid.styl */
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/grid.styl */
 
-/* line 19 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
 
 /* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
 .vertical-tabs {
@@ -1228,22 +1228,20 @@ h5 {
 /* line 9 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
 .vertical-tabs .tabs-titles li {
   cursor: pointer;
+  float: left;
   padding: 25px 20px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   margin-bottom: 20px;
 }
 
-/* line 15 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+/* line 14 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
 .vertical-tabs .tabs-titles li .text {
   margin-left: 20px;
+  float: left;
+  max-width: 59%;
+  max-width: calc(100% - 160px);
 }
 
-/* line 17 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+/* line 19 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
 .vertical-tabs .tabs-titles li h3 {
   color: #363c4d;
   border-bottom: 2px solid #d5edff;
@@ -1251,7 +1249,14 @@ h5 {
   margin-bottom: 15px;
 }
 
-/* line 23 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+/* line 24 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+.vertical-tabs .tabs-titles li .tab-img {
+  width: 140px;
+  height: 140px;
+  float: left;
+}
+
+/* line 29 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
 @media only screen and (min-width: 992px) {
 
 /* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
@@ -1260,13 +1265,13 @@ h5 {
     box-shadow: 0 10px 20px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.2);
   }
 
-/* line 27 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+/* line 33 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
   .vertical-tabs .tabs-titles li.current h3 {
     border-bottom: 2px solid #2ca3ff;
   }
 }
 
-/* line 32 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+/* line 38 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
 .vertical-tabs .tabs-contents {
   height: 100%;
   float: left;
@@ -1301,19 +1306,19 @@ h5 {
   }
 }
 
-/* line 38 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+/* line 44 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
 .vertical-tabs .tabs-contents .content {
   height: 100%;
   text-align: center;
 }
 
-/* line 42 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+/* line 48 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
 .vertical-tabs .tabs-contents li {
   height: 100%;
   display: none;
 }
 
-/* line 47 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
+/* line 53 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/tabs.styl */
 .vertical-tabs .tabs-contents li:first-child {
   display: block /* first one content displayed by default */;
 }
@@ -1856,7 +1861,7 @@ nav.main-nav .menu-icon .sh3 {
   margin-top: 25px;
 }
 
-/* line 1 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+/* line 217 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 
 /* line 2 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-about.styl */
 
