@@ -1,14 +1,14 @@
 //
 //
 
-.public-page
+.about
   position relative
   font-family $font-regular
 
   .hero
     position relative
     z-index 1
-    padding-top 56px
+    // padding-top 56px
 
     .content
       width: 100%;
@@ -66,7 +66,7 @@
       background-color #fff
 
   article
-    max-width 660px
+    max-width $sm
     padding 0 15px
     margin 0 auto
     padding-bottom 100px
@@ -182,38 +182,32 @@
     display none
 
   .team
-    display flex
-    justify-content flex-start
-    flex-wrap wrap
-    align-content space-between
-    margin-left -30px
-    margin-top 50px
-    li
-      position: relative
-      margin-left 30px
-      margin-bottom 60px
-      img
-        width 100px
-        height 100px
-        border-radius 50%
-      .info
-        position: absolute
-        width 200%
-        left -50%
-        text-align: center
-        margin-top 10px
-        h4
-          font-family: $font-hind
-          font-size 14px
-          line-height 16px
-          font-weight 600
-          word-break keep-all
-        p
-          font-family: $font-medium
-          font-size 14px
-          line-height 1
-          color #aaaee5
-          color #C3C5E7
+    .team-member
+        col(1/5, cycle: 5)
+        text-align center
+        +below($sm)
+            col(1/3, uncycle: 5, cycle: 3)
+            text-align center
+        +below($xs)
+            col(1/2, uncycle: 3, cycle: 2)
+            text-align center
+        img
+            width 100px
+            height 100px
+            border-radius 50%
+        .info
+            text-align: center
+            margin-top 10px
+            h4
+                font-family: $font-hind
+                font-size 14px
+                line-height 16px
+                font-weight 600
+                word-break keep-all
+            p
+                line-height 1
+                color #aaaee5
+                color #C3C5E7
   .hiring
     display block
     text-align: center
