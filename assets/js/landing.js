@@ -47,4 +47,9 @@ $(document).ready(function () {
     clearInterval(tabsInterval);
     switchTabContent($(this).index());
   });
+
+  var video = document.getElementById('video-player');
+    video.addEventListener('click',function(){
+        video.play();
+    },false);
 });

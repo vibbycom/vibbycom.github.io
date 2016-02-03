@@ -34,15 +34,47 @@
     .demo-video
         position relative
         text-align center
-        top -100px
+        top -130px
         +below($sm)
             display none
+        .browser-top
+            height 33px
+        .video-player
+            border-radius 0px 0px 5px 5px
+            cursor pointer
 
     .features
         // background-color #aaa
         cf()
-        +below($sm)
-            padding-top 40px
+        padding-top 40px
+        padding-bottom 7px
+            
+    .how_it_works
+        margin-top 6px
+        padding-top 40px
+        padding-bottom 50px
+        .benefit
+            text-align center
+            center(max-width = $xs)
+            +below($md)
+                margin-bottom emRhythm(3, $base-em-font-size)
+            +above($md)
+                col(1/3, cycle: 3)
+                text-align center
+            &__icon
+                height 140px
+                width 140px
+                border-radius 50%
+                border 3px solid #BBE1FF
+                margin 0 auto
+                display flex
+                align-items center
+                justify-content center
+                margin-bottom 30px
+                setType(7, $ms-up3)
+                color $link-color
+            p
+                margin-bottom 5px
 
     .user-quotes
         background-color #E1E5F1
