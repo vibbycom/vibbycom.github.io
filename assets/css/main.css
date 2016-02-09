@@ -1729,7 +1729,7 @@ nav.main-nav .menu-icon .sh3 {
   text-align: center;
   top: -130px;
 }
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 992px) {
 
 /* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
   .landing .demo-video {
@@ -1768,12 +1768,18 @@ nav.main-nav .menu-icon .sh3 {
 
 /* line 52 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .how_it_works {
-  margin-top: 6px;
   padding-top: 40px;
   padding-bottom: 50px;
 }
+@media only screen and (min-width: 992px) {
 
-/* line 56 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+/* line 144 : /Users/neven/Developer/vibbycom.github.io/node_modules/rupture/rupture/index.styl */
+  .landing .how_it_works {
+    margin-top: 6px;
+  }
+}
+
+/* line 57 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .how_it_works .benefit {
   text-align: center;
   width: auto;
@@ -1841,7 +1847,7 @@ nav.main-nav .menu-icon .sh3 {
   }
 }
 
-/* line 64 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+/* line 65 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .how_it_works .benefit__icon {
   height: 140px;
   width: 140px;
@@ -1863,12 +1869,12 @@ nav.main-nav .menu-icon .sh3 {
   color: #2ca3ff;
 }
 
-/* line 76 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+/* line 77 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .how_it_works .benefit p {
   margin-bottom: 5px;
 }
 
-/* line 79 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+/* line 80 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .user-quotes {
   background-color: #e1e5f1;
   padding: 50px 0px;
@@ -1892,7 +1898,7 @@ nav.main-nav .menu-icon .sh3 {
   clear: both;
 }
 
-/* line 83 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+/* line 84 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .user-quotes .quote {
   text-align: left;
   background-color: #fff;
@@ -1952,15 +1958,15 @@ nav.main-nav .menu-icon .sh3 {
     clear: both;
   }
 
-/* line 92 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+/* line 93 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
   .landing .user-quotes .quote:last-child {
     margin-bottom: 0px;
   }
 }
 
-/* line 94 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
-
 /* line 95 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+
+/* line 96 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .user-quotes .quote .user__image {
   width: 60px;
   height: 60px;
@@ -1971,23 +1977,23 @@ nav.main-nav .menu-icon .sh3 {
   overflow: hidden;
 }
 
-/* line 103 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+/* line 104 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .user-quotes .quote .user__image img {
   width: 60px;
   height: 60px;
 }
 
-/* line 106 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+/* line 107 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .user-quotes .quote .user__name {
   font-size: $ms-up;
 }
 
-/* line 108 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+/* line 109 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .user-quotes .quote .user__role {
   color: #777;
 }
 
-/* line 110 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
+/* line 111 : /Users/neven/Developer/vibbycom.github.io/_stylus/layout/page-landing.styl */
 .landing .user-quotes .quote__text {
   color: #777;
   margin-top: 25px;

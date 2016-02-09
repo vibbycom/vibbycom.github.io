@@ -35,7 +35,7 @@
         position relative
         text-align center
         top -130px
-        +below($sm)
+        +below($md)
             display none
         .browser-top
             height 33px
@@ -50,9 +50,10 @@
         padding-bottom 7px
             
     .how_it_works
-        margin-top 6px
         padding-top 40px
         padding-bottom 50px
+        +above($md)
+            margin-top 6px
         .benefit
             text-align center
             center(max-width = $xs)
