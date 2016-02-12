@@ -52,4 +52,16 @@ $(document).ready(function () {
     video.addEventListener('click',function(){
         video.play();
     },false);
+
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    console.log(scroll);
+      if (scroll >= 200) {
+        video.play();
+      }
+    });
+    setTimeout(function (){
+      video.play();
+    }, 5000);
+
 });
