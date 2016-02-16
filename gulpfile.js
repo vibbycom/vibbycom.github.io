@@ -10,7 +10,7 @@ gulp.task('stylus', function () {
   return gulp.src('./_stylus/_main.styl')
     .pipe(stylus({
       compress: false,
-      linenos: true
+      linenos: false
     }))
     .on('error', errorHandler('stylus error'))
     .pipe(autoprefixer({
@@ -27,14 +27,14 @@ gulp.task('stylus', function () {
 //Watching on stylus files
 gulp.task('watch', function(){
   gulp.watch('./_stylus/**/*.styl', ['stylus']);
-})
+});
 
 //Default task
 gulp.task('default', function (callback) {
   runSequence(['stylus', 'watch'],
     callback
   )
-})
+});
 
 var errorHandler = function (title) {
   return function(err) {
