@@ -23,8 +23,10 @@ $(document).ready(function () {
   if (query) {
     console.log('here');
     $('.productHunts').show();
+    $('.regularHeadline').hide();
   } else {
     $('.productHunts').hide();
+    $('.regularHeadline').show();
   }
   //change call to action link on small screens
   if ($(window).width() < 730) {

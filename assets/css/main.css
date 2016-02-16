@@ -554,12 +554,7 @@ h5 {
   background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/sports-bg.png");
 }
 .page .productHunts {
-  display: inline-block;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  color: #fff;
-  padding-top: 70px;
+  display: none;
 }
 .page .block {
   margin-bottom: 100px;
@@ -911,7 +906,6 @@ nav.main-nav {
   z-index: 9999;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  -ms-grid-row-align: center;
   align-items: center;
   padding-top: 10px;
   transition: all 0.2s ease;
