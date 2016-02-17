@@ -1,7 +1,40 @@
 //Page
+.productHunts
+    display none
+    background #da552f
+    color #fff
+    padding 40px 0px
+    max-height 220px
+    +below($sm)
+        padding 68px 0px
+    +below(450px)
+        padding 32px 0px
+    .container
+        text-align center
+    &-msg
+        display inline-block
+        center(850px)
+        +below($md)
+            uncenter()
+            center(600px)
+        img
+            width 150px
+            float left
+            margin-right 15px
+            +below($sm)
+                display none
+        h1
+            float left
+            margin-top 15px
+            +below($sm)
+                float none
+                margin-top 0px
+        h3
+            float left
+            +below($sm)
+                float none
+
 .page
-    .productHunts
-        display none
 
     .block
         // background-color #ccc

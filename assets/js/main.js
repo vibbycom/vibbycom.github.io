@@ -1,10 +1,10 @@
 
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
-  if (scroll < 70) {
+  if (scroll < 220) {
     $(".main-nav").removeClass("scroll");
   }
-  if (scroll >= 70) {
+  if (scroll >= 220) {
     $(".main-nav").addClass("scroll");
   }
   if (scroll >= 400) {
@@ -17,17 +17,6 @@ $(window).scroll(function() {
 
 //Tabs on landing
 $(document).ready(function () {
-  //check for ?ref=producthunt and show him special message
-  $('.productHunts').hide();
-  var query = (/product/).test(window.location.href);
-  if (query) {
-    console.log('here');
-    $('.productHunts').show();
-    $('.regularHeadline').hide();
-  } else {
-    $('.productHunts').hide();
-    $('.regularHeadline').show();
-  }
   //change call to action link on small screens
   if ($(window).width() < 730) {
     $(".cta__primary--big, .cta__primary--sm").attr("href", "https://www.vibby.com/explore/");

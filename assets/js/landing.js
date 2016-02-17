@@ -13,6 +13,17 @@ $(document).ready(function () {
   tabs = $('.tabs-titles li'); //grab tabs
   contents = $('.tabs-contents li'); //grab contents
 
+    //check for ?ref=producthunt and show him special message
+  $('.productHunts').hide();
+  var query = (/product/).test(window.location.href);
+  if (query) {
+    $('.productHunts').show();
+    $('.main-nav').css({'top':'220px','position':'absolute'});
+    $('.scroll').css({'top':'0px !important','position':'fixed !important'}); //if 220px is scrolled and user is from producthunt site
+  } else {
+    $('.productHunts').hide();
+  }
+
   $('.accordion-tabs').each(function() {
     $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
   });
