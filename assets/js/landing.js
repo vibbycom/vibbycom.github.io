@@ -13,16 +13,23 @@ $(document).ready(function () {
   tabs = $('.tabs-titles li'); //grab tabs
   contents = $('.tabs-contents li'); //grab contents
 
-    //check for ?ref=producthunt and show him special message
+  // Start producthunt check for ?ref=producthunt and show him special message
   $('.productHunts').hide();
   var query = (/product/).test(window.location.href);
   if (query) {
+    $(window).scroll(function() {
+      if ($(document).scrollTop() >= 220) {
+        $('.main-nav').css({'position':'fixed', 'top':'0px'}); //if 220px is scrolled and user is from producthunt site
+      } else {
+        $('.main-nav').css({'position':'absolute', 'top':'220px'});
+      }
+    });
     $('.productHunts').show();
     $('.main-nav').css({'top':'220px','position':'absolute'});
-    $('.scroll').css({'top':'0px !important','position':'fixed !important'}); //if 220px is scrolled and user is from producthunt site
   } else {
     $('.productHunts').hide();
   }
+  // End producthunt banner
 
   $('.accordion-tabs').each(function() {
     $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
@@ -74,4 +81,8 @@ $(document).ready(function () {
       video.play();
     }, 5000);
 
+
+
+
 });
+
