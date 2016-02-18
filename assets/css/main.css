@@ -1873,10 +1873,6 @@ nav.main-nav .menu-icon .sh3 {
 .esports .hero {
   background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/esports-bg.jpg");
 }
-.esports .embedded {
-  padding-bottom: 30px;
-  margin-bottom: 0px;
-}
 .esports .embedded .vib-embed {
   float: left;
   clear: none;
@@ -1918,6 +1914,109 @@ nav.main-nav .menu-icon .sh3 {
   .esports .embedded .vib-embed:after {
     clear: both;
   }
+}
+.esports .our-partners .partners {
+  width: auto;
+  max-width: 730px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.esports .our-partners .partners:before,
+.esports .our-partners .partners:after {
+  content: "";
+  display: table;
+}
+.esports .our-partners .partners:after {
+  clear: both;
+}
+.esports .our-partners .partners .partner {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 17.5%;
+  margin-left: 0%;
+  margin-right: 10%;
+  position: relative;
+  left: 25.75%;
+  position: relative;
+  height: 100px;
+}
+.esports .our-partners .partners .partner:before,
+.esports .our-partners .partners .partner:after {
+  content: "";
+  display: table;
+}
+.esports .our-partners .partners .partner:after {
+  clear: both;
+}
+.esports .our-partners .partners .partner:nth-child(4n) {
+  margin-right: 0%;
+  float: right;
+}
+.esports .our-partners .partners .partner:nth-child(4n+1) {
+  clear: both;
+}
+@media only screen and (max-width: 544px) {
+  .esports .our-partners .partners .partner {
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    padding: 20px 60px;
+    height: 110px;
+  }
+  .esports .our-partners .partners .partner:before,
+  .esports .our-partners .partners .partner:after {
+    content: "";
+    display: table;
+  }
+  .esports .our-partners .partners .partner:after {
+    clear: both;
+  }
+  .esports .our-partners .partners .partner:nth-child(4n) {
+    margin-right: 3%;
+    float: left;
+  }
+  .esports .our-partners .partners .partner:nth-child(4n+1) {
+    clear: none;
+  }
+  .esports .our-partners .partners .partner:nth-child(1n) {
+    margin-right: 0%;
+    float: right;
+  }
+  .esports .our-partners .partners .partner:nth-child(1n+1) {
+    clear: both;
+  }
+}
+.esports .our-partners .partners .partner a {
+  display: block;
+}
+@media only screen and (min-width: 544px) {
+  .esports .our-partners .partners .partner a {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+.esports .our-partners .partners .partner img {
+  max-width: 100%;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: #808080;
+  -webkit-filter: grayscale(100%);
+  transition: all 0.2s ease;
+}
+.esports .our-partners .partners .partner img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
 }
 .sports .hero.bg0 {
   background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/sports/sports-bg0.jpg");
