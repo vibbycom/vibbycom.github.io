@@ -15,7 +15,7 @@ $(document).ready(function () {
 
   // Start producthunt check for ?ref=producthunt and show him special message
   $('.productHunts').hide();
-  var query = (/product/).test(window.location.href);
+  var query = (/producthunt/).test(window.location.href);
   if (query) {
     $(window).scroll(function() {
       if ($(document).scrollTop() >= 220) {
