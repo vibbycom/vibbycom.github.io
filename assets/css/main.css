@@ -1655,7 +1655,7 @@ nav.main-nav .menu-icon .sh3 {
   float: left;
   clear: none;
   text-align: inherit;
-  width: 17.6%;
+  width: 22.75%;
   margin-left: 0%;
   margin-right: 3%;
   text-align: center;
@@ -1668,11 +1668,11 @@ nav.main-nav .menu-icon .sh3 {
 .about .team .team-member:after {
   clear: both;
 }
-.about .team .team-member:nth-child(5n) {
+.about .team .team-member:nth-child(4n) {
   margin-right: 0%;
   float: right;
 }
-.about .team .team-member:nth-child(5n+1) {
+.about .team .team-member:nth-child(4n+1) {
   clear: both;
 }
 @media only screen and (max-width: 730px) {
@@ -1693,11 +1693,11 @@ nav.main-nav .menu-icon .sh3 {
   .about .team .team-member:after {
     clear: both;
   }
-  .about .team .team-member:nth-child(5n) {
+  .about .team .team-member:nth-child(4n) {
     margin-right: 3%;
     float: left;
   }
-  .about .team .team-member:nth-child(5n+1) {
+  .about .team .team-member:nth-child(4n+1) {
     clear: none;
   }
   .about .team .team-member:nth-child(3n) {
