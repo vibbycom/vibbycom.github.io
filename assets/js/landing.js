@@ -25,7 +25,7 @@ $(document).ready(function () {
       }
     });
     $('.productHunts').show();
-    $('.main-nav').css({'top':'220px','position':'absolute'});
+    $('.main-nav').css({'top':'220px','position':'absolute','transition':'200ms background ease-in'});
   } else {
     $('.productHunts').hide();
   }
