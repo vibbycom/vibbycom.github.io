@@ -995,7 +995,6 @@ nav.main-nav {
   z-index: 9999;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  -ms-grid-row-align: center;
   align-items: center;
   padding-top: 10px;
   transition: all 0.2s ease;
@@ -1942,7 +1941,7 @@ nav.main-nav .menu-icon .sh3 {
   margin-left: 0%;
   margin-right: 10%;
   position: relative;
-  left: 25.75%;
+  left: 12.875%;
   position: relative;
   height: 100px;
 }
@@ -1997,6 +1996,7 @@ nav.main-nav .menu-icon .sh3 {
 }
 .esports .our-partners .partners .partner a {
   display: block;
+  text-align: center;
 }
 @media only screen and (min-width: 544px) {
   .esports .our-partners .partners .partner a {
