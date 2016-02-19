@@ -1962,6 +1962,8 @@ nav.main-nav .menu-icon .sh3 {
 }
 @media only screen and (max-width: 544px) {
   .esports .our-partners .partners .partner {
+    position: static;
+    left: 0;
     float: left;
     clear: none;
     text-align: inherit;
@@ -1969,7 +1971,7 @@ nav.main-nav .menu-icon .sh3 {
     margin-left: 0%;
     margin-right: 3%;
     padding: 20px 60px;
-    height: 110px;
+    height: 130px;
   }
   .esports .our-partners .partners .partner:before,
   .esports .our-partners .partners .partner:after {
