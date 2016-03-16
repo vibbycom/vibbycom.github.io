@@ -15,14 +15,15 @@
             center($sm)
             .partner
                 col(1/4, cycle: 4, gutter: 10)
-                shift(1/8)
                 position relative
                 height 100px                
                 +below($xs)
-                    unshift(1/8)
                     col(1, uncycle: 4, cycle: 1)
                     padding 20px 60px
-                    height 130px
+                    height 160px
+                    display flex
+                    justify-content center
+                    align-items center
                 a
                     display block
                     text-align center
