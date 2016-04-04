@@ -14,13 +14,13 @@
         .partners
             center($sm)
             .partner
-                col(1/5, cycle: 5, gutter: 10)
+                col(1/3, cycle: 3, gutter: 10)
                 position relative
                 height 100px                
                 +below($xs)
-                    col(1, uncycle: 5, cycle: 1)
-                    padding 20px 60px
-                    height 160px
+                    col(1, uncycle: 3, cycle: 1)
+                    padding 20px
+                    height 200px
                     display flex
                     justify-content center
                     align-items center
@@ -28,7 +28,7 @@
                     display block
                     text-align center
                     +above($xs)
-                        align(vertical)
+                        align(both)
                 img
                     max-width 100%
                     filter url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */

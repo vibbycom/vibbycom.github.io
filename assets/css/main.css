@@ -1937,7 +1937,7 @@ nav.main-nav .menu-icon .sh3 {
   float: left;
   clear: none;
   text-align: inherit;
-  width: 12%;
+  width: 26.66666666666666%;
   margin-left: 0%;
   margin-right: 10%;
   position: relative;
@@ -1951,11 +1951,11 @@ nav.main-nav .menu-icon .sh3 {
 .esports .our-partners .partners .partner:after {
   clear: both;
 }
-.esports .our-partners .partners .partner:nth-child(5n) {
+.esports .our-partners .partners .partner:nth-child(3n) {
   margin-right: 0%;
   float: right;
 }
-.esports .our-partners .partners .partner:nth-child(5n+1) {
+.esports .our-partners .partners .partner:nth-child(3n+1) {
   clear: both;
 }
 @media only screen and (max-width: 544px) {
@@ -1966,8 +1966,8 @@ nav.main-nav .menu-icon .sh3 {
     width: 100%;
     margin-left: 0%;
     margin-right: 3%;
-    padding: 20px 60px;
-    height: 160px;
+    padding: 20px;
+    height: 200px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -1986,11 +1986,11 @@ nav.main-nav .menu-icon .sh3 {
   .esports .our-partners .partners .partner:after {
     clear: both;
   }
-  .esports .our-partners .partners .partner:nth-child(5n) {
+  .esports .our-partners .partners .partner:nth-child(3n) {
     margin-right: 3%;
     float: left;
   }
-  .esports .our-partners .partners .partner:nth-child(5n+1) {
+  .esports .our-partners .partners .partner:nth-child(3n+1) {
     clear: none;
   }
   .esports .our-partners .partners .partner:nth-child(1n) {
@@ -2011,8 +2011,9 @@ nav.main-nav .menu-icon .sh3 {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
 .esports .our-partners .partners .partner img {
