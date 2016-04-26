@@ -553,27 +553,40 @@ h5 {
 .accordion-tabs .tab-content.sports {
   background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/sports-bg.png");
 }
-.productHunts {
+.ribbon {
   display: none;
-  background: #da552f;
-  color: #fff;
   padding: 40px 0px;
   max-height: 220px;
 }
+.ribbon.producthunts {
+  background: #da552f;
+  color: #fff;
+}
+.ribbon.roughdrafts {
+  background: #1b1b1b;
+  color: #fff;
+}
+.ribbon.roughdrafts img {
+  border: 1px solid #fff;
+  width: 70px;
+}
+.ribbon.roughdrafts .ribbon-msg {
+  max-width: 420px;
+}
 @media only screen and (max-width: 730px) {
-  .productHunts {
+  .ribbon {
     padding: 68px 0px;
   }
 }
 @media only screen and (max-width: 450px) {
-  .productHunts {
+  .ribbon {
     padding: 32px 0px;
   }
 }
-.productHunts .container {
+.ribbon .container {
   text-align: center;
 }
-.productHunts-msg {
+.ribbon-msg {
   display: inline-block;
   width: auto;
   max-width: 850px;
@@ -584,16 +597,16 @@ h5 {
   padding-left: 0;
   padding-right: 0;
 }
-.productHunts-msg:before,
-.productHunts-msg:after {
+.ribbon-msg:before,
+.ribbon-msg:after {
   content: "";
   display: table;
 }
-.productHunts-msg:after {
+.ribbon-msg:after {
   clear: both;
 }
 @media only screen and (max-width: 992px) {
-  .productHunts-msg {
+  .ribbon-msg {
     max-width: none;
     margin-right: 0;
     margin-left: 0;
@@ -608,40 +621,40 @@ h5 {
     padding-left: 0;
     padding-right: 0;
   }
-  .productHunts-msg:before,
-  .productHunts-msg:after {
+  .ribbon-msg:before,
+  .ribbon-msg:after {
     content: "";
     display: table;
   }
-  .productHunts-msg:after {
+  .ribbon-msg:after {
     clear: both;
   }
 }
-.productHunts-msg img {
+.ribbon-msg img {
   width: 150px;
   float: left;
   margin-right: 15px;
 }
 @media only screen and (max-width: 730px) {
-  .productHunts-msg img {
+  .ribbon-msg img {
     display: none;
   }
 }
-.productHunts-msg h1 {
+.ribbon-msg h1 {
   float: left;
   margin-top: 15px;
 }
 @media only screen and (max-width: 730px) {
-  .productHunts-msg h1 {
+  .ribbon-msg h1 {
     float: none;
     margin-top: 0px;
   }
 }
-.productHunts-msg h3 {
+.ribbon-msg h3 {
   float: left;
 }
 @media only screen and (max-width: 730px) {
-  .productHunts-msg h3 {
+  .ribbon-msg h3 {
     float: none;
   }
 }

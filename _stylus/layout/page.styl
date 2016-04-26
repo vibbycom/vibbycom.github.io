@@ -1,10 +1,19 @@
 //Page
-.productHunts
+.ribbon
     display none
-    background #da552f
-    color #fff
     padding 40px 0px
     max-height 220px
+    &.producthunts
+        background #da552f
+        color #fff
+    &.roughdrafts
+        background #1B1B1B
+        color #fff
+        img
+            border 1px solid #fff
+            width 70px
+        .ribbon-msg
+            max-width 420px
     +below($sm)
         padding 68px 0px
     +below(450px)
