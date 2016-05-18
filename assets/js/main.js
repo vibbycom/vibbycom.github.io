@@ -1,11 +1,31 @@
 
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
-  if (scroll < 220) {
+  var query = (/producthunt/).test(window.location.href);
+  var query1 = (/roughdrafts/).test(window.location.href);
+  if (query){
+    if (scroll < 220) {
     $(".main-nav").removeClass("scroll");
+    }
+    if (scroll >= 220) {
+      $(".main-nav").addClass("scroll");
+    }
   }
-  if (scroll >= 220) {
-    $(".main-nav").addClass("scroll");
+  else if (query1){
+    if (scroll < 150) {
+    $(".main-nav").removeClass("scroll");
+    }
+    if (scroll >= 150) {
+      $(".main-nav").addClass("scroll");
+    }
+  }
+  else{
+    if (scroll < 100) {
+    $(".main-nav").removeClass("scroll");
+    }
+    if (scroll >= 100) {
+      $(".main-nav").addClass("scroll");
+    }
   }
   if (scroll >= 400) {
     $(".main-nav").removeClass("translate-right");
