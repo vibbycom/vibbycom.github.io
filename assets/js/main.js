@@ -41,6 +41,21 @@ $(document).ready(function () {
   if ($(window).width() < 730) {
     $(".cta__primary--big, .cta__primary--sm").attr("href", "https://www.vibby.com/explore/");
   }
+
+  var video = document.getElementById('video-player');
+    video.addEventListener('click',function(){
+        video.play();
+    },false);
+
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+      if (scroll >= 200) {
+        video.play();
+      }
+    });
+    setTimeout(function (){
+      video.play();
+    }, 5000);
 });
 
 //mobile side menu

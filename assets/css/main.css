@@ -658,6 +658,69 @@ h5 {
     float: none;
   }
 }
+.page .hero {
+  background-color: #363c4d;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 185px 0 0px;
+  height: 640px;
+  margin: 0;
+}
+@media only screen and (max-width: 730px) {
+  .page .hero {
+    padding: 130px 0px 110px;
+    height: 460px;
+  }
+}
+.page .hero .block__title {
+  color: #fff;
+  position: relative;
+}
+.page .hero .block__description {
+  color: #f4f4f4;
+  position: relative;
+  width: auto;
+  max-width: 730px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.page .hero .block__description:before,
+.page .hero .block__description:after {
+  content: "";
+  display: table;
+}
+.page .hero .block__description:after {
+  clear: both;
+}
+.page .hero .container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.page .demo-video {
+  position: relative;
+  text-align: center;
+  top: -90px;
+}
+@media only screen and (max-width: 992px) {
+  .page .demo-video {
+    display: none;
+  }
+}
+.page .demo-video .browser-top {
+  height: 33px;
+}
+.page .demo-video .video-player {
+  border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
+}
 .page .sub-cta-copy {
   text-align: center;
   color: #fff;
@@ -719,22 +782,50 @@ h5 {
 }
 .page .benefits .benefit {
   text-align: center;
-  width: auto;
-  max-width: 544px;
-  float: none;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0;
-  padding-right: 0;
 }
-.page .benefits .benefit:before,
-.page .benefits .benefit:after {
+.page .benefits .benefit-left {
+  text-align: left;
+}
+.page .benefits .benefit-right {
+  text-align: right;
+}
+.page .benefits .benefit-text {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.page .benefits .benefit-text:before,
+.page .benefits .benefit-text:after {
   content: "";
   display: table;
 }
-.page .benefits .benefit:after {
+.page .benefits .benefit-text:after {
   clear: both;
+}
+.page .benefits .benefit-text:last-child {
+  margin-right: 0%;
+}
+.page .benefits .benefit-img {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.page .benefits .benefit-img:before,
+.page .benefits .benefit-img:after {
+  content: "";
+  display: table;
+}
+.page .benefits .benefit-img:after {
+  clear: both;
+}
+.page .benefits .benefit-img:last-child {
+  margin-right: 0%;
 }
 @media only screen and (max-width: 992px) {
   .page .benefits .benefit {
@@ -996,14 +1087,17 @@ h5 {
 }
 .logo {
   width: 84px;
-  height: 29px;
   display: block;
   margin-top: 10px;
   float: left;
   margin-right: 30px;
 }
-.logo img {
-  width: 100%;
+.logo svg {
+  fill: #fff;
+}
+.scroll svg .shape {
+  transition: all 0.4s ease;
+  fill: #6a7bff;
 }
 nav.main-nav {
   position: fixed;
@@ -1035,6 +1129,7 @@ nav.main-nav ul {
 }
 nav.main-nav li a {
   color: #e6e6e6;
+  display: inline-block;
 }
 nav.main-nav li a:hover {
   color: #fff;
@@ -1044,8 +1139,11 @@ nav.main-nav li {
   border-top: 4px solid transparent;
   transition: all 0.4s ease;
 }
-nav.main-nav li:hover {
-  border-top: 4px solid #fff;
+@media only screen and (min-width: 760px) {
+  nav.main-nav li:hover,
+  nav.main-nav li.active {
+    border-top: 4px solid #fff;
+  }
 }
 nav.main-nav .left-nav {
   float: left;
@@ -2388,7 +2486,13 @@ nav.main-nav .menu-icon .sh3 {
   }
 }
 .education .hero {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/education-bg1.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/education-bg2.jpg");
+  height: 570px;
+  padding: 125px 0 0px;
+}
+.education .edu-img img {
+  width: 100%;
+  max-width: 450px;
 }
 footer {
   background-color: #363c4d;

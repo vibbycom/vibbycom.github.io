@@ -2,13 +2,18 @@
 
 .logo
     width 84px
-    height 29px
     display block
     margin-top 10px
     float left
     margin-right 30px
-    img
-        width 100%
+    svg
+        fill #fff
+        
+.scroll
+    svg
+        .shape
+            transition all 0.4s ease
+            fill #6A7BFF
 
 nav.main-nav
     // background-color #ccc
@@ -36,6 +41,7 @@ nav.main-nav
         margin-bottom 0px
     li a
         color #fff - 10%
+        display inline-block
         &:hover
             color #fff
     li
@@ -43,7 +49,9 @@ nav.main-nav
         border-top 4px solid transparent
         transition all 0.4s ease
         &:hover
-            border-top 4px solid #fff
+        &.active
+            +above($sm + 30)
+                border-top 4px solid #fff
 
     .left-nav
         float left
