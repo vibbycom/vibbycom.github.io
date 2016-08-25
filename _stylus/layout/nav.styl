@@ -19,15 +19,18 @@ nav.main-nav
     height 52px
     z-index 9999
     align-items center
-    padding-top 10px
+    padding-top 20px
     transition all 0.2s ease
+    font-size 12px
+    text-transform uppercase
+    font-weight 500
     
     .container
         overflow hidden
 
     ul,li
         display inline-block
-        line-height 52px
+        line-height 48px
     ul
         margin-left 0px
         margin-bottom 0px
@@ -37,29 +40,42 @@ nav.main-nav
             color #fff
     li
         float left
+        border-top 4px solid transparent
+        transition all 0.4s ease
+        &:hover
+            border-top 4px solid #fff
 
     .left-nav
         float left
         li
             &:not(:last-child)
                 margin-right 30px
+            
     .right-nav
         float right
         transition all 0.4s ease
+        li
+            &:last-child
+                border-top 0
+            +above($sm + 30)
+                &:not(:first-child)
+                    margin-left 30px
         
     &.translate-right
         .right-nav
             +above($sm + 30)
-                transform translateX(155px)
+                transform translateX(172px)
             
     li.c2a-btn
         line-height 20px
         margin-top 9px
         +above($sm + 30)
-            margin-left 20px
+            margin-left 30px
         a
             line-height 20px
             color #fff
+            padding 7px 15px
+            font-size 12px
 
     &.scroll
         background-color $nav-bg
