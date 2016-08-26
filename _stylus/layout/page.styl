@@ -93,12 +93,12 @@
             // background-color #aca
             text-align center
             w($xl)
-            margin-bottom emRhythm(5, $base-em-font-size)
+            margin-bottom emRhythm(10, $base-em-font-size)
             +below($sm)
-                margin-bottom emRhythm(3, $base-em-font-size)
+                margin-bottom emRhythm(6, $base-em-font-size)
         &__title
             color $dark-color
-            margin-bottom emRhythm(3, $ms-up3)
+            margin-bottom emRhythm(6, $ms-up3)
             position relative
         &__description
             color #000 + 30%
@@ -109,16 +109,9 @@
             padding-top 40px
         .benefit
             text-align center
-            &-left
-                text-align left
-            &-right
-                text-align right
-            &-text
-                col(1/2)
-            &-img
-                col(1/2)
+            center(max-width = $xs)
             +below($md)
-                margin-bottom emRhythm(3, $base-em-font-size)
+                margin-bottom emRhythm(6, $base-em-font-size)
             +above($md)
                 col(1/3, cycle: 3)
                 text-align center

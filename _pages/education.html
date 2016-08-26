@@ -13,7 +13,10 @@ description: Vibby Education homepage
         <h3 class="block__description">
           Thousands of educators from around the world turn to Vibby to focus their students on the moments that matter.
         </h3>
-        <a href="/create" class="cta__primary--big z-shadow-1"><i class="fa fa-plus-circle"></i>Start creating</a>
+        <a href="/create" class="cta__primary--big z-shadow-1">
+          <svg viewBox="0 0 24 24">
+            <use xlink:href="../assets/img/plus-icon.svg#Artboard"></use>
+          </svg> Start creating</a>
         <p class="sub-cta-copy">It's free and easy to use.</p>
     </div>
   </section>
@@ -28,22 +31,90 @@ description: Vibby Education homepage
     </div>
   </section>
 
-  <section class="block benefits">
+  <section class="edu-benefits blue1 z-shadow-inner">
     <div class="container">
-      <div class="benefit-left">
-        <div class="benefit-text">
+      <div class="edu-benefit">
+        <div class="edu-benefit-img">
+          <div class="edu-img">
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/content-active.png" alt=""/>
+          </div>
+        </div>
+        <div class="edu-benefit-text">
           <h2>Leverage online content</h2>
           <h3>There is an endless sea of educational content available just a few clicks away. With Vibby you can leverage the most relevant parts of that content to focus your audience on the moments that matter.
           </h3>
-        </div>
-        <div class="benefit-img">
-          <div class="edu-img">
-            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/content.png" alt="Browser window"/>
+          <div class="edu-benefit-img-small">
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/content-active.png" alt="" />
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- Block END -->
+  
+  <section class="edu-benefits blue2">
+    <div class="container">
+      <div class="edu-benefit">
+        <div class="edu-benefit-text">
+          <h2>No video editing experience? No sweat!</h2>
+          <h3>We’ve made Vibby extremely easy to use because we believe everyone should have the ability to make the most of the incredible educational content available just a few clicks away.
+          </h3>
+          <div class="edu-benefit-img-small">
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/editing-active.png" alt="" />
+          </div>
+        </div>
+        <div class="edu-benefit-img">
+          <div class="edu-img">
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/editing-active.png" alt=""/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="edu-benefits blue3 z-shadow">
+    <div class="container">
+      <div class="edu-benefit">
+        <div class="edu-benefit-img">
+          <div class="edu-img">
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/time-active.png" alt=""/>
+          </div>
+        </div>
+        <div class="edu-benefit-text">
+          <h2>Save your time and your audience</h2>
+          <h3>Vibby not only saves time for the creator through a user-friendly highlight creation process, but also for the viewer who can watch only the highlighted parts of the video.
+          </h3>
+          <div class="edu-benefit-img-small">
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/time-active.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="explore-edu-vibs">
+    <div class="container">
+      <h2>Explore education vibs</h2>
+
+      <div class="text-center">
+        <a href="/explore/vibs?c=Education" class="cta__secondary z-shadow-1">Explore more</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="chrome-extension z-shadow-inner">
+    <div class="container text-center">
+      <h2>Chrome Extension</h2>
+      <div class="browser-top"><img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/browser_dark.png" alt="Browser window"/></div>
+      <video class="video-player z-shadow" id="video-player" poster="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/vibby-how-it-works.png" width="900" height="527" loop>
+        <source src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/chrome-extension.mp4" type="video/mp4">
+        <source src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/chrome-extension.webm" type="video/webm">
+      </video>
+      <h3>Install our Chrome extension to create highlights from any YouTube or Twitch video. Once installed the extension will place a “Highlight” button below the video player.</h3>
+      <div class="text-center">
+        <a href="/create" class="cta__primary--big z-shadow-1">
+        <i class="fa fa-chrome"></i> Install Extension</a>
+      </div>
+    </div>
+  </section>
 
 </div>

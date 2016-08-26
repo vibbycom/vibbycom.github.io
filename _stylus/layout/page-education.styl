@@ -10,3 +10,62 @@
         img
             width:100%
             max-width 450px
+    
+    .edu-benefits
+        padding 100px 0
+        &.blue1
+            background $blue1
+        &.blue2
+            background $blue2
+        &.blue3
+            background $blue3
+        .edu-benefit
+            text-align left
+            span()
+            display flex
+            align-items center
+            justify-content center
+            &-text
+                col(1/2)
+                +below($sm)
+                    span()
+                h2
+                    +above($sm)
+                        font-size 30px
+                h3
+                    margin-top emRhythm(4, 1)
+            &-img
+                col(1/2)
+                +below($sm)
+                    display none
+            &-img-small
+                margin-top 25px
+                text-align center
+                +above($sm)
+                    display none
+                img
+                    width 100%
+                    max-width 450px
+                    
+    .explore-edu-vibs
+        padding 80px 0
+        text-align center
+    
+    .chrome-extension
+        padding 80px 0
+        color #fff
+        background $link-color
+        background linear-gradient(to bottom, $link-color 0%,$purple 50%)
+        background -moz-linear-gradient(top, $link-color  0%, $purple 50%)
+        background -webkit-linear-gradient(top, $link-color  0%,$purple 50%)
+        .browser-top
+            height 33px
+        .video-player
+            border-radius 0px 0px 5px 5px
+            cursor pointer
+        h3
+            margin-top emRhythm(4, 1)
+            center(600px)
+        
+
+
