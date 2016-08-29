@@ -71,19 +71,21 @@ nav.main-nav
         
     &.translate-right
         .right-nav
-            +above($sm + 30)
+            +above($md)
                 transform translateX(172px)
             
     li.c2a-btn
         margin-top 7px
-        +above($sm + 30)
-            margin-left 30px
+        +below($md)
+            margin-left 0px !important
         a
             padding 7px 15px
             font-size 12px
             display inline-flex
             color #fff
             line-height 20px
+            +below($md)
+                display none
             svg
                 fill #fff
                 

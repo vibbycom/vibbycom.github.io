@@ -42,6 +42,33 @@ $(document).ready(function () {
     $(".cta__primary--big, .cta__primary--sm").attr("href", "https://www.vibby.com/explore/");
   }
 
+  var $container  = $('.cards-col'),
+  $articles = $container.children('.card'),
+  timeout;
+
+  $articles.on( 'mouseenter', function( event ) {
+      
+    var $article  = $(this);
+    clearTimeout( timeout );
+    timeout = setTimeout( function() {
+      
+      if( $article.hasClass('active') ) return false;
+      
+      $articles.not($article).removeClass('active').addClass('blur');
+      
+      $article.removeClass('blur').addClass('active');
+      
+    }, 75 );
+    
+  });
+
+  $container.on( 'mouseleave', function( event ) {
+    
+    clearTimeout( timeout );
+    $articles.removeClass('active blur');
+    
+  });
+
   var video = document.getElementById('video-player');
     video.addEventListener('click',function(){
         video.play();
