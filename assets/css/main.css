@@ -1099,7 +1099,7 @@ nav.main-nav .container {
 nav.main-nav ul,
 nav.main-nav li {
   display: inline-block;
-  line-height: 48px;
+  line-height: 45px;
 }
 nav.main-nav ul {
   margin-left: 0px;
@@ -1148,7 +1148,7 @@ nav.main-nav .right-nav li:last-child {
   }
 }
 nav.main-nav li.c2a-btn {
-  margin-top: 7px;
+  margin-top: 9px;
 }
 @media only screen and (max-width: 992px) {
   nav.main-nav li.c2a-btn {
