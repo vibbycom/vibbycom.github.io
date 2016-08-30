@@ -69,12 +69,13 @@ $(document).ready(function () {
     
   });
 
-  var video = document.getElementById('video-player');
+  if ($('#video-player').length){
+    var video = document.getElementById('video-player');
     video.addEventListener('click',function(){
         video.play();
     },false);
 
-  $(window).scroll(function() {
+    $(window).scroll(function() {
     var scroll = $(window).scrollTop();
       if (scroll >= 200) {
         video.play();
@@ -83,6 +84,17 @@ $(document).ready(function () {
     setTimeout(function (){
       video.play();
     }, 5000);
+
+  }
+
+  if ($('#video-player-ce').length){
+
+  var videoCe = document.getElementById('video-player-ce');
+    videoCe.addEventListener('click',function(){
+        videoCe.play();
+    },false);
+  }
+  
 });
 
 //mobile side menu
