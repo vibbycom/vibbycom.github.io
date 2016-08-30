@@ -2679,6 +2679,14 @@ nav.main-nav .menu-icon .sh3 {
   width: 100%;
   max-width: 450px;
 }
+.education .explore-edu-vibs {
+  background: #f9f9fb;
+}
+@media only screen and (max-width: 730px) {
+  .education .explore-edu-vibs {
+    display: none;
+  }
+}
 .education .chrome-extension {
   color: #fff;
   background: #2ca3ff;
