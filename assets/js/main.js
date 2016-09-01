@@ -40,6 +40,7 @@ $(document).ready(function () {
   //change call to action link on small screens
   if ($(window).width() < 730) {
     $(".cta__primary--big, .cta__primary--sm").attr("href", "https://www.vibby.com/explore/");
+    $(".cta__primary--big span, .cta__primary--sm span").text("Explore now");
   }
 
   var $container  = $('.cards-col'),

@@ -1169,6 +1169,13 @@ nav.main-nav li.c2a-btn a {
     display: none;
   }
 }
+@media only screen and (max-width: 730px) {
+  nav.main-nav li.c2a-btn a {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
 nav.main-nav li.c2a-btn a svg {
   fill: #fff;
 }
@@ -1769,10 +1776,11 @@ nav.main-nav .menu-icon .sh3 {
 }
 .cities .city header h4 {
   font-size: 40px;
-  font-family: $font-bold;
+  font-weight: 500;
 }
 .cities .city header p {
   text-transform: uppercase;
+  max-width: none;
 }
 .cities .city aside {
   width: 100%;
