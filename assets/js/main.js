@@ -40,7 +40,62 @@ $(document).ready(function () {
   //change call to action link on small screens
   if ($(window).width() < 730) {
     $(".cta__primary--big, .cta__primary--sm").attr("href", "https://www.vibby.com/explore/");
+    $(".cta__primary--big span, .cta__primary--sm span").text("Explore now");
   }
+
+  var $container  = $('.cards-col'),
+  $articles = $container.children('.card'),
+  timeout;
+
+  $articles.on( 'mouseenter', function( event ) {
+      
+    var $article  = $(this);
+    clearTimeout( timeout );
+    timeout = setTimeout( function() {
+      
+      if( $article.hasClass('active') ) return false;
+      
+      $articles.not($article).removeClass('active').addClass('blur');
+      
+      $article.removeClass('blur').addClass('active');
+      
+    }, 75 );
+    
+  });
+
+  $container.on( 'mouseleave', function( event ) {
+    
+    clearTimeout( timeout );
+    $articles.removeClass('active blur');
+    
+  });
+
+  if ($('#video-player').length){
+    var video = document.getElementById('video-player');
+    video.addEventListener('click',function(){
+        video.play();
+    },false);
+
+    $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+      if (scroll >= 200) {
+        video.play();
+      }
+    });
+    setTimeout(function (){
+      video.play();
+    }, 5000);
+
+  }
+
+  if ($('#video-player-ce').length){
+
+  var videoCe = document.getElementById('video-player-ce');
+    videoCe.addEventListener('click',function(){
+        videoCe.play();
+    },false);
+  }
+  
 });
 
 //mobile side menu

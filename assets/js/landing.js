@@ -81,23 +81,5 @@ $(document).ready(function () {
     switchTabContent($(this).index());
   });
 
-  var video = document.getElementById('video-player');
-    video.addEventListener('click',function(){
-        video.play();
-    },false);
-
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-      if (scroll >= 200) {
-        video.play();
-      }
-    });
-    setTimeout(function (){
-      video.play();
-    }, 5000);
-
-
-
-
 });
 

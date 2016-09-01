@@ -1,11 +1,214 @@
-//Page eSports
+//Page education
 
 .education
+    section
+        padding 80px 0
+        +below($md)
+            padding 60px 0
+        +below($sm)
+            padding 40px 0
+
     .hero
-        background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/education-bg1.jpg)
-    // .embedded
-    //     padding-bottom 30px
-    //     margin-bottom 0px
-    //     .vib-embed
-    //         col(1/2, cycle:2)
-    //         margin-bottom 30px
+        background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/education-bg2.jpg)
+        height 570px
+        padding 125px 0 0px
+        +below($md)
+            height 420px            
+
+    .demo-video
+        padding 0
+    
+    .edu-benefits
+        &.blue1
+            background $blue1
+        &.blue2
+            background $blue2
+        &.blue3
+            background $blue3
+        .edu-benefit
+            text-align left
+            span()
+            display flex
+            align-items center
+            justify-content center
+            &-text
+                col(1/2)
+                +below($sm)
+                    span()
+                h2
+                    +above($md)
+                        font-size 30px
+                h3
+                    margin-top emRhythm(4, 1)
+            &-img
+                col(1/2)
+                +below($sm)
+                    display none
+                .edu-img
+                    max-width 450px
+                    padding-bottom 54.3%
+                    background-size contain
+                    background-repeat no-repeat
+                    transition all .2s ease-in
+                    &.content-active
+                        background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/content.png)
+                    &.editing-active
+                        background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/editing.png)
+                        background-position 100%
+                    &.time-active
+                        background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/time.png)
+            &:hover .content-active
+                background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/content-active.png)
+            &:hover .editing-active
+                background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/editing-active.png)
+            &:hover .time-active
+                background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/time-active.png)
+            &-img-small
+                margin-top 25px
+                text-align center
+                +above($sm)
+                    display none
+                img
+                    width 100%
+                    max-width 450px
+    
+    .explore-edu-vibs
+        background #f9f9fb
+        iframe
+            margin-top emRhythm(8, 1)
+        +below($sm)
+            display none
+    
+    .chrome-extension
+        color #fff
+        background $link-color
+        background linear-gradient(to bottom, $link-color 0%,$purple 50%)
+        background -moz-linear-gradient(top, $link-color  0%, $purple 50%)
+        background -webkit-linear-gradient(top, $link-color  0%,$purple 50%)
+        .browser-top
+            height 33px
+            +below($md)
+                display none
+        .video-player
+            border-radius 0px 0px 5px 5px
+            cursor pointer
+            +below($md)
+                display none
+        h2
+            margin-bottom emRhythm(4, 1)
+        h3
+            margin-top emRhythm(4, 1)
+            center(600px)
+            
+    .testimonials
+        background $blue1
+        h3
+            margin-top emRhythm(4, 1)
+            margin-bottom emRhythm(4, 1)
+            center(600px)
+        .cards-container
+            .cards-col
+                col(1/3, cycle: 3)
+                +below($xs)
+                    span()
+                .card
+                    margin-bottom 20px
+                    background #fff
+                    padding 20px 15px
+                    transition all 0.3s linear, transform 0.3s ease-in-out, box-shadow 0.25s ease-in-out
+                    p
+                        max-width none
+                        transition opacity 0.2s linear, text-shadow 0.4s ease-in-out, color 0.4s ease-in-out
+                    .statement
+                        margin-bottom 10px
+                    .name
+                        font-weight 500
+                        margin 0 auto
+                    .location
+                        font-style italic
+                        margin 0 auto
+                    &.blur
+                        box-shadow 0px 0px 20px 10px rgba(255,255,255,1)
+                        transform scale(0.9)
+                        opacity 0.7
+                        p
+                            text-shadow 0px 0px 10px rgba(0, 0, 0, 0.9)
+                            color rgba(0, 0, 0, 0)
+                            opacity 0.5
+                    &.active
+                        transform scale(1.05)
+                        z-index 100
+                        opacity 1
+                        box-shadow 0 10px 20px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.20)
+    .mentions
+        color #fff
+        background $link-color
+        background linear-gradient(to bottom, $link-color 0%,$purple 50%)
+        background -moz-linear-gradient(top, $link-color  0%, $purple 50%)
+        background -webkit-linear-gradient(top, $link-color  0%,$purple 50%)
+        h3
+            margin-top emRhythm(4, 1)
+            margin-bottom emRhythm(4, 1)
+            center(600px)
+        .mentions-logo-container
+            margin-top emRhythm(8, 1)
+            center(750px)
+            display flex
+            align-items center
+            justify-content space-between
+            +below($sm)
+                flex-direction column
+            .mentions-logo
+                +below($sm)
+                    margin-bottom 20px
+                &:nth-child(1)
+                    width 180px
+                &:nth-child(2)
+                    width 126px
+                &:nth-child(3)
+                    width 174px
+                img
+                    max-width 100%
+                    
+    .supported-platforms
+        background $blue1
+        h3
+            margin-top emRhythm(4, 1)
+            margin-bottom emRhythm(4, 1)
+            center($sm)
+        .platforms-logo-container
+            margin-top emRhythm(8, 1)
+            center(650px)
+            display flex
+            align-items center
+            justify-content space-between
+            +below($xs)
+                flex-direction column
+            .platforms-logo
+                +below($xs)
+                    margin-bottom 20px
+                &:nth-child(1)
+                    width 33px
+                &:nth-child(2)
+                    width 81px
+                &:nth-child(3)
+                    width 107px
+                &:nth-child(4)
+                    width 117px
+                &:nth-child(5)
+                    width 32px
+                img
+                    max-width 100%
+        .logo-notice
+            margin-top emRhythm(8, 1)
+            font-size 12px
+            max-width none
+                    
+
+
+
+                
+                
+        
+
+

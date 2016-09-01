@@ -6,37 +6,56 @@ a
 
 .cta
     color #fff
-    padding 0.7em 1em
+    padding 13px 25px
     border-radius 2px
     display inline-block
+    text-transform uppercase
+    font-size 16px
+    font-weight 500
 
 
 .cta__primary
     @extend .cta
+    background $link-color
     .fa
         margin-right 5px
         color $link-color
+    svg
+        width 18px
+        height 18px
+        margin-right 5px
 
 .cta__primary--big
-    margin-top emRhythm(3, 1)
+    margin-top emRhythm(6, 1)
     @extend .cta__primary
-    background-color $link-color
-    &:hover
-        background-color darken($link-color, 20%)
+    background-color #fff
+    color $link-color
+    display inline-flex
+    align-items center
+    justify-content center
     .fa
-        color #fff
+        color $link-color
+        font-size 24px
+        margin-right 7px
+    svg
+        width 24px
+        height 24px
+        margin-right 7px
+        fill $link-color
         
 .cta__primary--sm
     @extend .cta__primary
-    background-color $link-color
-    padding 0.5em 0.7em
+    color $link-color
+    display inline-flex
+    align-items center
+    justify-content center
     &:hover
         background-color darken($link-color, 20%)
     .fa
         color #fff
         
 .cta__secondary
-    margin-top emRhythm(3, 1)
+    margin-top emRhythm(6, 1)
     @extend .cta
     background-color $h-color + 20%
     &:hover

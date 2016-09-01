@@ -44,6 +44,43 @@
                 float none
 
 .page
+    .hero
+        background-color $nav-bg
+        background-size cover
+        background-position center center
+        background-repeat no-repeat
+        padding 185px 0 0px
+        height 640px
+        margin 0
+        +below($sm)
+            padding 130px 0px 110px
+            height 460px
+        .block__title
+            color #fff
+            position relative
+        .block__description
+            color $light-color
+            position relative
+            center($sm)
+        .container
+            w($xl)
+            text-align center
+    .demo-video
+        position relative
+        text-align center
+        top -90px
+        +below($md)
+            display none
+        .browser-top
+            height 33px
+        .video-player
+            border-radius 0px 0px 5px 5px
+            cursor pointer
+    .sub-cta-copy
+        text-align center
+        color #fff
+        max-width none
+        margin-top emRhythm(1, 1)
 
     .block
         // background-color #ccc
@@ -56,12 +93,12 @@
             // background-color #aca
             text-align center
             w($xl)
-            margin-bottom emRhythm(5, $base-em-font-size)
+            margin-bottom emRhythm(10, $base-em-font-size)
             +below($sm)
-                margin-bottom emRhythm(3, $base-em-font-size)
+                margin-bottom emRhythm(6, $base-em-font-size)
         &__title
             color $dark-color
-            margin-bottom emRhythm(3, $ms-up3)
+            margin-bottom emRhythm(6, $ms-up3)
             position relative
         &__description
             color #000 + 30%
@@ -74,7 +111,7 @@
             text-align center
             center(max-width = $xs)
             +below($md)
-                margin-bottom emRhythm(3, $base-em-font-size)
+                margin-bottom emRhythm(6, $base-em-font-size)
             +above($md)
                 col(1/3, cycle: 3)
                 text-align center
