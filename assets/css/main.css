@@ -1176,7 +1176,7 @@ nav.main-nav li.c2a-btn a {
     display: inline-flex;
   }
 }
-nav.main-nav li.c2a-btn a svg {
+nav.main-nav li.c2a-btn a #illustration {
   fill: #fff;
 }
 nav.main-nav.scroll {
@@ -1316,6 +1316,8 @@ nav.main-nav .menu-icon .sh3 {
   width: 24px;
   height: 24px;
   margin-right: 7px;
+}
+.cta__primary--big #illustration {
   fill: #2ca3ff;
 }
 .cta__primary--sm {
@@ -2538,7 +2540,8 @@ nav.main-nav .menu-icon .sh3 {
 }
 @media only screen and (max-width: 992px) {
   .education .hero {
-    height: 420px;
+    height: 480px;
+    padding: 110px 0;
   }
 }
 .education .demo-video {
