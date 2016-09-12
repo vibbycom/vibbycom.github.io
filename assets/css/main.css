@@ -2929,6 +2929,9 @@ nav.main-nav .menu-icon .sh3 {
 .education .mentions .mentions-logo-container .mentions-logo img {
   max-width: 100%;
 }
+.education .mentions .aasl-img {
+  max-width: 220px;
+}
 .education .supported-platforms {
   background: #e6f4ff;
 }
