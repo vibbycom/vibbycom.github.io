@@ -2041,52 +2041,164 @@ nav.main-nav .menu-icon .sh3 {
 .faq__questions .contact a {
   margin-top: 20px;
 }
-.esports .hero {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/esports-bg.jpg");
+.gaming section {
+  padding: 80px 0;
 }
-.esports .embedded .vib-embed {
+@media only screen and (max-width: 992px) {
+  .gaming section {
+    padding: 60px 0;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .gaming section {
+    padding: 40px 0;
+  }
+}
+.gaming .hero {
+  padding: 0;
+  height: auto;
+  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/esports-bg2.jpg");
+}
+.gaming .hero-overlay {
+  background: linear-gradient(-180deg, rgba(54,60,77,0.85) 0%, rgba(54,60,77,0.85) 50%, #363c4d 100%);
+}
+.gaming .hero-overlay .container {
+  height: 480px;
+  padding: 125px 0 0px;
+}
+@media only screen and (max-width: 992px) {
+  .gaming .hero-overlay .container {
+    height: 380px;
+    padding: 110px 0;
+  }
+}
+.gaming .gaming-benefits {
+  padding: 0 0 80px;
+  background: #363c4d;
+}
+@media only screen and (max-width: 730px) {
+  .gaming .gaming-benefits {
+    padding: 0 0 20px;
+  }
+}
+.gaming .gaming-benefits h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1.428571428571429em;
+}
+.gaming .gaming-benefits .gaming-benefit {
   float: left;
   clear: none;
   text-align: inherit;
-  width: 48.5%;
+  width: 31.33333333333333%;
   margin-left: 0%;
   margin-right: 3%;
-  margin-bottom: 35px;
+  color: #fff;
+  text-align: center;
 }
-.esports .embedded .vib-embed:before,
-.esports .embedded .vib-embed:after {
+.gaming .gaming-benefits .gaming-benefit:before,
+.gaming .gaming-benefits .gaming-benefit:after {
   content: "";
   display: table;
 }
-.esports .embedded .vib-embed:after {
+.gaming .gaming-benefits .gaming-benefit:after {
   clear: both;
 }
-.esports .embedded .vib-embed:nth-child(2n) {
+.gaming .gaming-benefits .gaming-benefit:nth-child(3n) {
   margin-right: 0%;
   float: right;
 }
-.esports .embedded .vib-embed:nth-child(2n+1) {
+.gaming .gaming-benefits .gaming-benefit:nth-child(3n+1) {
   clear: both;
 }
-@media only screen and (max-width: 730px) {
-  .esports .embedded .vib-embed {
+@media only screen and (max-width: 544px) {
+  .gaming .gaming-benefits .gaming-benefit {
     float: left;
     clear: none;
     text-align: inherit;
     width: 100%;
     margin-left: 0%;
     margin-right: 0%;
+    text-align: center;
+    margin-bottom: 1.428571428571429em;
   }
-  .esports .embedded .vib-embed:before,
-  .esports .embedded .vib-embed:after {
+  .gaming .gaming-benefits .gaming-benefit:before,
+  .gaming .gaming-benefits .gaming-benefit:after {
     content: "";
     display: table;
   }
-  .esports .embedded .vib-embed:after {
+  .gaming .gaming-benefits .gaming-benefit:after {
     clear: both;
   }
 }
-.esports .our-partners .partners {
+.gaming .gaming-benefits .gaming-benefit svg {
+  stroke: #0087ef;
+  fill: none;
+  margin-bottom: 0.714285714285714em;
+}
+.gaming .chrome-extension {
+  color: #fff;
+  background: #2ca3ff;
+  background: linear-gradient(to bottom, #6a7bff 0%, #926aff 50%);
+  background: -webkit-linear-gradient(top, #6a7bff 0%, #926aff 50%);
+}
+.gaming .chrome-extension .browser-top {
+  height: 33px;
+}
+@media only screen and (max-width: 992px) {
+  .gaming .chrome-extension .browser-top {
+    display: none;
+  }
+}
+.gaming .chrome-extension .video-player {
+  border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 992px) {
+  .gaming .chrome-extension .video-player {
+    display: none;
+  }
+}
+.gaming .chrome-extension h2 {
+  margin-bottom: 1.428571428571429em;
+}
+.gaming .chrome-extension h3 {
+  margin-top: 1.428571428571429em;
+  width: auto;
+  max-width: 600px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.gaming .chrome-extension h3:before,
+.gaming .chrome-extension h3:after {
+  content: "";
+  display: table;
+}
+.gaming .chrome-extension h3:after {
+  clear: both;
+}
+.gaming .explore-gaming-vibs {
+  background: #f9f9fb;
+  color: #fff;
+  padding: 0;
+}
+@media only screen and (max-width: 730px) {
+  .gaming .explore-gaming-vibs {
+    display: none;
+  }
+}
+.gaming .explore-gaming-vibs iframe {
+  margin-top: 2.857142857142857em;
+}
+.gaming .explore-gaming-vibs .tab-container {
+  background: #363c4d;
+  padding: 80px 0 0;
+}
+.gaming .our-partners .partners {
   width: auto;
   max-width: 730px;
   float: none;
@@ -2096,15 +2208,15 @@ nav.main-nav .menu-icon .sh3 {
   padding-left: 0;
   padding-right: 0;
 }
-.esports .our-partners .partners:before,
-.esports .our-partners .partners:after {
+.gaming .our-partners .partners:before,
+.gaming .our-partners .partners:after {
   content: "";
   display: table;
 }
-.esports .our-partners .partners:after {
+.gaming .our-partners .partners:after {
   clear: both;
 }
-.esports .our-partners .partners .partner {
+.gaming .our-partners .partners .partner {
   float: left;
   clear: none;
   text-align: inherit;
@@ -2114,23 +2226,23 @@ nav.main-nav .menu-icon .sh3 {
   position: relative;
   height: 100px;
 }
-.esports .our-partners .partners .partner:before,
-.esports .our-partners .partners .partner:after {
+.gaming .our-partners .partners .partner:before,
+.gaming .our-partners .partners .partner:after {
   content: "";
   display: table;
 }
-.esports .our-partners .partners .partner:after {
+.gaming .our-partners .partners .partner:after {
   clear: both;
 }
-.esports .our-partners .partners .partner:nth-child(3n) {
+.gaming .our-partners .partners .partner:nth-child(3n) {
   margin-right: 0%;
   float: right;
 }
-.esports .our-partners .partners .partner:nth-child(3n+1) {
+.gaming .our-partners .partners .partner:nth-child(3n+1) {
   clear: both;
 }
 @media only screen and (max-width: 544px) {
-  .esports .our-partners .partners .partner {
+  .gaming .our-partners .partners .partner {
     float: left;
     clear: none;
     text-align: inherit;
@@ -2149,35 +2261,35 @@ nav.main-nav .menu-icon .sh3 {
     -ms-flex-align: center;
     align-items: center;
   }
-  .esports .our-partners .partners .partner:before,
-  .esports .our-partners .partners .partner:after {
+  .gaming .our-partners .partners .partner:before,
+  .gaming .our-partners .partners .partner:after {
     content: "";
     display: table;
   }
-  .esports .our-partners .partners .partner:after {
+  .gaming .our-partners .partners .partner:after {
     clear: both;
   }
-  .esports .our-partners .partners .partner:nth-child(3n) {
+  .gaming .our-partners .partners .partner:nth-child(3n) {
     margin-right: 3%;
     float: left;
   }
-  .esports .our-partners .partners .partner:nth-child(3n+1) {
+  .gaming .our-partners .partners .partner:nth-child(3n+1) {
     clear: none;
   }
-  .esports .our-partners .partners .partner:nth-child(1n) {
+  .gaming .our-partners .partners .partner:nth-child(1n) {
     margin-right: 0%;
     float: right;
   }
-  .esports .our-partners .partners .partner:nth-child(1n+1) {
+  .gaming .our-partners .partners .partner:nth-child(1n+1) {
     clear: both;
   }
 }
-.esports .our-partners .partners .partner a {
+.gaming .our-partners .partners .partner a {
   display: block;
   text-align: center;
 }
 @media only screen and (min-width: 544px) {
-  .esports .our-partners .partners .partner a {
+  .gaming .our-partners .partners .partner a {
     position: absolute;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -2187,14 +2299,14 @@ nav.main-nav .menu-icon .sh3 {
     transform: translate(-50%, -50%);
   }
 }
-.esports .our-partners .partners .partner img {
+.gaming .our-partners .partners .partner img {
   max-width: 100%;
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
   filter: #808080;
   -webkit-filter: grayscale(100%);
   transition: all 0.2s ease;
 }
-.esports .our-partners .partners .partner img:hover {
+.gaming .our-partners .partners .partner img:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
 }

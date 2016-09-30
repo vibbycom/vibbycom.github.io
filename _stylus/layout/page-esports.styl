@@ -1,14 +1,79 @@
-//Page eSports
+//Page Gaming
 
-.esports
+.gaming
+    section
+        padding 80px 0
+        +below($md)
+            padding 60px 0
+        +below($sm)
+            padding 40px 0
     .hero
-        background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/esports-bg.jpg)
-    .embedded
-        .vib-embed
-            col(1/2, cycle:2)
-            margin-bottom 35px
-            +below($sm)
+        padding 0
+        height auto
+        background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/esports-bg2.jpg)
+        &-overlay
+            background linear-gradient(-180deg, rgba(54,60,77,0.85) 0%, rgba(54,60,77,0.85) 50%, $nav-bg 100%)
+            .container
+                height 480px
+                padding 125px 0 0px
+                +below($md)
+                    height 380px
+                    padding 110px 0
+    
+    .gaming-benefits
+        padding 0 0 80px
+        background $nav-bg
+        +below($sm)
+            padding 0 0 20px
+        h2
+            text-align center
+            color #fff
+            margin-bottom emRhythm(4, 1)
+        .gaming-benefit
+            col(1/3, cycle: 3)
+            +below($xs)
                 span()
+                text-align center
+                margin-bottom emRhythm(4, 1)
+            color #fff
+            text-align center
+            svg
+                stroke $link-color-hover
+                fill none
+                margin-bottom emRhythm(2, 1)
+                
+    .chrome-extension
+        color #fff
+        background $link-color
+        background linear-gradient(to bottom, $purple 0%,$violet 50%)
+        background -moz-linear-gradient(top, $purple  0%, $violet 50%)
+        background -webkit-linear-gradient(top, $purple  0%,$violet 50%)
+        .browser-top
+            height 33px
+            +below($md)
+                display none
+        .video-player
+            border-radius 0px 0px 5px 5px
+            cursor pointer
+            +below($md)
+                display none
+        h2
+            margin-bottom emRhythm(4, 1)
+        h3
+            margin-top emRhythm(4, 1)
+            center(600px)
+        
+    .explore-gaming-vibs        
+        background #f9f9fb
+        color #fff
+        padding 0
+        +below($sm)
+            display none
+        iframe
+            margin-top emRhythm(8, 1)
+        .tab-container
+            background $nav-bg
+            padding 80px 0 0
                 
     .our-partners
         .partners
