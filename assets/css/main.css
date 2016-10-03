@@ -2185,6 +2185,7 @@ nav.main-nav .menu-icon .sh3 {
   background: #f9f9fb;
   color: #fff;
   padding: 0;
+  text-align: center;
 }
 @media only screen and (max-width: 730px) {
   .gaming .explore-gaming-vibs {
@@ -2197,6 +2198,61 @@ nav.main-nav .menu-icon .sh3 {
 .gaming .explore-gaming-vibs .tab-container {
   background: #363c4d;
   padding: 80px 0 0;
+}
+.gaming .explore-gaming-vibs .cta__secondary {
+  margin: 0 auto 80px;
+}
+.gaming .explore-gaming-vibs .tabs {
+  background: #f9f9fb;
+}
+.gaming .explore-gaming-vibs .accordion-gaming-tabs {
+  padding: 0;
+  margin-left: 0;
+  background: #363c4d;
+  text-align: center;
+  position: relative;
+  margin-bottom: 0px;
+}
+.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-header-and-content {
+  list-style: none;
+  display: inline;
+}
+.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-link {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 15px 9px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  max-width: 130px;
+  color: #fff;
+}
+.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-link .game-thumb img {
+  max-width: 100px;
+}
+.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-link .game-name {
+  line-height: 40px;
+}
+.gaming .explore-gaming-vibs .accordion-gaming-tabs .is-active {
+  background: #fff;
+  color: #2ca3ff;
+}
+.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-content {
+  display: none;
+  width: 100%;
+  float: left;
+  text-align: center;
+  overflow: visible;
+}
+.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-content iframe {
+  margin: 20px auto 0;
+  max-width: 1200px;
+}
+@media only screen and (max-width: 730px) {
+  .gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-content {
+    padding: 0px 15px;
+    margin-top: 1.071428571428571em;
+  }
 }
 .gaming .our-partners .partners {
   width: auto;

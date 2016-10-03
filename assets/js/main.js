@@ -95,6 +95,41 @@ $(document).ready(function () {
         videoCe.play();
     },false);
   }
+
+  if ($('#gaming-tabs').length){
+    $('.accordion-gaming-tabs').each(function() {
+      $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
+    });
+    $('.accordion-gaming-tabs').on('click', 'li > a.tab-link', function(event) {
+      if (!$(this).hasClass('is-active')) {
+        event.preventDefault();
+        var accordionTabs = $(this).closest('.accordion-gaming-tabs');
+        accordionTabs.find('.is-open').removeClass('is-open').hide();
+
+        $(this).next().toggleClass('is-open').toggle();
+        accordionTabs.find('.is-active').removeClass('is-active');
+        $(this).addClass('is-active');
+      } else {
+        event.preventDefault();
+      }
+    });
+  } 
+
+  $("#dota2-btn").click(function() {
+    $("#dota2").attr("src", "https://www.vibby.com/embed/collection/XyvpR5h8z?cover=false");  
+  });
+
+  $("#vainglory-btn").click(function() {
+    $("#vainglory").attr("src", "https://www.vibby.com/embed/collection/XkTmn52UG?cover=false");
+  });
+
+  $("#cod-btn").click(function() {
+    $("#cod").attr("src", "https://www.vibby.com/embed/collection/m1YjgCbDG?cover=false");
+  });
+
+  $("#csgo-btn").click(function() {
+    $("#csgo").attr("src", "https://www.vibby.com/embed/collection/m1nN0c2LM?cover=false");
+  });
   
 });
 
@@ -104,3 +139,4 @@ function addShowRightMenu(elem) {
   var mainNav = document.querySelector('.navs');
   mainNav.classList.toggle('mobile-menu');
 }
+
