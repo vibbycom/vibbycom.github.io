@@ -98,15 +98,12 @@ $(document).ready(function () {
 
   if ($('#gaming-tabs').length){
     $('.accordion-gaming-tabs').each(function() {
-      $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
+      $(this).children('li').first().children('a').addClass('is-active');
     });
     $('.accordion-gaming-tabs').on('click', 'li > a.tab-link', function(event) {
       if (!$(this).hasClass('is-active')) {
         event.preventDefault();
         var accordionTabs = $(this).closest('.accordion-gaming-tabs');
-        accordionTabs.find('.is-open').removeClass('is-open').hide();
-
-        $(this).next().toggleClass('is-open').toggle();
         accordionTabs.find('.is-active').removeClass('is-active');
         $(this).addClass('is-active');
       } else {
@@ -115,20 +112,24 @@ $(document).ready(function () {
     });
   } 
 
+  $("#lol-btn").click(function() {
+    $("#iframe").attr("src", "https://www.vibby.com/embed/collection/Q1Yshc2If?cover=false");  
+  });
+
   $("#dota2-btn").click(function() {
-    $("#dota2").attr("src", "https://www.vibby.com/embed/collection/XyvpR5h8z?cover=false");  
+    $("#iframe").attr("src", "https://www.vibby.com/embed/collection/XyvpR5h8z?cover=false");  
   });
 
   $("#vainglory-btn").click(function() {
-    $("#vainglory").attr("src", "https://www.vibby.com/embed/collection/XkTmn52UG?cover=false");
+    $("#iframe").attr("src", "https://www.vibby.com/embed/collection/XkTmn52UG?cover=false");
   });
 
   $("#cod-btn").click(function() {
-    $("#cod").attr("src", "https://www.vibby.com/embed/collection/m1YjgCbDG?cover=false");
+    $("#iframe").attr("src", "https://www.vibby.com/embed/collection/m1YjgCbDG?cover=false");
   });
 
   $("#csgo-btn").click(function() {
-    $("#csgo").attr("src", "https://www.vibby.com/embed/collection/m1nN0c2LM?cover=false");
+    $("#iframe").attr("src", "https://www.vibby.com/embed/collection/m1nN0c2LM?cover=false");
   });
   
 });

@@ -2192,6 +2192,26 @@ nav.main-nav .menu-icon .sh3 {
     display: none;
   }
 }
+.gaming .explore-gaming-vibs h3 {
+  width: auto;
+  max-width: 800px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 1.428571428571429em;
+  margin-bottom: 1.428571428571429em;
+}
+.gaming .explore-gaming-vibs h3:before,
+.gaming .explore-gaming-vibs h3:after {
+  content: "";
+  display: table;
+}
+.gaming .explore-gaming-vibs h3:after {
+  clear: both;
+}
 .gaming .explore-gaming-vibs iframe {
   margin-top: 2.857142857142857em;
 }
@@ -2203,56 +2223,325 @@ nav.main-nav .menu-icon .sh3 {
   margin: 0 auto 80px;
 }
 .gaming .explore-gaming-vibs .tabs {
-  background: #f9f9fb;
-}
-.gaming .explore-gaming-vibs .accordion-gaming-tabs {
-  padding: 0;
-  margin-left: 0;
   background: #363c4d;
-  text-align: center;
-  position: relative;
-  margin-bottom: 0px;
 }
-.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-header-and-content {
+.gaming .explore-gaming-vibs .tabs .accordion-gaming-tabs {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 auto;
+}
+.gaming .explore-gaming-vibs .tabs .accordion-gaming-tabs .tab-header-and-content {
   list-style: none;
   display: inline;
 }
-.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-link {
+.gaming .explore-gaming-vibs .tabs .accordion-gaming-tabs .tab-link {
   display: inline-block;
   text-align: center;
-  padding: 15px 15px 9px;
+  padding: 15px 15px 10px;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   max-width: 130px;
   color: #fff;
+  cursor: pointer;
 }
-.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-link .game-thumb img {
+.gaming .explore-gaming-vibs .tabs .accordion-gaming-tabs .tab-link .game-thumb img {
   max-width: 100px;
 }
-.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-link .game-name {
+.gaming .explore-gaming-vibs .tabs .accordion-gaming-tabs .tab-link .game-name {
   line-height: 40px;
 }
-.gaming .explore-gaming-vibs .accordion-gaming-tabs .is-active {
+.gaming .explore-gaming-vibs .tabs .accordion-gaming-tabs .is-active {
   background: #fff;
   color: #2ca3ff;
 }
-.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-content {
-  display: none;
+.gaming .explore-gaming-vibs .tabs .tab-content {
   width: 100%;
   float: left;
   text-align: center;
   overflow: visible;
 }
-.gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-content iframe {
+.gaming .explore-gaming-vibs .tabs .tab-content iframe {
   margin: 20px auto 0;
   max-width: 1200px;
 }
 @media only screen and (max-width: 730px) {
-  .gaming .explore-gaming-vibs .accordion-gaming-tabs .tab-content {
+  .gaming .explore-gaming-vibs .tabs .tab-content {
     padding: 0px 15px;
     margin-top: 1.071428571428571em;
   }
+}
+.gaming .mentions {
+  color: #fff;
+  background: #363c4d;
+}
+.gaming .mentions .mentions-logo-container {
+  width: auto;
+  max-width: 750px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.gaming .mentions .mentions-logo-container:before,
+.gaming .mentions .mentions-logo-container:after {
+  content: "";
+  display: table;
+}
+.gaming .mentions .mentions-logo-container:after {
+  clear: both;
+}
+@media only screen and (max-width: 730px) {
+  .gaming .mentions .mentions-logo-container {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .gaming .mentions .mentions-logo-container .mentions-logo {
+    margin-bottom: 20px;
+  }
+}
+.gaming .mentions .mentions-logo-container .mentions-logo:nth-child(1) {
+  width: 180px;
+}
+.gaming .mentions .mentions-logo-container .mentions-logo:nth-child(2) {
+  width: 126px;
+}
+.gaming .mentions .mentions-logo-container .mentions-logo:nth-child(3) {
+  width: 174px;
+}
+.gaming .mentions .mentions-logo-container .mentions-logo img {
+  max-width: 100%;
+}
+.gaming .mentions .testimonials-container {
+  margin-top: 80px;
+}
+@media only screen and (max-width: 730px) {
+  .gaming .mentions .testimonials-container {
+    margin-top: 20px;
+  }
+}
+.gaming .mentions .testimonials-container .testimonial {
+  padding: 20px;
+  background: #6d7791;
+  border-radius: 2px;
+}
+@media only screen and (min-width: 730px) {
+  .gaming .mentions .testimonials-container .testimonial {
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 31.33333333333333%;
+    margin-left: 0%;
+    margin-right: 3%;
+    text-align: left;
+  }
+  .gaming .mentions .testimonials-container .testimonial:before,
+  .gaming .mentions .testimonials-container .testimonial:after {
+    content: "";
+    display: table;
+  }
+  .gaming .mentions .testimonials-container .testimonial:after {
+    clear: both;
+  }
+  .gaming .mentions .testimonials-container .testimonial:nth-child(3n) {
+    margin-right: 0%;
+    float: right;
+  }
+  .gaming .mentions .testimonials-container .testimonial:nth-child(3n+1) {
+    clear: both;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .gaming .mentions .testimonials-container .testimonial {
+    width: auto;
+    max-width: 420px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .gaming .mentions .testimonials-container .testimonial:before,
+  .gaming .mentions .testimonials-container .testimonial:after {
+    content: "";
+    display: table;
+  }
+  .gaming .mentions .testimonials-container .testimonial:after {
+    clear: both;
+  }
+}
+@media only screen and (max-width: 544px) {
+  .gaming .mentions .testimonials-container .testimonial {
+    max-width: none;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 20px;
+    text-align: left;
+  }
+  .gaming .mentions .testimonials-container .testimonial:before,
+  .gaming .mentions .testimonials-container .testimonial:after {
+    content: "";
+    display: table;
+  }
+  .gaming .mentions .testimonials-container .testimonial:after {
+    clear: both;
+  }
+}
+.gaming .mentions .testimonials-container .testimonial-img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 20px;
+}
+.gaming .mentions .testimonials-container .testimonial-img img {
+  border-radius: 100%;
+  max-width: 100%;
+}
+.gaming .mentions .testimonials-container .testimonial-title {
+  font-style: italic;
+}
+.gaming .mentions .testimonials-container .testimonial-statement {
+  margin-bottom: 0;
+}
+.gaming .supported-platforms {
+  background: #e6f4ff;
+}
+.gaming .supported-platforms h3 {
+  margin-top: 1.428571428571429em;
+  margin-bottom: 1.428571428571429em;
+  width: auto;
+  max-width: 730px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.gaming .supported-platforms h3:before,
+.gaming .supported-platforms h3:after {
+  content: "";
+  display: table;
+}
+.gaming .supported-platforms h3:after {
+  clear: both;
+}
+.gaming .supported-platforms .platforms-logo-container {
+  margin-top: 2.857142857142857em;
+  width: auto;
+  max-width: 650px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.gaming .supported-platforms .platforms-logo-container:before,
+.gaming .supported-platforms .platforms-logo-container:after {
+  content: "";
+  display: table;
+}
+.gaming .supported-platforms .platforms-logo-container:after {
+  clear: both;
+}
+@media only screen and (max-width: 544px) {
+  .gaming .supported-platforms .platforms-logo-container {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 544px) {
+  .gaming .supported-platforms .platforms-logo-container .platforms-logo {
+    margin-bottom: 20px;
+  }
+}
+.gaming .supported-platforms .platforms-logo-container .platforms-logo:nth-child(1) {
+  width: 33px;
+}
+.gaming .supported-platforms .platforms-logo-container .platforms-logo:nth-child(2) {
+  width: 81px;
+}
+.gaming .supported-platforms .platforms-logo-container .platforms-logo:nth-child(3) {
+  width: 144px;
+}
+.gaming .supported-platforms .platforms-logo-container .platforms-logo:nth-child(4) {
+  width: 89px;
+}
+.gaming .supported-platforms .platforms-logo-container .platforms-logo:nth-child(5) {
+  width: 32px;
+}
+.gaming .supported-platforms .platforms-logo-container .platforms-logo img {
+  max-width: 100%;
+}
+.gaming .supported-platforms .logo-notice {
+  margin-top: 2.857142857142857em;
+  font-size: 12px;
+  max-width: none;
+}
+.gaming .our-partners {
+  background: #2ca3ff;
+  background: linear-gradient(to bottom, #6a7bff 0%, #926aff 50%);
+  background: -webkit-linear-gradient(top, #6a7bff 0%, #926aff 50%);
+  color: #fff;
+}
+.gaming .our-partners h2 {
+  margin-bottom: 1.428571428571429em;
+}
+.gaming .our-partners h3 {
+  margin-top: 0.714285714285714em;
+  width: auto;
+  max-width: 620px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.gaming .our-partners h3:before,
+.gaming .our-partners h3:after {
+  content: "";
+  display: table;
+}
+.gaming .our-partners h3:after {
+  clear: both;
 }
 .gaming .our-partners .partners {
   width: auto;
@@ -2281,6 +2570,7 @@ nav.main-nav .menu-icon .sh3 {
   margin-right: 10%;
   position: relative;
   height: 100px;
+  margin-bottom: 30px;
 }
 .gaming .our-partners .partners .partner:before,
 .gaming .our-partners .partners .partner:after {
@@ -2305,8 +2595,6 @@ nav.main-nav .menu-icon .sh3 {
     width: 100%;
     margin-left: 0%;
     margin-right: 3%;
-    padding: 20px;
-    height: 200px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -2316,6 +2604,7 @@ nav.main-nav .menu-icon .sh3 {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-bottom: 0;
   }
   .gaming .our-partners .partners .partner:before,
   .gaming .our-partners .partners .partner:after {
@@ -2365,6 +2654,13 @@ nav.main-nav .menu-icon .sh3 {
 .gaming .our-partners .partners .partner img:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
+}
+@media only screen and (max-width: 544px) {
+  .gaming .our-partners .partners .partner img {
+    max-height: 100px;
+    max-width: 80%;
+    width: auto;
+  }
 }
 .sports .hero.bg0 {
   background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/sports/sports-bg0.jpg");

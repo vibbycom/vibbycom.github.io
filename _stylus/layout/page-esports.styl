@@ -70,6 +70,10 @@
         text-align center
         +below($sm)
             display none
+        h3
+            center(800px)
+            margin-top emRhythm(4, 1)
+            margin-bottom emRhythm(4, 1)
         iframe
             margin-top emRhythm(8, 1)
         .tab-container
@@ -78,36 +82,32 @@
         .cta__secondary
             margin 0 auto 80px
         .tabs
-            background #f9f9fb
-        .accordion-gaming-tabs
-            padding 0
-            margin-left 0
             background $nav-bg
-            text-align center
-            position relative
-            margin-bottom 0px
-            .tab-header-and-content
-                list-style none
-                display inline
-            .tab-link
-                display inline-block
-                text-align center
-                padding 15px 15px 9px
-                font-size 14px
-                font-weight 500
-                text-transform uppercase
-                max-width 130px
-                color #fff
-                .game-thumb
-                    img
-                        max-width 100px
-                .game-name
-                    line-height 40px
-            .is-active
-                background #fff
-                color $link-color
+            .accordion-gaming-tabs
+                display inline-flex
+                margin 0 auto
+                .tab-header-and-content
+                    list-style none
+                    display inline
+                .tab-link
+                    display inline-block
+                    text-align center
+                    padding 15px 15px 10px
+                    font-size 14px
+                    font-weight 500
+                    text-transform uppercase
+                    max-width 130px
+                    color #fff
+                    cursor pointer
+                    .game-thumb
+                        img
+                            max-width 100px
+                    .game-name
+                        line-height 40px
+                .is-active
+                    background #fff
+                    color $link-color
             .tab-content
-                display none
                 width 100%
                 float left
                 text-align center
@@ -118,21 +118,121 @@
                 +below($sm)
                     padding 0px 15px
                     margin-top emRhythm(3, $base-em-font-size)
-                
+                    
+    .mentions
+        color #fff
+        background $nav-bg
+        .mentions-logo-container
+            center(750px)
+            display flex
+            align-items center
+            justify-content space-between
+            +below($sm)
+                flex-direction column
+            .mentions-logo
+                +below($sm)
+                    margin-bottom 20px
+                &:nth-child(1)
+                    width 180px
+                &:nth-child(2)
+                    width 126px
+                &:nth-child(3)
+                    width 174px
+                img
+                    max-width 100%
+        .testimonials-container
+            margin-top 80px
+            +below($sm)
+                margin-top 20px
+            .testimonial
+                padding 20px
+                background $lighter-gray
+                border-radius 2px
+                +above($sm)
+                    col(1/3, cycle:3)
+                    text-align left
+                +below($sm)
+                    center(420px, 20px)
+                    margin-bottom 30px
+                    text-align left
+                +below($xs)
+                    uncenter()
+                    span()
+                    padding 20px
+                    text-align left
+                &-img
+                    width 60px
+                    height 60px
+                    float left
+                    margin-right 20px
+                    img
+                        border-radius 100%
+                        max-width 100%
+                &-name
+                    font-size
+                &-title
+                    font-style italic
+                &-statement
+                    margin-bottom 0
+                    
+    .supported-platforms
+        background $blue1
+        h3
+            margin-top emRhythm(4, 1)
+            margin-bottom emRhythm(4, 1)
+            center($sm)
+        .platforms-logo-container
+            margin-top emRhythm(8, 1)
+            center(650px)
+            display flex
+            align-items center
+            justify-content space-between
+            +below($xs)
+                flex-direction column
+            .platforms-logo
+                +below($xs)
+                    margin-bottom 20px
+                &:nth-child(1)
+                    width 33px
+                &:nth-child(2)
+                    width 81px
+                &:nth-child(3)
+                    width 144px
+                &:nth-child(4)
+                    width 89px
+                &:nth-child(5)
+                    width 32px
+                img
+                    max-width 100%
+        .logo-notice
+            margin-top emRhythm(8, 1)
+            font-size 12px
+            max-width none
+            
     .our-partners
+        background $link-color
+        background linear-gradient(to bottom, $purple 0%,$violet 50%)
+        background -moz-linear-gradient(top, $purple  0%, $violet 50%)
+        background -webkit-linear-gradient(top, $purple  0%,$violet 50%)
+        color #fff
+        h2
+            margin-bottom emRhythm(4, 1)
+        h3
+            margin-top emRhythm(2, 1)
+            center(620px)
         .partners
             center($sm)
             .partner
                 col(1/3, cycle: 3, gutter: 10)
                 position relative
-                height 100px                
+                height 100px
+                margin-bottom 30px
                 +below($xs)
                     col(1, uncycle: 3, cycle: 1)
-                    padding 20px
-                    height 200px
                     display flex
                     justify-content center
                     align-items center
+                    margin-bottom 0
                 a
                     display block
                     text-align center
@@ -147,3 +247,7 @@
                     &:hover
                         filter none
                         -webkit-filter: grayscale(0%);
+                    +below($xs)
+                        max-height 100px
+                        max-width 80%
+                        width auto

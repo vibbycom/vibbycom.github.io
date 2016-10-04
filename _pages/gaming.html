@@ -106,18 +106,15 @@ description: Vibby gaming homepage
         <h3>Whether you're a competitive gamer, Let's Player, or just a huge fan of gaming, Vibby helps you share the most exciting moments from any game.</h3>
       </div>
     </div>
-    <div class="tabs" id="gaming-tabs">
-      <ul class="accordion-gaming-tabs z-shadow-0">
+    <div class="tabs z-shadow" id="gaming-tabs">
+      <ul class="accordion-gaming-tabs">
          <li class="tab-header-and-content">
-          <a class="tab-link">
+          <a id="lol-btn" class="tab-link">
             <div class="game-thumb">
               <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/lol.png" alt="League of Legends logo" />
             </div>
             <div class="">League of Legends</div>
           </a>
-          <div class="tab-content">
-            <iframe src="https://www.vibby.com/embed/collection/Q1Yshc2If?cover=false" frameborder="0" scrolling="yes" style="overflow: hidden; width: 100%; height: 710px" allowfullscreen=""></iframe>
-          </div>
         </li>
         <li class="tab-header-and-content">
           <a id="dota2-btn" class="tab-link">
@@ -126,9 +123,6 @@ description: Vibby gaming homepage
             </div>
             <div class="game-name">Dota 2</div>
           </a>
-          <div class="tab-content">
-            <iframe id="dota2" frameborder="0" scrolling="yes" style="overflow: hidden; width: 100%; height: 710px" allowfullscreen=""></iframe>
-          </div>
         </li>
         <li class="tab-header-and-content">
           <a id="vainglory-btn" class="tab-link">
@@ -137,9 +131,6 @@ description: Vibby gaming homepage
             </div>
             <div class="game-name">Vain Glory</div>
           </a>
-          <div class="tab-content">
-            <iframe id="vainglory" frameborder="0" scrolling="yes" style="overflow: hidden; width: 100%; height: 710px" allowfullscreen=""></iframe>
-          </div>
         </li>
         <li class="tab-header-and-content">
           <a id="cod-btn" class="tab-link">
@@ -148,9 +139,6 @@ description: Vibby gaming homepage
             </div>
             <div class="game-name">Call of Duty</div>
           </a>
-          <div class="tab-content">
-            <iframe id="cod" frameborder="0" scrolling="yes" style="overflow: hidden; width: 100%; height: 710px" allowfullscreen=""></iframe>
-          </div>
         </li>
         <li class="tab-header-and-content">
           <a id="csgo-btn" class="tab-link">
@@ -159,109 +147,69 @@ description: Vibby gaming homepage
             </div>
             <div class="game-name">CS:GO</div>
           </a>
-          <div class="tab-content">
-            <iframe id="csgo" frameborder="0" scrolling="yes" style="overflow: hidden; width: 100%; height: 710px" allowfullscreen=""></iframe>
-          </div>
         </li>
-      </ul><!-- accordion-tabs END -->
-    </div><!-- tabs END -->
+      </ul>
+      <div class="tab-content">
+        <iframe id="iframe" src="https://www.vibby.com/embed/collection/Q1Yshc2If?cover=false" frameborder="0" scrolling="yes" style="overflow: hidden; width: 100%; height: 710px" allowfullscreen=""></iframe>
+      </div>
+    </div>
     <div>
       <a href="/explore/vibs?c=Gaming" class="cta__secondary z-shadow-1">Explore more</a>
     </div>
   </section>
 
-  <section class="testimonials">
-    <div class="container text-center">
-      <h2>Don’t take our word for it</h2>
-      <h3>See how other educators are using Vibby to use video more effectively in and out of the classroom.</h3>
-
-      <div class="cards-container">
-        <div class="cards-col">
-          <div class="card z-shadow">
-            <p class="statement">“I've needed something like this for a while.”</p>
-            <p class="name">Clowery, Music Teacher</p>
-            <p class="location">Texas</p>
-          </div>
-
-          <div class="card z-shadow">
-            <p class="statement">“Vibby is proving a godsend for my Spanish classes to show their interpretive listening skills! They just pick out the parts they understand and comment with what they think they mean.”</p>
-            <p class="name">Laura, Spanish Teacher</p>
-            <p class="location">North Carolina</p>
-          </div>
-
-          <div class="card z-shadow">
-            <p class="statement">“This would free up the teacher to work with individuals or small groups.”</p>
-            <p class="name">Karen, Technology Teacher</p>
-            <p class="location">Pittsburgh</p>
-          </div>
-        </div>
-
-        <div class="cards-col">
-          <div class="card z-shadow">
-            <p class="statement">“Vibby allows me as a teacher to send videos home with my students and easily embed the assignments. They’re moreI willing to do their work and love creating their own videos.”</p>
-            <p class="name">Karin, Technology Integrator</p>
-            <p class="location">New York</p>
-          </div>
-
-          <div class="card z-shadow">
-            <p class="statement">“Vibby is really a good application for aiding teaching and learning. It's ease-of-use is its most useful feature because there are other similar applications out there but they are far too cumbersome to use readily.”</p>
-            <p class="name">Denise, ICT Instructor</p>
-            <p class="location">England</p>
-          </div>
-        </div>
-
-        <div class="cards-col">
-          <div class="card z-shadow">
-            <p class="statement">“I like the look of this tool as it seems to offer scope for the creator and the viewer to comment on parts of the same video., making it ideal for teachers and students.”</p>
-            <p class="name">Brendan, ICT/Digital Learning Lecturer</p>
-            <p class="location">Ireland</p>
-          </div>
-
-          <div class="card z-shadow">
-            <p class="statement">“Great for making most of YouTube clips and other online videos in class.”</p>
-            <p class="name">Rob Chambers, Geography/ICT Teacher</p>
-            <p class="location">England</p>
-          </div>
-
-          <div class="card z-shadow">
-            <p class="statement">“Great for creating interactive lessons.” </p>
-            <p class="name">Winnie, Technology Integration Specialist</p>
-            <p class="location">Massachusetts</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="mentions">
     <div class="container text-center">
-      <h2>As mentioned in&hellip;</h2>
       <div class="mentions-logo-container">
         <div class="mentions-logo">
           <a href="https://www.producthunt.com/tech/vibby" target="_blank" title="Visit producthunt.com">
-            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/producthunt-logo.png" alt="Producthunt" />
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/producthunt-logo-gray.png" alt="Producthunt" />
           </a>
         </div>
         <div class="mentions-logo">
           <a href="http://thenextweb.com/apps/2016/03/03/vibby-makes-it-simple-to-highlight-and-share-your-favorite-parts-from-any-video/" target="_blank" title="Visit thenextweb.com">
-            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/tnw-logo.png" alt="The Next Web" />
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/tnw-logo-gray.png" alt="The Next Web" />
           </a>
         </div>
         <div class="mentions-logo">
           <a href="http://www.huffingtonpost.com/steve-rosenbaum/startups-that-rock-the-vi_b_8684364.html" target="_blank" title="Visit huffingtonpost.com">
-            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/The_Huffington_Post_logo.png" alt="The Huffington Post" />
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/The_Huffington_Post_logo-gray.png" alt="The Huffington Post" />
           </a>
         </div>
       </div>
-      <h3>We are honored to share that Vibby was recognized by the AASL as the 2016 Best Website for Teaching and learning!</h3>
-      <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/aasl.png" alt="AASL 2016 Best Website for teaching and learning" class="aasl-img">
+      <div class="testimonials-container">
+        <div class="testimonial z-shadow">
+          <div class="testimonial-img">
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/rich_c.jpg" alt="Rich Campbell profile image" class="z-shadow"/>
+          </div>
+          <h3 class="testimonial-name">Rich Campbell</h3>
+          <p class="testimonial-title">Gamer & Shoutcaster</p>
+          <p class="testimonial-statement">“Whether I am highlighting my stream or a live event, Vibby is the only tool that provides me with the speed and flexibility I need to release my content when it is at its highest demand.”</p>
+        </div>
+        <div class="testimonial z-shadow">
+          <div class="testimonial-img">
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/brandon_h.jpg" alt="Brandon Howard< profile image" class="z-shadow"/>
+          </div>
+          <h3 class="testimonial-name">Brandon Howard</h3>
+          <p class="testimonial-title">eSports Center Cofounder </p>
+          <p class="testimonial-statement">“Vibby makes it easy to clip, cut and share videos to your audience in minutes! We experienced a much higher average time spent on pages with vibs, then the ones with full length videos.”</p>
+        </div>
+        <div class="testimonial z-shadow">
+          <div class="testimonial-img">
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/jason_b.jpg" alt="Jason Biundo profile image" class="z-shadow"/>
+          </div>
+          <h3 class="testimonial-name">Jason Biundo</h3>
+          <p class="testimonial-title">Team Phoenix Head Coach</p>
+          <p class="testimonial-statement">“Whether making intense highlight reels, doing analysis in training videos, or just sharing a funny moment from a stream, Vibby is every gamer’s go-to for quick and easy content creation.”</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="supported-platforms">
     <div class="container text-center">
       <h2>Supported platforms</h2>
-      <h3>You can choose any video from Facebook, YouTube, Vimeo or JWPlayer. We also support HTML5 video formats that are publicly hosted for instance on your Dropbox or Google Drive.</h3>
+      <h3>You can choose any video from YouTube, Mobcrush, Twitch, Facebook, Vimeo or JWPlayer. We also support HTML5 video formats that are publicly hosted for instance on your Dropbox or Google Drive.</h3>
       <div class="platforms-logo-container">
         <div class="platforms-logo">
           <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/facebook-logo.png" alt="Facebook" />
@@ -270,10 +218,10 @@ description: Vibby gaming homepage
           <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/youtube-logo.png" alt="YouTube" />
         </div>
         <div class="platforms-logo">
-          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/vimeo-logo.png" alt="Vimeo" />
+          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/mobcrush.png" alt="Mobcrush" />
         </div>
         <div class="platforms-logo">
-          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/jwplayer-logo.png" alt="JWPlayer" />
+          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/twitch.png" alt="Twitch" />
         </div>
         <div class="platforms-logo">
           <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/education/html5-logo.png" alt="HTML5" />
@@ -282,103 +230,10 @@ description: Vibby gaming homepage
       <p class="logo-notice text-center">Displayed logos are trademarks of the respective companies, protected by intellectual property rights.</p>
     </div>
   </section>
-
-</div>
-
-
-<div class="esports darker">
-
-  <section class="hero z-shadow">
-    <div class="container">
-        <h1 class="block__title">Create a highlight reel from any video</h1>
-
-        <h3 class="block__description">
-          Clip, share, and discuss the best gaming moments<br>
-        </h3>
-        <a href="/create" class="cta__primary--big cta-create z-shadow-1">
-          <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="illustration" stroke="none" stroke-width="1" fill="" fill-rule="evenodd">
-                <g id="Artboard">
-                    <path d="M12,22.1538462 L12,22.1538462 C17.6078144,22.1538462 22.1538462,17.6078144 22.1538462,12 C22.1538462,6.39218562 17.6078144,1.84615385 12,1.84615385 C6.39218562,1.84615385 1.84615385,6.39218562 1.84615385,12 C1.84615385,17.6078144 6.39218562,22.1538462 12,22.1538462 L12,22.1538462 L12,22.1538462 Z M12.9230769,11.0769231 L12.9230769,7.38461538 L11.0769231,7.38461538 L11.0769231,11.0769231 L7.38461538,11.0769231 L7.38461538,12.9230769 L11.0769231,12.9230769 L11.0769231,16.6153846 L12.9230769,16.6153846 L12.9230769,12.9230769 L16.6153846,12.9230769 L16.6153846,11.0769231 L12.9230769,11.0769231 L12.9230769,11.0769231 Z M12,24 C5.372583,24 0,18.627417 0,12 C0,5.372583 5.372583,0 12,0 C18.627417,0 24,5.372583 24,12 C24,18.627417 18.627417,24 12,24 L12,24 Z" id="Shape-Copy-2"></path>
-                </g>
-            </g>
-        </svg>
-        <span>Start creating</span></a>
-        <p class="sub-cta-copy">It's free and easy to use.</p>
-    </div>
-  </section>
-
-  <!-- <section class="demo-video">
-    <div class="container">
-      <iframe src="https://www.vibby.com/embed/vib?vib=mJldky20Z&lazyLoad=true" frameborder="0" scrolling="no" seamless="yes" style="overflow: hidden; width: 100%; max-width: 900px; height: 565px;" allowfullscreen="" class="z-shadow"></iframe>
-    </div>
-  </section> -->
-
-  <section class="block benefits">
-    <div class="container">
-      <div class="block__header">
-        <h3 class="block__description">Vibby is the fastest way to create a highlight reel for gaming. It’s free, easy-to-use, and user-friendly.</h3>
-      </div>
-      <div class="grid">
-        <div class="benefit">
-          <div class="benefit__icon">
-            <i class="fa fa-gamepad"></i>
-          </div>
-          <h3>Coaching</h3>
-          <p class="bebefit__description">Quickly review gameplay and improve your performance. Clip and store your best plays for easy review later. Improve your performance by focusing on the moments that matter.</p>
-        </div>
-        <div class="benefit">
-          <div class="benefit__icon">
-            <i class="fa fa-hashtag"></i>
-          </div>
-          <h3>Exposure</h3>
-          <p class="bebefit__description">Capture the best moments of your game and share them with fans.</p>
-        </div>
-        <div class="benefit">
-          <div class="benefit__icon">
-            <i class="fa fa-comments"></i>
-          </div>
-          <h3>Engagement</h3>
-          <p class="bebefit__description">Enable fans to share their highlights of your best moments and sustain a conversation in the post-live environment.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Block END -->
-
-  <!-- Block START -->
- <!--  <section class="block embedded">
-    <div class="container">
-      <div class="vib-embed">
-        <iframe src="https://www.vibby.com/embed/vib?vib=Xkl3-AiRb&lazyLoad=true" frameborder="0" scrolling="no" seamless="yes" style="overflow: hidden; width: 100%; max-width: 920px; height: 300px;" allowfullscreen="" class="z-shadow"></iframe>
-      </div>
-      <div class="vib-embed">
-        <iframe src="https://www.vibby.com/embed/vib?vib=7J7dA6M_b&lazyLoad=true" frameborder="0" scrolling="no" seamless="yes" style="overflow: hidden; width: 100%; max-width: 920px; height: 300px;" allowfullscreen="" class="z-shadow"></iframe>
-      </div>
-      <div class="vib-embed">
-        <iframe src="https://www.vibby.com/embed/vib?vib=XylSH-m7f&lazyLoad=true" frameborder="0" scrolling="no" seamless="yes" style="overflow: hidden; width: 100%; max-width: 920px; height: 300px;" allowfullscreen="" class="z-shadow"></iframe>
-      </div>
-      <div class="vib-embed">
-        <iframe src="https://www.vibby.com/embed/vib?vib=XytIBgYpZ&lazyLoad=true" frameborder="0" scrolling="no" seamless="yes" style="overflow: hidden; width: 100%; max-width: 920px; height: 300px;" allowfullscreen="" class="z-shadow"></iframe>
-      </div>
-      <div class="vib-embed">
-        <iframe src="https://www.vibby.com/embed/vib?vib=QyeGQidWf&lazyLoad=true" frameborder="0" scrolling="no" seamless="yes" style="overflow: hidden; width: 100%; max-width: 920px; height: 300px;" allowfullscreen="" class="z-shadow"></iframe>
-      </div>
-      <div class="vib-embed">
-        <iframe src="https://www.vibby.com/embed/vib?vib=Xkf4dft7z&lazyLoad=true" frameborder="0" scrolling="no" seamless="yes" style="overflow: hidden; width: 100%; max-width: 920px; height: 300px;" allowfullscreen="" class="z-shadow"></iframe>
-      </div>
-      <div class="text-center">
-        <a href="/explore/vibs?c=Gaming" class="cta__secondary z-shadow-1">Explore more from esports</a>
-      </div>
-    </div>
-  </section> -->
-  <!-- Block END -->
   
-  <!-- Block START -->
-  <section class="block our-partners">
-  <div class="container">
-    <div class="block__header"><h2 class="block__title">Our Partners</h2>
-    </div>
+  <section class="our-partners">
+  <div class="container text-center">
+    <h2>Our Partners</h2>
     <div class="partners">
       <div class="partner">
         <a href="http://www.phoenixvainglory.com/" target="_blank" title="Visit Team Phoenix">
@@ -426,8 +281,11 @@ description: Vibby gaming homepage
         </a>
       </div>
     </div>
+    <h3>We love working with people passionate about video! We’d love to hear from you if you’re interesting in partnering with us.</h3>
+    <div>
+      <a href="mailto:vibby@vibby.com" class="cta__primary--big z-shadow-1">Contact us</a>
+    </div>
   </div>
   </section>
-  <!-- Block END -->
 
 </div>
