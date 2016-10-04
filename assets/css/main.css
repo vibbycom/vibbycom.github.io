@@ -2138,9 +2138,9 @@ nav.main-nav .menu-icon .sh3 {
 }
 .gaming .chrome-extension {
   color: #fff;
-  background: #2ca3ff;
-  background: linear-gradient(to bottom, #6a7bff 0%, #926aff 50%);
-  background: -webkit-linear-gradient(top, #6a7bff 0%, #926aff 50%);
+  background: #6a7bff;
+  background: linear-gradient(to bottom, #6a7bff 50%, #926aff 100%);
+  background: -webkit-linear-gradient(top, #6a7bff 50%, #926aff 100%);
 }
 .gaming .chrome-extension .browser-top {
   height: 33px;
@@ -2516,9 +2516,9 @@ nav.main-nav .menu-icon .sh3 {
   max-width: none;
 }
 .gaming .our-partners {
-  background: #2ca3ff;
-  background: linear-gradient(to bottom, #6a7bff 0%, #926aff 50%);
-  background: -webkit-linear-gradient(top, #6a7bff 0%, #926aff 50%);
+  background: #6a7bff;
+  background: linear-gradient(to bottom, #6a7bff 50%, #926aff 100%);
+  background: -webkit-linear-gradient(top, #6a7bff 50%, #926aff 100%);
   color: #fff;
 }
 .gaming .our-partners h2 {
