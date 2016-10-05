@@ -240,14 +240,43 @@
                         align(both)
                 img
                     max-width 100%
-                    filter url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-                    filter gray
-                    -webkit-filter: grayscale(100%)
-                    transition all 0.2s ease
-                    &:hover
-                        filter none
-                        -webkit-filter: grayscale(0%);
                     +below($xs)
                         max-height 100px
                         max-width 80%
                         width auto
+                &:nth-child(1)
+                    a
+                        img
+                            width 127px
+                &:nth-child(2)
+                    a
+                        img
+                            width 185px
+                &:nth-child(3)
+                    a
+                        img
+                            width 140px
+                &:nth-child(4)
+                    a
+                        img
+                            width 151px
+                &:nth-child(5)
+                    a
+                        img
+                            width 73px
+                &:nth-child(6)
+                    a
+                        img
+                            width 100px
+                &:nth-child(7)
+                    a
+                        img
+                            width 76px
+                &:nth-child(8)
+                    a
+                        img
+                            width 83px
+                &:nth-child(9)
+                    a
+                        img
+                            width 109px
