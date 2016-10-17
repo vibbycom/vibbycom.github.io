@@ -1293,6 +1293,15 @@ nav.main-nav .menu-icon .sh3 {
   height: 18px;
   margin-right: 5px;
 }
+.cta__primary:hover svg,
+.cta__primary--big:hover svg,
+.cta__primary--sm:hover svg,
+.cta__primary:hover .fa,
+.cta__primary--big:hover .fa,
+.cta__primary--sm:hover .fa {
+  -webkit-animation: spin 600ms ease-in-out;
+  animation: spin 600ms ease-in-out;
+}
 .cta__primary--big {
   margin-top: 2.142857142857143em;
   background-color: #fff;
@@ -1344,6 +1353,26 @@ nav.main-nav .menu-icon .sh3 {
 }
 .cta__secondary:hover {
   background-color: #464d63;
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 .landing .hero {
   background-color: #363c4d;

@@ -14,6 +14,13 @@ a
     font-weight 500
 
 
+@keyframes spin
+    from
+        transform rotate(0deg)
+    to
+        transform rotate(360deg)
+
+
 .cta__primary
     @extend .cta
     background $link-color
@@ -24,6 +31,11 @@ a
         width 18px
         height 18px
         margin-right 5px
+    &:hover
+        svg
+        .fa
+            animation spin 600ms ease-in-out
+        
 
 .cta__primary--big
     margin-top emRhythm(6, 1)
