@@ -37,18 +37,21 @@ footer
                 span()
             ul
                 margin-top emRhythm(4, 1)
+                +above($xs)
+                    float right
                 +below($xs)
                     text-align center
                 li
                     text-align center
                     display inline-block
                     +below($xs)
-                        &:not(:last-child)
-                            margin-right 20px
+                        margin-bottom 10px
+                        &:not(:first-child)
+                            margin-left 20px
                     +above($xs)
-                        float right
+                        float left
                         &:not(:last-child)
-                            margin-left 30px 
+                            margin-right 30px 
             +below($xs)
                 span()
             text-align right

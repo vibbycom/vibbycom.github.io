@@ -3648,6 +3648,11 @@ footer .container .connect:after {
 footer .container .connect ul {
   margin-top: 1.428571428571429em;
 }
+@media only screen and (min-width: 544px) {
+  footer .container .connect ul {
+    float: right;
+  }
+}
 @media only screen and (max-width: 544px) {
   footer .container .connect ul {
     text-align: center;
@@ -3658,16 +3663,19 @@ footer .container .connect ul li {
   display: inline-block;
 }
 @media only screen and (max-width: 544px) {
-  footer .container .connect ul li:not(:last-child) {
-    margin-right: 20px;
+  footer .container .connect ul li {
+    margin-bottom: 10px;
+  }
+  footer .container .connect ul li:not(:first-child) {
+    margin-left: 20px;
   }
 }
 @media only screen and (min-width: 544px) {
   footer .container .connect ul li {
-    float: right;
+    float: left;
   }
   footer .container .connect ul li:not(:last-child) {
-    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 @media only screen and (max-width: 544px) {
