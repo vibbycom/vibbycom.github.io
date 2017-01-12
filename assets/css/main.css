@@ -3530,6 +3530,21 @@ nav.main-nav .menu-icon .sh3 {
   font-size: 12px;
   max-width: none;
 }
+.tos {
+  text-align: center;
+}
+.tos .hero {
+  padding: 105px 0 55px;
+  height: auto;
+}
+.tos .tos-content {
+  display: inline-block;
+  text-align: left;
+  padding: 50px 15px 80px;
+}
+.tos .tos-content .underline {
+  text-decoration: underline;
+}
 footer {
   background-color: #363c4d;
   font-size: 12px;
