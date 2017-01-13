@@ -3540,10 +3540,31 @@ nav.main-nav .menu-icon .sh3 {
 .tos .tos-content {
   display: inline-block;
   text-align: left;
-  padding: 50px 15px 80px;
+  padding: 50px 0 80px;
 }
 .tos .tos-content .underline {
   text-decoration: underline;
+}
+.tos .tos-content p {
+  max-width: none;
+}
+.tos .tos-content ul,
+.tos .tos-content ol {
+  padding-left: 15px;
+}
+.tos .tos-content ul li,
+.tos .tos-content ol li {
+  margin-bottom: 10px;
+}
+.tos .tos-content .lower-latin {
+  list-style-type: lower-latin;
+}
+.tos .tos-content .lower-roman {
+  list-style-type: lower-roman;
+}
+.tos .tos-content .list-top-heading {
+  font-size: 1.618em;
+  line-height: 1.324386367649656;
 }
 footer {
   background-color: #363c4d;
