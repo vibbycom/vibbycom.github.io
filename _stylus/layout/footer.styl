@@ -1,13 +1,13 @@
 //
 footer
-    background-color $nav-bg
+    background-color $dark-bg
     font-size 12px
     span(1/1)
 
     .container
         padding 60px 15px
         .footer-logo
-            +below($xs)
+            +below($sm)
                 display none
             svg
                 width 130px
@@ -28,42 +28,42 @@ footer
 
         .company
             span(1/4)
-            +below($xs)
+            +below($sm)
                 span()
 
         .connect
             span(3/4)
-            +below($xs)
+            +below($sm)
                 span()
             ul
                 margin-top emRhythm(4, 1)
-                +above($xs)
+                +above($sm)
                     float right
-                +below($xs)
+                +below($sm)
                     text-align center
                 li
                     text-align center
                     display inline-block
-                    +below($xs)
+                    +below($sm)
                         margin-bottom 10px
                         &:not(:first-child)
                             margin-left 20px
-                    +above($xs)
+                    +above($sm)
                         float left
                         &:not(:last-child)
                             margin-right 30px 
-            +below($xs)
+            +below($sm)
                 span()
             text-align right
 
         .legal
             span(3/4)
-            +below($xs)
+            +below($sm)
                 span()
             ul
                 li
                     text-align center
-                    +above($xs)
+                    +above($sm)
                         float right
                         &:not(:last-child)
                             margin-right 20px

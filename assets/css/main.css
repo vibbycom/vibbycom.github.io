@@ -1141,7 +1141,7 @@ nav.main-nav .right-nav li:last-child {
     margin-left: 30px;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 730px) {
   nav.main-nav.translate-right .right-nav {
     -webkit-transform: translateX(172px);
     transform: translateX(172px);
@@ -1149,11 +1149,6 @@ nav.main-nav .right-nav li:last-child {
 }
 nav.main-nav li.c2a-btn {
   margin-top: 9px;
-}
-@media only screen and (max-width: 992px) {
-  nav.main-nav li.c2a-btn {
-    margin-left: 0px !important;
-  }
 }
 nav.main-nav li.c2a-btn a {
   padding: 7px 15px;
@@ -1164,16 +1159,9 @@ nav.main-nav li.c2a-btn a {
   color: #fff;
   line-height: 20px;
 }
-@media only screen and (max-width: 992px) {
-  nav.main-nav li.c2a-btn a {
-    display: none;
-  }
-}
 @media only screen and (max-width: 730px) {
   nav.main-nav li.c2a-btn a {
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: none;
   }
 }
 nav.main-nav li.c2a-btn a #illustration {
@@ -1379,14 +1367,21 @@ nav.main-nav .menu-icon .sh3 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 185px 0 0px;
-  height: 640px;
+  padding: 115px 0 0px;
+  height: 530px;
   margin: 0;
+  position: relative;
 }
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 992px) {
   .landing .hero {
     padding: 130px 0px 110px;
     height: 460px;
+  }
+}
+@media only screen and (max-width: 544px) {
+  .landing .hero {
+    padding: 100px 0 80px;
+    height: auto;
   }
 }
 .landing .hero .block__title {
@@ -1397,7 +1392,7 @@ nav.main-nav .menu-icon .sh3 {
   color: #f4f4f4;
   position: relative;
   width: auto;
-  max-width: 730px;
+  max-width: 544px;
   float: none;
   display: block;
   margin-right: auto;
@@ -1413,6 +1408,26 @@ nav.main-nav .menu-icon .sh3 {
 .landing .hero .block__description:after {
   clear: both;
 }
+@media only screen and (max-width: 992px) {
+  .landing .hero .block__description {
+    width: auto;
+    max-width: 360px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .landing .hero .block__description:before,
+  .landing .hero .block__description:after {
+    content: "";
+    display: table;
+  }
+  .landing .hero .block__description:after {
+    clear: both;
+  }
+}
 .landing .hero .container {
   width: 100%;
   max-width: 1200px;
@@ -1421,7 +1436,7 @@ nav.main-nav .menu-icon .sh3 {
   text-align: center;
 }
 .landing .landing-page {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/landing-bg.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/landing-bg3.jpg");
 }
 .landing .use-cases {
   width: 100%;
@@ -1439,100 +1454,68 @@ nav.main-nav .menu-icon .sh3 {
 .landing .use-cases:after {
   clear: both;
 }
-.landing .demo-video {
+.landing .explainer-video {
+  background: linear-gradient(0deg, #6a7bff 0%, #2ca3ff 100%);
+}
+.landing .explainer-video .container {
   position: relative;
   text-align: center;
-  top: -130px;
 }
-@media only screen and (max-width: 992px) {
-  .landing .demo-video {
+@media only screen and (min-width: 730px) {
+  .landing .explainer-video .container {
+    top: -90px;
+  }
+}
+.landing .explainer-video .container .value-prop {
+  text-align: left;
+}
+@media only screen and (min-width: 730px) {
+  .landing .explainer-video .container .value-prop {
+    padding-bottom: 30px;
+  }
+}
+.landing .explainer-video .browser-top {
+  max-height: 33px;
+}
+.landing .explainer-video .browser-top img {
+  max-width: 100%;
+}
+@media only screen and (max-width: 730px) {
+  .landing .explainer-video .browser-top {
     display: none;
   }
 }
-.landing .demo-video .browser-top {
-  height: 33px;
-}
-.landing .demo-video .video-player {
+.landing .explainer-video .video-player {
   border-radius: 0px 0px 5px 5px;
   cursor: pointer;
+  width: 900px;
+  max-width: 100%;
 }
-.landing .features {
-  padding-top: 40px;
-  padding-bottom: 7px;
-}
-.landing .features:before,
-.landing .features:after {
-  content: "";
-  display: table;
-}
-.landing .features:after {
-  clear: both;
-}
-.landing .how_it_works {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-@media only screen and (min-width: 992px) {
-  .landing .how_it_works {
-    margin-top: 6px;
+@media only screen and (max-width: 730px) {
+  .landing .explainer-video .video-player {
+    display: none;
   }
 }
-.landing .how_it_works .benefit {
-  text-align: center;
-  width: auto;
-  max-width: 544px;
-  float: none;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0;
-  padding-right: 0;
+.landing .value-props.blue {
+  background: #e6f4ff;
 }
-.landing .how_it_works .benefit:before,
-.landing .how_it_works .benefit:after {
-  content: "";
-  display: table;
+.landing .value-props.purple {
+  background: #6a7bff;
+  border-top: 3px solid rgba(255,255,255,0.2);
+  border-bottom: 3px solid rgba(255,255,255,0.2);
 }
-.landing .how_it_works .benefit:after {
-  clear: both;
+.landing .value-props.violet {
+  background: linear-gradient(0deg, #926aff 0%, #6a7bff 100%);
+  position: relative;
 }
-@media only screen and (max-width: 992px) {
-  .landing .how_it_works .benefit {
-    margin-bottom: 1.071428571428571em;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .landing .how_it_works .benefit {
-    float: left;
-    clear: none;
-    text-align: inherit;
-    width: 31.33333333333333%;
-    margin-left: 0%;
-    margin-right: 3%;
-    text-align: center;
-  }
-  .landing .how_it_works .benefit:before,
-  .landing .how_it_works .benefit:after {
-    content: "";
-    display: table;
-  }
-  .landing .how_it_works .benefit:after {
-    clear: both;
-  }
-  .landing .how_it_works .benefit:nth-child(3n) {
-    margin-right: 0%;
-    float: right;
-  }
-  .landing .how_it_works .benefit:nth-child(3n+1) {
-    clear: both;
-  }
-}
-.landing .how_it_works .benefit__icon {
-  height: 140px;
-  width: 140px;
-  border-radius: 50%;
-  border: 3px solid #bbe1ff;
-  margin: 0 auto;
+.landing .value-props .value-prop {
+  padding: 120px 0;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1542,17 +1525,156 @@ nav.main-nav .menu-icon .sh3 {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 30px;
-  font-size: 4.235801032000001em;
-  line-height: 0.590207137000386;
-  color: #2ca3ff;
 }
-.landing .how_it_works .benefit p {
-  margin-bottom: 5px;
+.landing .value-props .value-prop:before,
+.landing .value-props .value-prop:after {
+  content: "";
+  display: table;
 }
-.landing .user-quotes {
-  background-color: #e1e5f1;
-  padding: 50px 0px;
+.landing .value-props .value-prop:after {
+  clear: both;
+}
+@media only screen and (max-width: 544px) {
+  .landing .value-props .value-prop {
+    display: block;
+    padding: 60px 0;
+  }
+}
+.landing .value-props .value-prop-text {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 38.2%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.landing .value-props .value-prop-text:before,
+.landing .value-props .value-prop-text:after {
+  content: "";
+  display: table;
+}
+.landing .value-props .value-prop-text:after {
+  clear: both;
+}
+.landing .value-props .value-prop-text:last-child {
+  margin-right: 0%;
+}
+@media only screen and (max-width: 544px) {
+  .landing .value-props .value-prop-text {
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .landing .value-props .value-prop-text:before,
+  .landing .value-props .value-prop-text:after {
+    content: "";
+    display: table;
+  }
+  .landing .value-props .value-prop-text:after {
+    clear: both;
+  }
+}
+.landing .value-props .value-prop-text h2 {
+  color: rgba(0,0,0,0.25);
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .landing .value-props .value-prop-text h2 {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .landing .value-props .value-prop-text h2 {
+    font-size: 60px;
+  }
+}
+.landing .value-props .value-prop-text h3 {
+  margin-top: 0.714285714285714em;
+  color: #fff;
+}
+.landing .value-props .value-prop-animation {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 58.8%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.landing .value-props .value-prop-animation:before,
+.landing .value-props .value-prop-animation:after {
+  content: "";
+  display: table;
+}
+.landing .value-props .value-prop-animation:after {
+  clear: both;
+}
+.landing .value-props .value-prop-animation:last-child {
+  margin-right: 0%;
+}
+@media only screen and (max-width: 544px) {
+  .landing .value-props .value-prop-animation {
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .landing .value-props .value-prop-animation:before,
+  .landing .value-props .value-prop-animation:after {
+    content: "";
+    display: table;
+  }
+  .landing .value-props .value-prop-animation:after {
+    clear: both;
+  }
+}
+.landing .value-props .value-prop-animation .animation-player {
+  border-radius: 5px;
+  width: 550px;
+  max-width: 100%;
+}
+.landing .value-props .value-prop-animation.text-right {
+  text-align: right;
+}
+.landing .join-us {
+  background-color: #e6f4ff;
+  padding: 85px 0;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: center;
+}
+.landing .join-us:before,
+.landing .join-us:after {
+  content: "";
+  display: table;
+}
+.landing .join-us:after {
+  clear: both;
+}
+@media only screen and (max-width: 544px) {
+  .landing .join-us {
+    padding: 60px 0;
+  }
+}
+.landing .join-us .cta-create {
+  background: #2ca3ff;
+  color: #fff;
+}
+.landing .join-us .cta-create:hover {
+  background: #0087ef;
+}
+.landing .mentions {
+  color: #fff;
+  background: #363c4d;
+  padding: 50px 0 46px;
   float: left;
   clear: none;
   text-align: inherit;
@@ -1560,84 +1682,74 @@ nav.main-nav .menu-icon .sh3 {
   margin-left: 0%;
   margin-right: 0%;
 }
-.landing .user-quotes:before,
-.landing .user-quotes:after {
+.landing .mentions:before,
+.landing .mentions:after {
   content: "";
   display: table;
 }
-.landing .user-quotes:after {
+.landing .mentions:after {
   clear: both;
 }
-.landing .user-quotes .quote {
-  text-align: left;
-  background-color: #fff;
-  padding: 30px;
-  float: left;
-  clear: none;
-  text-align: inherit;
-  width: 31.33333333333333%;
-  margin-left: 0%;
-  margin-right: 3%;
+@media only screen and (max-width: 730px) {
+  .landing .mentions {
+    padding: 50px 0 18px;
+  }
 }
-.landing .user-quotes .quote:before,
-.landing .user-quotes .quote:after {
+.landing .mentions .mentions-logo-container {
+  width: auto;
+  max-width: 850px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.landing .mentions .mentions-logo-container:before,
+.landing .mentions .mentions-logo-container:after {
   content: "";
   display: table;
 }
-.landing .user-quotes .quote:after {
+.landing .mentions .mentions-logo-container:after {
   clear: both;
 }
-.landing .user-quotes .quote:nth-child(3n) {
-  margin-right: 0%;
-  float: right;
-}
-.landing .user-quotes .quote:nth-child(3n+1) {
-  clear: both;
-}
-@media only screen and (max-width: 992px) {
-  .landing .user-quotes .quote {
-    float: left;
-    clear: none;
-    text-align: inherit;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 30px;
-  }
-  .landing .user-quotes .quote:before,
-  .landing .user-quotes .quote:after {
-    content: "";
-    display: table;
-  }
-  .landing .user-quotes .quote:after {
-    clear: both;
-  }
-  .landing .user-quotes .quote:last-child {
-    margin-bottom: 0px;
+@media only screen and (max-width: 730px) {
+  .landing .mentions .mentions-logo-container {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
-.landing .user-quotes .quote .user__image {
-  width: 60px;
-  height: 60px;
-  background: #96d1ff;
-  border-radius: 30px;
-  float: left;
-  margin-right: 10px;
-  overflow: hidden;
+@media only screen and (max-width: 730px) {
+  .landing .mentions .mentions-logo-container .mentions-logo {
+    margin-bottom: 40px;
+  }
 }
-.landing .user-quotes .quote .user__image img {
-  width: 60px;
-  height: 60px;
+.landing .mentions .mentions-logo-container .mentions-logo:nth-child(1) {
+  width: 180px;
 }
-.landing .user-quotes .quote .user__name {
-  font-size: $ms-up;
+.landing .mentions .mentions-logo-container .mentions-logo:nth-child(2) {
+  width: 126px;
 }
-.landing .user-quotes .quote .user__role {
-  color: #777;
+.landing .mentions .mentions-logo-container .mentions-logo:nth-child(3) {
+  width: 174px;
 }
-.landing .user-quotes .quote__text {
-  color: #777;
-  margin-top: 25px;
+.landing .mentions .mentions-logo-container .mentions-logo img {
+  opacity: 0.5;
+  max-width: 100%;
+  transition: 200ms all ease-in;
+}
+.landing .mentions .mentions-logo-container .mentions-logo img:hover {
+  opacity: 0.8;
 }
 .about {
   position: relative;
@@ -3567,7 +3679,7 @@ nav.main-nav .menu-icon .sh3 {
   line-height: 1.324386367649656;
 }
 footer {
-  background-color: #363c4d;
+  background-color: #2e3341;
   font-size: 12px;
   float: left;
   clear: none;
@@ -3587,7 +3699,7 @@ footer:after {
 footer .container {
   padding: 60px 15px;
 }
-@media only screen and (max-width: 544px) {
+@media only screen and (max-width: 730px) {
   footer .container .footer-logo {
     display: none;
   }
@@ -3628,7 +3740,7 @@ footer .container .company:after {
 footer .container .company:after {
   clear: both;
 }
-@media only screen and (max-width: 544px) {
+@media only screen and (max-width: 730px) {
   footer .container .company {
     float: left;
     clear: none;
@@ -3663,7 +3775,7 @@ footer .container .connect:after {
 footer .container .connect:after {
   clear: both;
 }
-@media only screen and (max-width: 544px) {
+@media only screen and (max-width: 730px) {
   footer .container .connect {
     float: left;
     clear: none;
@@ -3684,12 +3796,12 @@ footer .container .connect:after {
 footer .container .connect ul {
   margin-top: 1.428571428571429em;
 }
-@media only screen and (min-width: 544px) {
+@media only screen and (min-width: 730px) {
   footer .container .connect ul {
     float: right;
   }
 }
-@media only screen and (max-width: 544px) {
+@media only screen and (max-width: 730px) {
   footer .container .connect ul {
     text-align: center;
   }
@@ -3698,7 +3810,7 @@ footer .container .connect ul li {
   text-align: center;
   display: inline-block;
 }
-@media only screen and (max-width: 544px) {
+@media only screen and (max-width: 730px) {
   footer .container .connect ul li {
     margin-bottom: 10px;
   }
@@ -3706,7 +3818,7 @@ footer .container .connect ul li {
     margin-left: 20px;
   }
 }
-@media only screen and (min-width: 544px) {
+@media only screen and (min-width: 730px) {
   footer .container .connect ul li {
     float: left;
   }
@@ -3714,7 +3826,7 @@ footer .container .connect ul li {
     margin-right: 30px;
   }
 }
-@media only screen and (max-width: 544px) {
+@media only screen and (max-width: 730px) {
   footer .container .connect {
     float: left;
     clear: none;
@@ -3748,7 +3860,7 @@ footer .container .legal:after {
 footer .container .legal:after {
   clear: both;
 }
-@media only screen and (max-width: 544px) {
+@media only screen and (max-width: 730px) {
   footer .container .legal {
     float: left;
     clear: none;
@@ -3769,7 +3881,7 @@ footer .container .legal:after {
 footer .container .legal ul li {
   text-align: center;
 }
-@media only screen and (min-width: 544px) {
+@media only screen and (min-width: 730px) {
   footer .container .legal ul li {
     float: right;
   }

@@ -71,23 +71,19 @@ nav.main-nav
         
     &.translate-right
         .right-nav
-            +above($md)
+            +above($sm)
                 transform translateX(172px)
             
     li.c2a-btn
         margin-top 9px
-        +below($md)
-            margin-left 0px !important
         a
             padding 7px 15px
             font-size 12px
             display inline-flex
             color #fff
             line-height 20px
-            +below($md)
-                display none
             +below($sm)
-                display inline-flex
+                display none
             #illustration
                 fill #fff
                 

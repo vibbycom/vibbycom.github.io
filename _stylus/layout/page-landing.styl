@@ -6,24 +6,30 @@
         background-size cover
         background-position center center
         background-repeat no-repeat
-        padding 185px 0 0px
-        height 640px
+        padding 115px 0 0px
+        height 530px
         margin 0
-        +below($sm)
+        position relative
+        +below($md)
             padding 130px 0px 110px
             height 460px
+        +below($xs)
+            padding 100px 0 80px
+            height auto
         .block__title
             color #fff
             position relative
         .block__description
             color $light-color
             position relative
-            center($sm)
+            center($xs)
+            +below($md)
+                center(360px)
         .container
             w($xl)
             text-align center
     .landing-page
-        background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/landing-bg.jpg)
+        background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/landing-bg3.jpg)
 
     .use-cases
         cf()
@@ -31,107 +37,117 @@
         margin-bottom 0
         padding-top 40px
 
-    .demo-video
-        position relative
-        text-align center
-        top -130px
-        +below($md)
-            display none
+    .explainer-video
+        background linear-gradient(0deg, $purple 0%, $link-color 100%)
+        .container
+            position relative
+            text-align center
+            +above($sm)
+                top -90px
+            .value-prop
+                text-align left
+                +above($sm)
+                    padding-bottom 30px
         .browser-top
-            height 33px
+            max-height 33px
+            img
+                max-width 100%
+            +below($sm)
+                display none
         .video-player
             border-radius 0px 0px 5px 5px
             cursor pointer
-
-    .features
-        // background-color #aaa
-        cf()
-        padding-top 40px
-        padding-bottom 7px
+            width 900px
+            max-width 100%
+            +below($sm)
+                display none
             
-    .how_it_works
-        padding-top 40px
-        padding-bottom 50px
-        +above($md)
-            margin-top 6px
-        .benefit
-            text-align center
-            center(max-width = $xs)
-            +below($md)
-                margin-bottom emRhythm(3, $base-em-font-size)
-            +above($md)
-                col(1/3, cycle: 3)
-                text-align center
-            &__icon
-                height 140px
-                width 140px
-                border-radius 50%
-                border 3px solid #BBE1FF
-                margin 0 auto
-                display flex
-                align-items center
-                justify-content center
-                margin-bottom 30px
-                setType(7, $ms-up3)
-                color $link-color
-            p
-                margin-bottom 5px
+    .value-props
+        &.blue
+            background $blue1
+        &.purple
+            background $purple
+            border-top 3px solid rgba(255,255,255,0.2)
+            border-bottom 3px solid rgba(255,255,255,0.2)
+        &.violet
+            background linear-gradient(0deg, $violet 0%, $purple 100%)
+            position relative
+        .value-prop
+            padding 120px 0
+            span()
+            display flex
+            align-items center
+            justify-content center
+            +below($xs)
+                display block
+                padding 60px 0
+            &-text
+                col(2/5)
+                +below($xs)
+                    span()
+                h2
+                    +between($md, $xl)
+                        font-size 50px
+                    +above($xl)
+                        font-size 60px
+                    color rgba(0,0,0,0.25)
+                    text-transform uppercase
+                h3
+                    margin-top emRhythm(2, 1)
+                    color #fff
+            &-animation
+                col(3/5)
+                +below($xs)
+                    span()
+                .animation-player
+                    border-radius 5px
+                    width 550px
+                    max-width 100%
+                &.text-right
+                    text-align right
 
-    .user-quotes
-        background-color #E1E5F1
-        padding 50px 0px
+    .join-us
+        background-color $blue1
+        padding 85px 0
         span(1/1)
-        .quote
-            text-align left
-            background-color #fff
-            padding 30px
-            col(1/3, cycle: 3)
-            +below($md)
-                span(1/1)
-                uncycle();
-                margin-bottom 30px
-                &:last-child
-                    margin-bottom 0px
-            .user
-                &__image
-                    width 60px
-                    height 60px
-                    background lighten($link-color, 50%)
-                    border-radius 30px
-                    float left
-                    margin-right 10px
-                    overflow hidden
-                    img
-                        width 60px
-                        height 60px
-                &__name
-                    font-size $ms-up
-                &__role
-                    color $dark-color + 20%
-            &__text
-                color $dark-color + 20%
-                margin-top 25px
+        text-align center
+        +below($xs)
+            padding 60px 0
+        .cta-create
+            background $link-color
+            color #fff
+            &:hover
+                background $link-color-hover
+                    
+    .mentions
+        color #fff
+        background $nav-bg
+        padding 50px 0 46px
+        span()
+        +below($sm)
+            padding 50px 0 18px
+        .mentions-logo-container
+            center(850px)
+            display flex
+            align-items center
+            justify-content space-between
+            +below($sm)
+                flex-direction column
+            .mentions-logo
+                +below($sm)
+                    margin-bottom 40px
+                &:nth-child(1)
+                    width 180px
+                &:nth-child(2)
+                    width 126px
+                &:nth-child(3)
+                    width 174px
+                img
+                    opacity 0.5
+                    max-width 100%
+                    transition 200ms all ease-in
+                    &:hover
+                        opacity 0.8
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
