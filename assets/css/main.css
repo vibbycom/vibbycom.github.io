@@ -1591,6 +1591,21 @@ nav.main-nav .menu-icon .sh3 {
     font-size: 60px;
   }
 }
+@media only screen and (max-width: 544px) {
+  .landing .value-props .value-prop-text h2 {
+    text-align: center;
+    margin-bottom: 0.714285714285714em;
+  }
+}
+.landing .value-props .value-prop-text .visible-xs {
+  max-width: 100%;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 544px) {
+  .landing .value-props .value-prop-text .visible-xs {
+    display: none;
+  }
+}
 .landing .value-props .value-prop-text h3 {
   margin-top: 0.714285714285714em;
   color: #fff;
@@ -1616,20 +1631,7 @@ nav.main-nav .menu-icon .sh3 {
 }
 @media only screen and (max-width: 544px) {
   .landing .value-props .value-prop-animation {
-    float: left;
-    clear: none;
-    text-align: inherit;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-  }
-  .landing .value-props .value-prop-animation:before,
-  .landing .value-props .value-prop-animation:after {
-    content: "";
-    display: table;
-  }
-  .landing .value-props .value-prop-animation:after {
-    clear: both;
+    display: none;
   }
 }
 .landing .value-props .value-prop-animation .animation-player {
