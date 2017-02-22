@@ -1,0 +1,74 @@
+//
+.promo
+    //
+    .hero
+        background-color $nav-bg
+        background-size cover
+        background-position center center
+        background-repeat no-repeat
+        padding 100px 0 90px
+        height auto
+        margin 0
+        position relative
+        +below($md)
+            padding 130px 0px 110px
+        +below($xs)
+            padding 100px 0 80px
+        .block__title
+            color #fff
+            position relative
+        .block__description
+            color $light-color
+            position relative
+            center($xs)
+            +below($md)
+                center(360px)
+        .container
+            w($xl)
+            text-align center
+    .landing-page
+        background-image url(https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/landing-bg3.jpg)
+
+    .explainer-video
+        background linear-gradient(0deg, $purple 0%, $link-color 100%)
+        padding 100px 0 100px
+        .container
+            position relative
+            text-align center
+        .browser-top
+            max-height 33px
+            +below($sm)
+                display none
+            img
+                max-width 100%
+        .video-player
+            border-radius 0px 0px 5px 5px
+            cursor pointer
+            width 900px
+            max-width 100%
+            background $nav-bg
+            
+    .promo-values
+        span()
+        +above($xs)
+            margin-top 40px;
+        +below($xl)
+            center($sm)
+        .promo-value
+            col(1/4)
+            +below($xl)
+                col(1/2, cycle:2)
+                margin-top 20px
+            +below($xs)
+                span()
+                margin-top 40px
+            img
+                max-width 264px
+                height auto
+                border 2px solid #fff
+            h3
+                color #fff
+                margin-top 10px
+
+
+
