@@ -3685,19 +3685,14 @@ nav.main-nav .menu-icon .sh3 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 100px 0 90px;
+  padding: 90px 0 90px;
   height: auto;
   margin: 0;
   position: relative;
 }
-@media only screen and (max-width: 992px) {
-  .promo .hero {
-    padding: 130px 0px 110px;
-  }
-}
 @media only screen and (max-width: 544px) {
   .promo .hero {
-    padding: 100px 0 80px;
+    padding: 50px 0 80px;
   }
 }
 .promo .hero .block__title {
