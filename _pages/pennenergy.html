@@ -1,0 +1,53 @@
+---
+layout: promo-default
+permalink: /pennenergy/
+title: Vibby
+description: Vibby Promo
+---
+<div class="promo">
+  <section class="hero landing-page z-shadow">
+    <div class="container">
+      <h1 class="block__title">Next evolution of video sharing</h1>
+
+      <div class="promo-values">
+        <div class="promo-value">
+          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/capture-eyeballs.png" class="z-shadow" alt="Promo value image"/>
+          <h3>Capture four times more eyeballs</h3>
+        </div>
+
+        <div class="promo-value">
+          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/audience-tailored.png" class="z-shadow" alt="Promo value image"/>
+          <h3>Audience-tailored video for each social platform</h3>
+        </div>
+
+        <div class="promo-value">
+          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/video-player-integration.png" class="z-shadow" alt="Promo value image"/>
+          <h3>Integrates with any video player</h3>
+        </div>
+
+        <div class="promo-value">
+          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/plays-attributed.png" class="z-shadow" alt="Promo value image"/>
+          <h3>All plays attributed to a single video</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="explainer-video">
+    <div class="container">
+      <div class="browser-top"><img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/browser_dark.png" alt="Browser window"/></div>
+      <video class="video-player z-shadow" id="video-player" loop>
+        <source src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/pennenergy+mockup.mp4" type="video/mp4">
+        <source src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/pennenergy+mockup.webm" type="video/webm">
+      </video>
+    </div>
+  </section>
+
+    <!-- Our js -->
+    {% if jekyll.environment == 'production' %}
+      <script type="text/javascript" src="{{ "/assets/js/landing.js" | prepend: site.url }}"></script>
+    {% else %}
+      <script type="text/javascript" src="{{ "/assets/js/landing.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+
+</div>
