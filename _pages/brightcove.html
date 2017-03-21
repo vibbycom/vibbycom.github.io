@@ -1,0 +1,65 @@
+---
+layout: promo-default
+permalink: /brightcove/
+title: Vibby
+description: Vibby Promo
+---
+<div class="promo">
+  <section class="hero landing-page z-shadow">
+    <div class="container">
+      <h1 class="block__title">Next evolution of video sharing</h1>
+
+      <div class="promo-values">
+        <div class="promo-value">
+          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/capture-eyeballs.png" class="z-shadow" alt="Promo value image"/>
+          <h3>Capture four times more eyeballs</h3>
+        </div>
+
+        <div class="promo-value">
+          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/audience-tailored.png" class="z-shadow" alt="Promo value image"/>
+          <h3>Audience-tailored video for each social platform</h3>
+        </div>
+
+        <div class="promo-value">
+          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/video-player-integration.png" class="z-shadow" alt="Promo value image"/>
+          <h3>Integrates with any video player</h3>
+        </div>
+
+        <div class="promo-value">
+          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/plays-attributed.png" class="z-shadow" alt="Promo value image"/>
+          <h3>All plays attributed to a single video</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="explainer-video">
+    <div class="container">
+      <video id="player-container-bc" 
+              data-video-id="5366777643001" 
+              data-account="5359769130001" 
+              data-player="default" 
+              data-embed="default" 
+              data-application-id 
+              class="video-js" 
+              controls 
+              width="600" 
+              height="337.5"
+              style="margin:0 auto;"></video>
+    </div>
+  </section>
+    <script src="//players.brightcove.net/5359769130001/default_default/index.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://p.jwpcdn.com/6/10/jwplayer.js"></script>
+    <script type="text/javascript" src="https://staging.vibby.com:9000/static/vibbify.min.js"></script>
+    <script>
+    var bcPlayerApi = videojs('player-container-bc')
+    </script>
+    <!-- Our js -->
+    {% if jekyll.environment == 'production' %}
+      <script type="text/javascript" src="{{ "/assets/js/landing.js" | prepend: site.url }}"></script>
+    {% else %}
+      <script type="text/javascript" src="{{ "/assets/js/landing.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+
+</div>
