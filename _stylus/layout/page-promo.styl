@@ -70,6 +70,11 @@
     
     //NAB style
 .nab
+    .cta-create
+        background $link-color
+        color #fff
+        &:hover
+            background $link-color-hover
     .landing-page
         background-image url('https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/nab-landing-bg.jpg')
         h1
@@ -88,11 +93,6 @@
         text-align center
         +below($xs)
             padding 60px 0
-        .cta-create
-            background $link-color
-            color #fff
-            &:hover
-                background $link-color-hover
         .nab-form
             form
                 max-width 100%

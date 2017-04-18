@@ -3964,6 +3964,13 @@ nav.main-nav .menu-icon .sh3 {
   color: #fff;
   margin-top: 10px;
 }
+.nab .cta-create {
+  background: #2ca3ff;
+  color: #fff;
+}
+.nab .cta-create:hover {
+  background: #0087ef;
+}
 .nab .landing-page {
   background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/nab-landing-bg.jpg");
 }
@@ -4003,13 +4010,6 @@ nav.main-nav .menu-icon .sh3 {
   .nab .reach-out {
     padding: 60px 0;
   }
-}
-.nab .reach-out .cta-create {
-  background: #2ca3ff;
-  color: #fff;
-}
-.nab .reach-out .cta-create:hover {
-  background: #0087ef;
 }
 .nab .reach-out .nab-form form {
   max-width: 100%;
