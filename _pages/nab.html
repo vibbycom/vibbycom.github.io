@@ -4,11 +4,33 @@ permalink: /nab/
 title: Vibby
 description: Vibby NAB
 ---
-<div class="promo">
+<div class="promo nab">
   <section class="hero landing-page z-shadow">
     <div class="container">
       <h1 class="block__title">Next evolution of video sharing</h1>
 
+      <h3 class="block__description">
+      Here's why you should talk to us, this awesome oneliner will totally convince you we THA BEST.
+      </h3>
+
+      <a href="#reach-out" class="cta__primary--big cta-create z-shadow-1">
+        <span>Learn more</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="explainer-video">
+    <div class="container">
+      <div class="browser-top"><img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/browser_dark.png" alt="Browser window"/></div>
+      <video class="video-player z-shadow" id="video-player" loop>
+        <source src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/vibby-how-it-works.mp4" type="video/mp4">
+            <source src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/vibby-how-it-works.webm" type="video/webm">
+      </video>
+    </div>
+  </section>
+
+  <section class="hero landing-page z-shadow nab-values">
+    <div class="container">
       <div class="promo-values">
         <div class="promo-value">
           <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/capture-eyeballs.png" class="z-shadow" alt="Promo value image"/>
@@ -33,13 +55,64 @@ description: Vibby NAB
     </div>
   </section>
 
-  <section class="explainer-video">
+  <section class="founders-words">
     <div class="container">
-      <div class="browser-top"><img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/browser_dark.png" alt="Browser window"/></div>
-      <video class="video-player z-shadow" id="video-player" loop>
-        <source src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/engagement.mp4" type="video/mp4">
-            <source src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/engagement.webm" type="video/webm">
-      </video>
+      <div class="founders-words-container">
+       <div class="founder-profile">
+          <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/about/team/profile-image-ari-cohen.jpg" class="z-shadow" alt="">
+          <div class="info">
+            <h4>Ari Cohen</h4>
+            <p class="founder-profile-title">Cofounder & CEO</p>
+          </div>
+        </div>
+        <h3 class="block__description">
+          “We believe everyone should have the power to capture and share the moments that matter from any video.”<br>
+        </h3>
+      </div>
+      <div class="testimonials-container">
+        <div class="testimonial z-shadow">
+          <div class="testimonial-img">
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/rich_c.jpg" alt="Rich Campbell profile image" class="z-shadow"/>
+          </div>
+          <h3 class="testimonial-name">Andy Brown</h3>
+          <p class="testimonial-title">Powerlinx Content Team</p>
+          <p class="testimonial-statement">“Vibby enables our fans to act like social media managers. They’re able to share the moments that matter to them in an intuitive and frictionless way. We’ve seen the results in increased viewership and engagement.”</p>
+        </div>
+        <div class="testimonial z-shadow">
+          <div class="testimonial-img">
+            <img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/esports/brandon_h.jpg" alt="Brandon Howard< profile image" class="z-shadow"/>
+          </div>
+          <h3 class="testimonial-name">Brandon Howard</h3>
+          <p class="testimonial-title">eSports Center Cofounder </p>
+          <p class="testimonial-statement">“Vibby makes it easy to clip, cut and share videos to your audience in minutes! We experienced a much higher average time spent on pages with vibs, then the ones with full length videos.”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reach-out" id="reach-out">
+    <div class="container">
+    <h2>Going to NAB? Reach out to us.</h2>
+    <div class="nab-form">
+      <form action="https://getsimpleform.com/messages?form_api_token=d88ef34727a1a14ff2514582cda11719" method="post">
+        <div class="form-field-group">
+          <input type='text' name='name' class="nab-form-input" required/>
+          <span class="bar"></span>
+          <label>Your name</label>
+        </div>
+        <div class="form-field-group">
+          <input type='email' name='email' class="nab-form-input" required/>
+          <span class="bar"></span>
+          <label>Your email</label>
+        </div>
+        <div class="form-field-group">
+          <textarea name="message" class="nab-form-input" rows="4" cols="50" required></textarea>
+          <span class="bar"></span>
+          <label>Your message</label>
+        </div>
+        <input type='submit' value='Reach out' class="cta__primary--big cta-create z-shadow-1" />
+      </form>
+    </div>
     </div>
   </section>
 

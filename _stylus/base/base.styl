@@ -26,3 +26,62 @@ a
 .z-shadow-inner
     box-shadow 0 -3px 6px rgba(0,0,0,0.10)
  
+.form-field-group
+    position: relative
+    margin-bottom: 35px
+    width: 100%
+    input,
+    textarea
+        font-size: 18px
+        padding: 10px 10px 10px 5px
+        display: block
+        width: 100%
+        border: 0
+        border-bottom: 1px solid $lighter-gray
+        background-color: transparent
+        &:focus
+            outline 0
+            border-top: 0
+            border-left: 0
+            border-right: 0
+            border-color: $lighter-gray
+        &:disabled
+            background-color transparent
+        &:focus ~ .bar:before,
+        &:focus ~ .bar:after
+            width: 50%
+        &:focus ~ label,
+        &:valid ~ label
+            top: -20px
+            font-size: 14px
+    textarea
+        resize: none
+        max-height: 200px
+    
+    label
+        color: $light-color
+        font-size: 18px
+        font-weight: normal
+        position: absolute
+        pointer-events: none
+        left: 5px
+        top: 10px
+        transition: 0.2s ease all
+        
+    .bar
+        position: relative
+        display: block
+        width: 100%          
+        &:before,
+        &:after
+            content: ''
+            height: 3px
+            width: 0
+            bottom: 0px
+            position: absolute
+            background: $link-color
+            transition: 0.2s all ease
+        &:before
+            left: 50%
+        &:after
+            right: 50%

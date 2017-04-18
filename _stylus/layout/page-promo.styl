@@ -67,6 +67,99 @@
             h3
                 color #fff
                 margin-top 10px
+    
+    //NAB style
+.nab
+    .landing-page
+        background-image url('https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/nab-landing-bg.jpg')
+        h1
+            margin-bottom 40px
+    .explainer-video
+        padding-bottom 0
+    .nab-values
+        background $purple
+        padding-top 70px
+    .reach-out
+        background-color $blue1
+        padding 85px 0
+        h2
+            margin-bottom 60px
+        span(1/1)
+        text-align center
+        +below($xs)
+            padding 60px 0
+        .cta-create
+            background $link-color
+            color #fff
+            &:hover
+                background $link-color-hover
+        .nab-form
+            form
+                max-width 100%
+                width 450px
+                margin 0 auto
+            label
+                color $text-color
+            input
+                display block
+            .nab-form-input
+                width 100%
+                resize none
+                color $text-color
+            .cta__primary--big
+                margin-top 0
+                border 0
+    .founders-words
+        padding 85px 0
+        color #fff
+        background $nav-bg
+        .founders-words-container
+            center($sm)
+            display flex
+            align-items center
+            .founder-profile
+                text-align center
+                margin-right 40px
+                width 200px
+                img
+                    border-radius 100%
+                    width 100px
+                    height 100px
+                &-title
+                    font-style italic
+        .testimonials-container
+            center(830px)
+            margin-top 80px
+            +below($sm)
+                margin-top 20px
+            .testimonial
+                padding 20px
+                background $lighter-gray
+                border-radius 2px
+                +above($sm)
+                    col(1/2, cycle:2)
+                    text-align left
+                +below($sm)
+                    center(420px, 20px)
+                    margin-bottom 30px
+                    text-align left
+                +below($xs)
+                    uncenter()
+                    span()
+                    padding 20px
+                    text-align left
+                &-img
+                    width 60px
+                    height 60px
+                    float left
+                    margin-right 20px
+                    img
+                        border-radius 100%
+                        max-width 100%
+                &-title
+                    font-style italic
+                &-statement
+                    margin-bottom 0
 
 
 
