@@ -70,15 +70,37 @@
     
     //NAB style
 .nab
+    .logo-bg
+        position absolute
+        top 0
+        left 0
+        right 0
+        margin 0 auto
+        z-index 1
+        height 100%
+        display flex
+        align-items center
+        justify-content center
+        opacity 0.1
+        svg
+            width 400px
+            fill $link-color-hover
     .cta-create
         background $link-color
         color #fff
+        z-index 2
         &:hover
             background $link-color-hover
     .landing-page
-        background-image url('https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/nab-landing-bg.jpg')
-        h1
+        background $blue3
+        padding 160px 0 160px
+        .block__title
+        .block__description
+            color $text-color
+            z-index 2
+        .block__title
             margin-bottom 40px
+            font-weight 500
     .explainer-video
         padding-bottom 0
     .nab-values
@@ -160,6 +182,42 @@
                     font-style italic
                 &-statement
                     margin-bottom 0
+    
+    .pulse{
+        animation-name: pulse;
+        -webkit-animation-name: pulse;  
 
+        animation-duration: 1.5s;   
+        -webkit-animation-duration: 1.5s;
 
+        animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+    }
+    
+    .pulse:hover
+        animation-play-state paused
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.9);
+        }
+        50% {
+            transform: scale(1);
+        }   
+        100% {
+            transform: scale(0.9);
+        }           
+    }
+
+    @-webkit-keyframes pulse {
+        0% {
+            -webkit-transform: scale(0.95);
+        }
+        50% {
+            -webkit-transform: scale(1);
+        }   
+        100% {
+            -webkit-transform: scale(0.95);
+        }           
+    }
 
