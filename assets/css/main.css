@@ -3985,7 +3985,7 @@ nav.main-nav .menu-icon .sh3 {
 }
 .nab .logo-bg svg {
   width: 400px;
-  fill: #0087ef;
+  fill: #363c4d;
 }
 .nab .cta-create {
   background: #2ca3ff;
@@ -3996,12 +3996,12 @@ nav.main-nav .menu-icon .sh3 {
   background: #0087ef;
 }
 .nab .landing-page {
-  background: #bbe1ff;
+  background: #6a7bff;
   padding: 160px 0 160px;
 }
 .nab .landing-page .block__title,
 .nab .landing-page .block__description {
-  color: #4a4a4a;
+  color: #fff;
   z-index: 2;
 }
 .nab .landing-page .block__title {
