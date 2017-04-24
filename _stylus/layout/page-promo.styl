@@ -85,15 +85,10 @@
         svg
             width 400px
             fill $nav-bg
-    .cta-create
-        background $link-color
-        color #fff
-        z-index 2
-        &:hover
-            background $link-color-hover
     .landing-page
-        background $purple
-        padding 160px 0 160px
+        background linear-gradient(0deg, $purple 0%, $link-color 100%)
+        +above($sm)
+            padding 160px 0 80px
         .block__title
         .block__description
             color #fff
@@ -102,12 +97,28 @@
         .block__title
             margin-bottom 40px
             font-weight 500
-            font-size 48px
+            +above($lg)
+                font-size 48px
+        .cta-create
+            z-index 2
     .explainer-video
         padding-bottom 0
     .nab-values
         background $purple
-        padding-top 70px
+        padding 0 0 90px
+        position relative
+        z-index 1
+        .number-circle
+            border-radius 100%
+            width 80px
+            height 80px
+            background #fff
+            color $link-color
+            display flex
+            align-items center
+            justify-content center
+            margin 0 auto
+            font-size 36px
     .reach-out
         background-color $blue1
         padding 85px 0
@@ -133,6 +144,10 @@
             .cta__primary--big
                 margin-top 0
                 border 0
+                background $link-color
+                color #fff
+                &:hover
+                    background $link-color-hover
     .founders-words
         padding 85px 0
         color #fff
