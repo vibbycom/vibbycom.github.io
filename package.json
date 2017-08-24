@@ -27,5 +27,9 @@
     "normalize-styl": "^3.0.3",
     "run-sequence": "^1.1.4",
     "rupture": "^0.6.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "install": "^0.10.1"
   }
 }
