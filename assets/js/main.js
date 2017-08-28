@@ -84,7 +84,7 @@ $(document).ready(function () {
     });
     setTimeout(function (){
       video.play();
-    }, 5000);
+    }, 200);
 
   }
 
@@ -131,6 +131,67 @@ $(document).ready(function () {
   $("#csgo-btn").click(function() {
     $("#iframe").attr("src", "https://www.vibby.com/embed/collection/m1nN0c2LM?cover=false");
   });
+
+  // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+
+  // Get media - with autoplay disabled (audio or video)
+  var media = $('video');
+  var tolerancePixel = 80;
+
+  function checkMedia(){
+      // Get current browser top and bottom
+      var scrollTop = $(window).scrollTop() + tolerancePixel;
+      var scrollBottom = $(window).scrollTop() + $(window).height() - tolerancePixel;
+
+      media.each(function(index, el) {
+          var yTopMedia = $(this).offset().top;
+          var yBottomMedia = $(this).height() + yTopMedia;
+
+          if(scrollTop < yBottomMedia && scrollBottom > yTopMedia){ //view explaination in `In brief` section above
+              $(this).get(0).play();
+          } else {
+              $(this).get(0).pause();
+          }
+      });
+
+      //}
+  }
+  $(document).on('scroll', checkMedia);
   
 });
 

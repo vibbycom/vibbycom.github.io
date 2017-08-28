@@ -3986,6 +3986,8 @@ nav.main-nav .menu-icon .sh3 {
 }
 .solutions-page .value-props.blue .value-prop-text h3 {
   color: #4a4a4a;
+}
+.solutions-page .value-props.blue .value-prop-text h3:not(:last-child) {
   margin-bottom: 40px;
 }
 .solutions-page .value-props.blue .value-prop-text .visible-xs {
