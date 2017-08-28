@@ -16,7 +16,6 @@
             fill #6A7BFF
 
 nav.main-nav
-    // background-color #ccc
     position fixed
     top 0
     left 0
@@ -63,29 +62,9 @@ nav.main-nav
         float right
         transition all 0.4s ease
         li
-            &:last-child
-                border-top 0
             +above($sm + 30)
                 &:not(:first-child)
                     margin-left 30px
-        
-    &.translate-right
-        .right-nav
-            +above($sm)
-                transform translateX(172px)
-            
-    li.c2a-btn
-        margin-top 9px
-        a
-            padding 7px 15px
-            font-size 12px
-            display inline-flex
-            color #fff
-            line-height 20px
-            +below($sm)
-                display none
-            #illustration
-                fill #fff
                 
 
     &.scroll
