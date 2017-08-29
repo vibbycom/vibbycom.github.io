@@ -118,8 +118,8 @@ $(document).ready(function () {
 
   var positions = {
     "Engage-Copy" : {
-      x : 180,
-      y : 97
+      x : 215,
+      y : 110
     },
     "Analyze" : {
       x : 105,
@@ -144,20 +144,20 @@ $(document).ready(function () {
       y : 97
     },
     "Analyze" : {
-      x : 105,
-      y : 368
+      x : 30,
+      y : 380
     },
     "Monetize" : {
-      x : 36,
-      y : 212
+      x : -55,
+      y : 220
     },
     "Attribute" : {
       x : 314,
-      y : 368
+      y : 380
     },
     "Amplify" : {
       x : 372,
-      y : 212
+      y : 220
     }
   };
 
@@ -202,7 +202,7 @@ $(document).ready(function () {
     },
     "Analyze" : {
       strokeWidth : 5,
-      cx : 300,
+      cx : 179,
       cy : 337,
       r : 10
     },
@@ -257,7 +257,7 @@ $(document).ready(function () {
     setCircles(classesList[currentHighlight]);
     currentHighlight++;
     currentHighlight = currentHighlight % 5;
-  }, 2000);
+  }, 4200);
 
   var titleDescription = {
     "Engage-Copy" : {

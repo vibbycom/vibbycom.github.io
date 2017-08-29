@@ -68,6 +68,10 @@
                     background-color $link-color
                     color #fff
                     margin-top 0
+                    opacity .5
+            &:hover
+                .cta__primary--big
+                    opacity 1
         .hero-svg
             position absolute
             width 100%
@@ -106,6 +110,13 @@
                 col(6/12, offset: 1/12, cycle:2)
                 +below($xs)
                     display none
+            svg
+                overflow visible
+                circle
+                    transition 200ms all ease-in
+                text
+                    cursor pointer
+                    
 
     .try-it
         padding 160px 0
@@ -155,6 +166,9 @@
             padding 60px 0
         h2
             center(660px)
+            margin-bottom 40px
+        #thank-you-msg
+            display none
             margin-bottom 40px
         .cta-create
             background $link-color

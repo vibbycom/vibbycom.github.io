@@ -1552,6 +1552,10 @@ nav.main-nav .menu-icon .sh3 {
   background-color: #2ca3ff;
   color: #fff;
   margin-top: 0;
+  opacity: 0.5;
+}
+.landing .hero .explainer-video:hover .cta__primary--big {
+  opacity: 1;
 }
 .landing .hero .hero-svg {
   position: absolute;
@@ -1678,6 +1682,15 @@ nav.main-nav .menu-icon .sh3 {
     display: none;
   }
 }
+.landing .value-props .value-prop svg {
+  overflow: visible;
+}
+.landing .value-props .value-prop svg circle {
+  transition: 200ms all ease-in;
+}
+.landing .value-props .value-prop svg text {
+  cursor: pointer;
+}
 .landing .try-it {
   padding: 160px 0;
   text-align: center;
@@ -1774,6 +1787,10 @@ nav.main-nav .menu-icon .sh3 {
 }
 .landing .join-us h2:after {
   clear: both;
+}
+.landing .join-us #thank-you-msg {
+  display: none;
+  margin-bottom: 40px;
 }
 .landing .join-us .cta-create {
   background: #2ca3ff;
@@ -4277,6 +4294,10 @@ nav.main-nav .menu-icon .sh3 {
 }
 .solutions-page .join-us h2:after {
   clear: both;
+}
+.solutions-page .join-us #thank-you-msg {
+  display: none;
+  margin-bottom: 40px;
 }
 .solutions-page .join-us .cta-create {
   background: #2ca3ff;

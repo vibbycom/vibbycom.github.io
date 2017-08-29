@@ -43,6 +43,11 @@ $(document).ready(function () {
   //   $(".cta-create span").text("Explore now");
   // }
 
+  var query2 = (/demo/).test(window.location.href);
+  if (query2) {
+    $('#thank-you-msg').show();
+  };
+
   var $container  = $('.cards-col'),
   $articles = $container.children('.card'),
   timeout;
