@@ -1832,6 +1832,36 @@ nav.main-nav .menu-icon .sh3 {
 .landing .join-us .nab-form .cta__primary--big:hover {
   background: #0087ef;
 }
+#Engage-Copy.active {
+  font-size: 41.8px;
+}
+#Engage-Copy.non-active {
+  font-size: 20.16px;
+}
+#Analyze.active {
+  font-size: 41.8px;
+}
+#Analyze.non-active {
+  font-size: 20.16px;
+}
+#Monetize.active {
+  font-size: 41.8px;
+}
+#Monetize.non-active {
+  font-size: 20.16px;
+}
+#Attribute.active {
+  font-size: 41.8px;
+}
+#Attribute.non-active {
+  font-size: 20.16px;
+}
+#Amplify.active {
+  font-size: 41.8px;
+}
+#Amplify.non-active {
+  font-size: 20.16px;
+}
 .about .hero {
   background: linear-gradient(0deg, #6a7bff 0%, #2ca3ff 100%);
   background: #2ca3ff url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/about+page+cover.jpg");
