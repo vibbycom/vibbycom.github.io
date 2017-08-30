@@ -285,6 +285,7 @@ a {
 }
 .form-field-group textarea {
   resize: none;
+  min-height: 150px;
   max-height: 200px;
 }
 .form-field-group label {
