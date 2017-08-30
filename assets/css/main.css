@@ -1552,7 +1552,7 @@ nav.main-nav .menu-icon .sh3 {
   background-color: #2ca3ff;
   color: #fff;
   margin-top: 0;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 .landing .hero .explainer-video:hover .cta__primary--big {
   opacity: 1;
@@ -4034,7 +4034,7 @@ nav.main-nav .menu-icon .sh3 {
 }
 @media only screen and (min-width: 1600px) {
   .solutions-page .hero .hero-svg {
-    opacity: 0.4;
+    opacity: 0.3;
   }
 }
 .solutions-page .value-props.blue {
