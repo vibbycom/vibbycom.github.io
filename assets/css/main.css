@@ -1652,6 +1652,9 @@ nav.main-nav .menu-icon .sh3 {
     display: none;
   }
 }
+.landing .value-props .value-prop-text .visible-xs img {
+  max-width: 100%;
+}
 .landing .value-props .value-prop-text h1 {
   margin-bottom: 0.992063492063492em;
 }
