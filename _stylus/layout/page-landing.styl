@@ -116,8 +116,12 @@
                 overflow visible
                 circle
                     transition 200ms all ease-in
-                text
                     cursor pointer
+                text
+                    &.non-active
+                        cursor pointer
+                        &:hover
+                            fill $link-color
                     
 
     .try-it

@@ -85,31 +85,31 @@ $(document).ready(function () {
     clearInterval(refreshInterval);
   });
 
-  $('#Engage-Copy').click(function() {
+  $('#Engage-Copy, #circle-Engage-Copy').click(function() {
     setClasses("Engage-Copy");
     setPositions("Engage-Copy");
     setTitleDescription("Engage-Copy");
     setCircles("Engage-Copy");
   });
-  $('#Analyze').click(function() {
+  $('#Analyze, #circle-Analyze').click(function() {
     setClasses("Analyze");
     setPositions("Analyze");
     setTitleDescription("Analyze");
     setCircles("Analyze");
   });
-  $('#Monetize').click(function() {
+  $('#Monetize, #circle-Monetize').click(function() {
     setClasses("Monetize");
     setPositions("Monetize");
     setTitleDescription("Monetize");
     setCircles("Monetize");
   });
-  $('#Attribute').click(function() {
+  $('#Attribute, #circle-Attribute').click(function() {
     setClasses("Attribute");
     setPositions("Attribute");
     setTitleDescription("Attribute");
     setCircles("Attribute");
   });
-  $('#Amplify').click(function() {
+  $('#Amplify, #circle-Amplify').click(function() {
     setClasses("Amplify");
     setPositions("Amplify");
     setTitleDescription("Amplify");
@@ -249,7 +249,7 @@ $(document).ready(function () {
     });
   };
 
-  var currentHighlight = 0;
+  var currentHighlight = 1;
   var refreshInterval = window.setInterval(function() {
     setClasses(classesList[currentHighlight]);
     setPositions(classesList[currentHighlight]);
@@ -283,8 +283,12 @@ $(document).ready(function () {
   };
 
   var setTitleDescription = function(name) {
-    $('#ourTitle').text(titleDescription[name]["title"]);
-    $('#ourDescription').text(titleDescription[name]["description"]);
+    $("#ourTitle").fadeOut(150, function() {
+      $(this).text(titleDescription[name]["title"]).fadeIn(150);
+    });
+    $("#ourDescription").fadeOut(150, function() {
+      $(this).text(titleDescription[name]["description"]).fadeIn(150);
+    });
   };
 
   var setCircles = function(name) {

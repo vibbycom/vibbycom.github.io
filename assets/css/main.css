@@ -1692,9 +1692,13 @@ nav.main-nav .menu-icon .sh3 {
 }
 .landing .value-props .value-prop svg circle {
   transition: 200ms all ease-in;
-}
-.landing .value-props .value-prop svg text {
   cursor: pointer;
+}
+.landing .value-props .value-prop svg text.non-active {
+  cursor: pointer;
+}
+.landing .value-props .value-prop svg text.non-active:hover {
+  fill: #2ca3ff;
 }
 .landing .try-it {
   padding: 160px 0;
