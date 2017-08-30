@@ -1565,6 +1565,11 @@ nav.main-nav .menu-icon .sh3 {
   bottom: 0;
   z-index: 1;
 }
+@media only screen and (min-width: 1600px) {
+  .landing .hero .hero-svg {
+    opacity: 0.4;
+  }
+}
 .landing .value-props.blue {
   background: #e6f4ff;
 }
@@ -4022,6 +4027,11 @@ nav.main-nav .menu-icon .sh3 {
   right: 0;
   bottom: 0;
   z-index: 1;
+}
+@media only screen and (min-width: 1600px) {
+  .solutions-page .hero .hero-svg {
+    opacity: 0.4;
+  }
 }
 .solutions-page .value-props.blue {
   background: #e6f4ff;
