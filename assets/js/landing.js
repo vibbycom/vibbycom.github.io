@@ -257,7 +257,7 @@ $(document).ready(function () {
     setCircles(classesList[currentHighlight]);
     currentHighlight++;
     currentHighlight = currentHighlight % 5;
-  }, 4200);
+  }, 4500);
 
   var titleDescription = {
     "Engage-Copy" : {
