@@ -1816,14 +1816,14 @@ nav.main-nav .menu-icon .sh3 {
   background: #fff;
   border-radius: 2px;
   width: auto;
-  max-width: 550px;
+  max-width: 730px;
   float: none;
   display: block;
   margin-right: auto;
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
-  padding: 30px;
+  padding: 40px 100px;
 }
 .landing .join-us .nab-form:before,
 .landing .join-us .nab-form:after {
@@ -1832,6 +1832,11 @@ nav.main-nav .menu-icon .sh3 {
 }
 .landing .join-us .nab-form:after {
   clear: both;
+}
+@media only screen and (max-width: 730px) {
+  .landing .join-us .nab-form {
+    padding: 30px;
+  }
 }
 .landing .join-us .nab-form h4 {
   font-weight: 500;
@@ -4328,14 +4333,14 @@ nav.main-nav .menu-icon .sh3 {
   background: #fff;
   border-radius: 2px;
   width: auto;
-  max-width: 550px;
+  max-width: 730px;
   float: none;
   display: block;
   margin-right: auto;
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
-  padding: 30px;
+  padding: 40px 100px;
 }
 .solutions-page .join-us .nab-form:before,
 .solutions-page .join-us .nab-form:after {
@@ -4344,6 +4349,11 @@ nav.main-nav .menu-icon .sh3 {
 }
 .solutions-page .join-us .nab-form:after {
   clear: both;
+}
+@media only screen and (max-width: 730px) {
+  .solutions-page .join-us .nab-form {
+    padding: 30px;
+  }
 }
 .solutions-page .join-us .nab-form h4 {
   font-weight: 500;
