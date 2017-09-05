@@ -182,10 +182,9 @@ $('a[href*="#"]')
       // Get current browser top and bottom
       var scrollTop = $(window).scrollTop() + tolerancePixel;
       var scrollBottom = $(window).scrollTop() + $(window).height() - tolerancePixel;
-      var media = document.getElementById('video-player');
-        media.addEventListener('click',function(){
-            media.play();
-        },false);
+      media.addEventListener('click',function(){
+          media.play();
+      },false);
 
       media.each(function(index, el) {
           var yTopMedia = $(this).offset().top;
