@@ -56,5 +56,10 @@ description: Vibby Promo
     {% else %}
       <script type="text/javascript" src="{{ "/assets/js/landing.js" | prepend: site.baseurl }}"></script>
     {% endif %}
+    <script src="//players.brightcove.net/5359769130001/default_default/index.min.js"></script>
+      <script src="https://vibbify.vibby.com/static/vibbify_default.min.js"></script>
+      <script>
+        var bcPlayerApi = videojs('player-container-bc')
+      </script>
 
 </div>
