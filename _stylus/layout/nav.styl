@@ -31,6 +31,7 @@ nav.main-nav
     
     .container
         overflow hidden
+        // position relative
 
     ul,li
         display inline-block
@@ -125,3 +126,18 @@ nav.main-nav
         .sh3
             margin 0px
         
+.consumer-tooltip
+    display none
+    position absolute
+    top 65px
+    right 15px
+    z-index 1
+    text-align right
+    padding 10px 15px
+    background rgba(255,255,255,0.7)
+    border-radius 2px
+    text-transform none
+    &:hover
+        background rgba(255,255,255,0.9)
+    +below($sm)
+        display none !important

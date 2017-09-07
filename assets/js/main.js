@@ -29,9 +29,11 @@ $(window).scroll(function() {
   }
   if (scroll >= 400) {
     $(".main-nav").removeClass("translate-right");
+    $(".consumer-tooltip").show();
   }
   if (scroll < 400) {
     $(".main-nav").addClass("translate-right");
+    $(".consumer-tooltip").hide();
   }
 });
 

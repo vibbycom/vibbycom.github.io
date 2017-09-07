@@ -1292,6 +1292,26 @@ nav.main-nav .menu-icon--active .text {
 nav.main-nav .menu-icon .sh3 {
   margin: 0px;
 }
+.consumer-tooltip {
+  display: none;
+  position: absolute;
+  top: 65px;
+  right: 15px;
+  z-index: 1;
+  text-align: right;
+  padding: 10px 15px;
+  background: rgba(255,255,255,0.7);
+  border-radius: 2px;
+  text-transform: none;
+}
+.consumer-tooltip:hover {
+  background: rgba(255,255,255,0.9);
+}
+@media only screen and (max-width: 730px) {
+  .consumer-tooltip {
+    display: none !important;
+  }
+}
 .cta,
 .cta__primary,
 .cta__primary--big,
