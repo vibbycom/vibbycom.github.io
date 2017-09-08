@@ -59,7 +59,11 @@ description: Vibby Promo
     <script src="//players.brightcove.net/5359769130001/default_default/index.min.js"></script>
       <script src="https://vibbify.vibby.com/static/vibbify_default.min.js"></script>
       <script>
-        var bcPlayerApi = videojs('player-container-bc')
+        var bcPlayerApi = videojs('player-container-bc');
+        videojs('player-container-bc').ready(function(){
+          var myPlayer = this;
+          myPlayer.muted(true);
+        });
       </script>
 
 </div>
