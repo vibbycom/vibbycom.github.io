@@ -33,21 +33,44 @@ description: Vibby Promo
     </div>
   </section>
 
+  
   <section class="explainer-video">
     <div class="container">
-      <div class="browser-top"><img src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/browser_dark.png" alt="Browser window"/></div>
-      <video class="video-player z-shadow" id="video-player" loop>
-        <source src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/barstool+mockup.mp4" type="video/mp4">
-        <source src="https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/publishers/barstool+mockup.webm" type="video/webm">
-      </video>
+      <video id="player-container-bc" 
+              data-video-id="5567553724001" 
+              data-account="5359769130001" 
+              data-player="default" 
+              data-embed="default" 
+              data-application-id 
+              class="video-js" 
+              controls 
+              width="600" 
+              height="337.5"
+              style="margin:0 auto;"></video>
     </div>
+    
   </section>
-
+    <script src="//players.brightcove.net/5359769130001/default_default/index.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://p.jwpcdn.com/6/10/jwplayer.js"></script>
+    <script type="text/javascript" src="https://staging.vibby.com:9000/static/vibbify.min.js"></script>
+    <script>
+    var bcPlayerApi = videojs('player-container-bc')
+    </script>
     <!-- Our js -->
     {% if jekyll.environment == 'production' %}
       <script type="text/javascript" src="{{ "/assets/js/landing.js" | prepend: site.url }}"></script>
     {% else %}
       <script type="text/javascript" src="{{ "/assets/js/landing.js" | prepend: site.baseurl }}"></script>
     {% endif %}
+    <script src="//players.brightcove.net/5359769130001/default_default/index.min.js"></script>
+      <script src="https://vibbify.vibby.com/static/vibbify_default.min.js"></script>
+      <script>
+        var bcPlayerApi = videojs('player-container-bc');
+        videojs('player-container-bc').ready(function(){
+          var myPlayer = this;
+          myPlayer.muted(true);
+        });
+      </script>
 
 </div>
