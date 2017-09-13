@@ -1,3 +1,4 @@
+var currentVibbifyState = 1; // 1 - playing, 0 - paused
 
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
@@ -45,6 +46,10 @@ $(document).ready(function () {
   //   $(".cta-create span").text("Explore now");
   // }
 
+  $('#player-container-bc_html5_api').click(function() {
+    currentVibbifyState = !currentVibbifyState;
+  });
+
   var query2 = (/demo/).test(window.location.href);
   if (query2) {
     $('#thank-you-msg').show();
@@ -80,15 +85,16 @@ $(document).ready(function () {
   if ($('#video-player').length){
     var video = document.getElementById('video-player');
     video.addEventListener('click',function(){
+        currentVibbifyState = 1;
         video.play();
     },false);
 
-    $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-      if (scroll >= 200) {
-        video.play();
-      }
-    });
+    // $(window).scroll(function() {
+    // var scroll = $(window).scrollTop();
+    //   if (scroll >= 200) {
+    //     video.play();
+    //   }
+    // });
     setTimeout(function (){
       video.play();
     }, 200);
@@ -190,7 +196,13 @@ $('a[href*="#"]')
           var yBottomMedia = $(this).height() + yTopMedia;
 
           if(scrollTop < yBottomMedia && scrollBottom > yTopMedia){ //view explaination in `In brief` section above
-              $(this).get(0).play();
+              if ($(this).attr('id') === "player-container-bc_html5_api") {
+                if (window.currentVibbifyState) {
+                  $(this).get(0).play();
+                }
+              } else {
+                $(this).get(0).play();
+              }
           } else {
               $(this).get(0).pause();
           }
