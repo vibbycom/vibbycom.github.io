@@ -50,6 +50,10 @@ $(document).ready(function () {
     currentVibbifyState = !currentVibbifyState;
   });
 
+  $('.vjs-play-control').click(function() {
+    currentVibbifyState = !currentVibbifyState;
+  });
+
   var query2 = (/demo/).test(window.location.href);
   if (query2) {
     $('#thank-you-msg').show();
@@ -89,12 +93,6 @@ $(document).ready(function () {
         video.play();
     },false);
 
-    // $(window).scroll(function() {
-    // var scroll = $(window).scrollTop();
-    //   if (scroll >= 200) {
-    //     video.play();
-    //   }
-    // });
     setTimeout(function (){
       video.play();
     }, 200);
