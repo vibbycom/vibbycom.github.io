@@ -132,38 +132,33 @@
         &.violet
             background linear-gradient(0deg, $violet 0%, $purple 100%)
             position relative
+        .container
+            max-width 900px
         h2,
         h3
             color #fff
             margin-bottom 30px
-        .video-js
-            margin 0 auto
-            border-radius 5px
-            width 100%
-            max-width 900px
-            min-height 506px
-            text-align left
-            &:focus
-                outline none
-            +below($sm)
-                min-height 385px
-            +below($xs)
-                min-height 280px
-            .vjs-tech
-                border-radius 5px
-                overflow hidden
-            #createHighlightBtnDiv-bc-0
-                .cc-container
-                    position absolute
-                    bottom 50px
-                    top auto
-        .vibbified-svg
-            position absolute
-            bottom 0
-            left 0
-            right 0
-            +below($lg)
-                display none
+        .video-container
+            position relative
+            height 0
+            padding-bottom 56.25%
+            .video-js
+                line-height 0
+                position absolute
+                top 0
+                left 0
+                width 100%
+                height 100%
+                text-align left
+                &:focus
+                    outline none
+                .vjs-tech
+                    overflow hidden
+            .vb-container.vb-v2
+                position absolute
+                width 100%
+                bottom -60px
+                top auto
 
     .join-us
         background-color $blue1

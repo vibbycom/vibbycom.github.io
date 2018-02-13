@@ -1732,51 +1732,39 @@ nav.main-nav .menu-icon .sh3 {
   background: linear-gradient(0deg, #926aff 0%, #6a7bff 100%);
   position: relative;
 }
+.landing .try-it .container {
+  max-width: 900px;
+}
 .landing .try-it h2,
 .landing .try-it h3 {
   color: #fff;
   margin-bottom: 30px;
 }
-.landing .try-it .video-js {
-  margin: 0 auto;
-  border-radius: 5px;
+.landing .try-it .video-container {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.landing .try-it .video-container .video-js {
+  line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  max-width: 900px;
-  min-height: 506px;
+  height: 100%;
   text-align: left;
 }
-.landing .try-it .video-js:focus {
+.landing .try-it .video-container .video-js:focus {
   outline: none;
 }
-@media only screen and (max-width: 730px) {
-  .landing .try-it .video-js {
-    min-height: 385px;
-  }
-}
-@media only screen and (max-width: 544px) {
-  .landing .try-it .video-js {
-    min-height: 280px;
-  }
-}
-.landing .try-it .video-js .vjs-tech {
-  border-radius: 5px;
+.landing .try-it .video-container .video-js .vjs-tech {
   overflow: hidden;
 }
-.landing .try-it .video-js #createHighlightBtnDiv-bc-0 .cc-container {
+.landing .try-it .video-container .vb-container.vb-v2 {
   position: absolute;
-  bottom: 50px;
+  width: 100%;
+  bottom: -60px;
   top: auto;
-}
-.landing .try-it .vibbified-svg {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-@media only screen and (max-width: 1024px) {
-  .landing .try-it .vibbified-svg {
-    display: none;
-  }
 }
 .landing .join-us {
   background-color: #e6f4ff;
