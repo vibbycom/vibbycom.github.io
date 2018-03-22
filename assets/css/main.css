@@ -1158,7 +1158,7 @@ nav.main-nav {
   left: 0;
   right: 0;
   height: 52px;
-  z-index: 9999;
+  z-index: 2010;
   -ms-flex-align: center;
   align-items: center;
   padding-top: 20px;
@@ -3456,9 +3456,9 @@ nav.main-nav .menu-icon .sh3 {
 .tos {
   text-align: center;
 }
-.tos .hero {
-  padding: 105px 0 55px;
-  height: auto;
+.tos h1,
+.tos h3 {
+  color: #fff;
 }
 .tos .tos-content {
   display: inline-block;
