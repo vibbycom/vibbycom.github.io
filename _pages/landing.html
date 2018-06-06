@@ -80,14 +80,19 @@ description: Vibby empowers viewers to share the best moments of any video, whil
         <form action="https://getsimpleform.com/messages?form_api_token=f629e6e913937453109cf5c58a3427c3" method="post">
           <input type='hidden' name='redirect_to' value='https://vibby.com/#demo' />
           <div class="form-field-group">
-            <input type='text' name='name' class="nab-form-input" required/>
+            <input type='text' name='name' class="nab-form-input" pattern="^((\b[a-zA-Z]{2,40}\b)\s*){2,}$" required/>
             <span class="bar"></span>
-            <label>Name</label>
+            <label>Your full name</label>
           </div>
           <div class="form-field-group">
             <input type='email' name='email' class="nab-form-input" required/>
             <span class="bar"></span>
-            <label>Business email</label>
+            <label>Your business email</label>
+          </div>
+          <div class="form-field-group">
+            <input type='tel' name='phone' class="nab-form-input" pattern="^\+?\d{0,13}" required/>
+            <span class="bar"></span>
+            <label>Your work number</label>
           </div>
           <div class="form-field-group">
             <input type='text' name='business' class="nab-form-input" required/>
@@ -95,14 +100,14 @@ description: Vibby empowers viewers to share the best moments of any video, whil
             <label>Company name</label>
           </div>
           <div class="form-field-group">
-            <input type='text' name='phone' class="nab-form-input" required/>
-            <span class="bar"></span>
-            <label>Phone number</label>
-          </div>
-          <div class="form-field-group">
             <input type='text' name='address' class="nab-form-input" required/>
             <span class="bar"></span>
             <label>Company location</label>
+          </div>
+          <div class="form-field-group">
+            <input type='text' name='url' class="nab-form-input" pattern="^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$" required/>
+            <span class="bar"></span>
+            <label>Company URL</label>
           </div>
           <div class="form-field-group">
             <textarea name='message' class="nab-form-input" required></textarea>
