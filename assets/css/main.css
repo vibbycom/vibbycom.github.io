@@ -1750,6 +1750,9 @@ nav.main-nav .menu-icon .sh3 {
   height: 0;
   padding-bottom: 56.25%;
 }
+.landing .try-it .video-container vb-div > vb-button {
+  padding: 15px 20px;
+}
 .landing .try-it .video-container .video-js {
   line-height: 0;
   position: absolute;
