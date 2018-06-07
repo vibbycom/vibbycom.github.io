@@ -1740,6 +1740,11 @@ nav.main-nav .menu-icon .sh3 {
   color: #fff;
   margin-bottom: 30px;
 }
+.landing .try-it .social-links {
+  margin: 30px 0;
+  font-size: 32px;
+  display: inline-block;
+}
 .landing .try-it .video-container {
   position: relative;
   height: 0;
