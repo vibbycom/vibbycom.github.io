@@ -60,7 +60,7 @@ description: Vibby empowers viewers to share the best moments of any video, whil
       <h2>Vibby in action</h2>
       <h3>Vibbify your video player and take your content to the next level!</h3>
       <div class="video-container">
-        <video id="player-container-bc" data-video-id="5567553724001" 
+        <video id="performPlayer" data-video-id="5567553724001" 
                                         data-account="5359769130001" 
                                         data-player="default" 
                                         data-embed="default" 
@@ -68,6 +68,29 @@ description: Vibby empowers viewers to share the best moments of any video, whil
                                         class="video-js z-shadow-6" 
                                         controls></video>
       </div>
+      <ul class="social-links">
+
+        <li class="social-link twitter">
+          <a href="http://twitter.com/intent/tweet?text=Check%20out%20this%20site!%20http%3A%2F%2Fvideo.corrigansports.com%2Fdetail%2Fvideos%2Fthe-columbia-triathlon%2Fvideo%2F5269082447001%2Fcse-who-we-are%3FautoStart%3Dtrue" target="_blank" rel="nofollow" data-media="twitter"><i class="fa">&nbsp;</i></a>
+        </li>
+
+        <li class="social-link gplus">
+          <a href="https://plus.google.com/share?url=http%3A%2F%2Fvideo.corrigansports.com%2Fdetail%2Fvideos%2Fthe-columbia-triathlon%2Fvideo%2F5269082447001%2Fcse-who-we-are%3FautoStart%3Dtrue" target="_blank" data-media="gplus"><i class="fa">&nbsp;</i></a>
+        </li>
+
+        <li class="social-link linkedin">
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fvideo.corrigansports.com%2Fdetail%2Fvideos%2Fthe-columbia-triathlon%2Fvideo%2F5269082447001%2Fcse-who-we-are%3FautoStart%3Dtrue&amp;title=CSE%20Who%20We%20Are&amp;source=Corrigan%20Sports%20Enterprise%20TV&amp;summary=Check%20out%20this%20video%20to%20learn%20more%20about%20CSE!%20We're%20excited%20to%20be%20adding%20some%20unique%20events%20to%20our%202017%20portfolio!" target="_blank" rel="nofollow" data-media="linkedin"><i class="fa">&nbsp;</i></a>
+        </li>
+
+
+        <li class="social-link pinterest">
+          <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fvideo.corrigansports.com%2Fdetail%2Fvideos%2Fthe-columbia-triathlon%2Fvideo%2F5269082447001%2Fcse-who-we-are%3FautoStart%3Dtrue&amp;media=https%3A%2F%2Ff1.media.brightcove.com%2F8%2F3423279375001%2F3423279375001_5287445595001_5269082447001-vs.jpg%3FpubId%3D3423279375001%26videoId%3D5269082447001&amp;description=Check%20out%20this%20video%20to%20learn%20more%20about%20CSE!%20We're%20excited%20to%20be%20adding%20some%20unique%20events%20to%20our%202017%20portfolio!" target="_blank" rel="nofollow" data-media="pinterest"><i class="fa">&nbsp;</i></a>
+        </li>
+
+        <li class="social-link email">
+          <a href="mailto:?subject=CSE%20Who%20We%20Are&amp;body=Check%20out%20this%20video%20to%20learn%20more%20about%20CSE!%20We're%20excited%20to%20be%20adding%20some%20unique%20events%20to%20our%202017%20portfolio!%0A%0Ahttp%3A%2F%2Fvideo.corrigansports.com%2Fdetail%2Fvideos%2Fthe-columbia-triathlon%2Fvideo%2F5269082447001%2Fcse-who-we-are%3FautoStart%3Dtrue" rel="nofollow" data-media="email"><i class="fa">&nbsp;</i></a>
+        </li>
+    </ul>
     </div>
   </section>
 
@@ -127,10 +150,10 @@ description: Vibby empowers viewers to share the best moments of any video, whil
       <script type="text/javascript" src="{{ "/assets/js/landing.js" | prepend: site.baseurl }}"></script>
     {% endif %}
       <script src="//players.brightcove.net/5359769130001/default_default/index.min.js"></script>
-      <script type="text/javascript" src="https://vibbify-prod.vibby.com/static/vibbify_landing.min.js"></script>
+      <script type="text/javascript" src="https://corrigansports.vibby.com/static/vibbify_default.min.js"></script>
       <script>
-        var bcPlayerApi = videojs('player-container-bc');
-        videojs('player-container-bc').ready(function(){
+        var bcPlayerApi = videojs('performPlayer');
+        videojs('performPlayer').ready(function(){
           var myPlayer = this;
           myPlayer.muted(true);
         });
