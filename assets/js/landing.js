@@ -17,6 +17,7 @@ $(document).ready(function () {
   $('.roughdrafts').hide();
   var query = (/producthunt/).test(window.location.href);
   var query1 = (/roughdrafts/).test(window.location.href);
+  var query2 = (/vib/).test(window.location.href);
   if (query) {
     $(window).scroll(function() {
       if ($(document).scrollTop() >= 220) {
@@ -42,6 +43,9 @@ $(document).ready(function () {
     $('.main-nav').css({'top':'155px','position':'absolute','transition':'200ms background ease-in'});
   } else {
     $('.roughdrafts').hide();
+  }
+  if (query2) {
+      $('html,body').animate({scrollTop: $('#try').offset().top},'slow');
   }
   // End producthunt banner
 
