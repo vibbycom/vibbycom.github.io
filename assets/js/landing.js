@@ -17,7 +17,7 @@ $(document).ready(function () {
   $('.roughdrafts').hide();
   var query = (/producthunt/).test(window.location.href);
   var query1 = (/roughdrafts/).test(window.location.href);
-  var query2 = (/vib/).test(window.location.href);
+  var query2 = (/vib=/).test(window.location.href);
   if (query) {
     $(window).scroll(function() {
       if ($(document).scrollTop() >= 220) {
