@@ -167,4 +167,56 @@ description: Vibby empowers viewers to share the best moments of any video.
         </div>
     </section>
 
+    <section class="join-us" id="demo">
+        <div class="container">
+            <h2>Partner with us:</h2>
+            <h3 id="thank-you-msg">Thank you! A member of our team will be in touch with you soon.</h3>
+            <div class="nab-form z-shadow">
+                <h4></h4>
+                <form action="https://formspree.io/f/xeqweyzd" method="post">
+                    <input type='hidden' name='redirect_to' value='https://vibby.com/#demo' />
+                    <div class="form-field-group">
+                        <input type='text' name='name' class="nab-form-input" pattern="^((\b[a-zA-Z]{2,40}\b)\s*){2,}$"
+                            required />
+                        <span class="bar"></span>
+                        <label>Your full name</label>
+                    </div>
+                    <div class="form-field-group">
+                        <input type='email' name='email' class="nab-form-input" required />
+                        <span class="bar"></span>
+                        <label>Your business email</label>
+                    </div>
+                    <div class="form-field-group">
+                        <input type='tel' name='phone' class="nab-form-input" pattern="^\+?\d{0,13}" required />
+                        <span class="bar"></span>
+                        <label>Your work number</label>
+                    </div>
+                    <div class="form-field-group">
+                        <input type='text' name='business' class="nab-form-input" required />
+                        <span class="bar"></span>
+                        <label>Company name</label>
+                    </div>
+                    <div class="form-field-group">
+                        <input type='text' name='address' class="nab-form-input" required />
+                        <span class="bar"></span>
+                        <label>Company location</label>
+                    </div>
+                    <div class="form-field-group">
+                        <input type='text' name='url' class="nab-form-input"
+                            pattern="^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$" required />
+                        <span class="bar"></span>
+                        <label>Company URL</label>
+                    </div>
+                    <div class="form-field-group">
+                        <textarea name='message' class="nab-form-input" required></textarea>
+                        <span class="bar"></span>
+                        <label>Few words about your business</label>
+                    </div>
+                    <br>
+                    <input type='submit' value='Contact us' class="cta__primary--big cta-create z-shadow-1" />
+                </form>
+            </div>
+        </div>
+    </section>
+
 </div>
