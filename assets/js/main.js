@@ -1,28 +1,28 @@
 var currentVibbifyState = 1; // 1 - playing, 0 - paused
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   var scroll = $(window).scrollTop();
   var query = (/producthunt/).test(window.location.href);
   var query1 = (/roughdrafts/).test(window.location.href);
-  if (query){
+  if (query) {
     if (scroll < 220) {
-    $(".main-nav").removeClass("scroll");
+      $(".main-nav").removeClass("scroll");
     }
     if (scroll >= 220) {
       $(".main-nav").addClass("scroll");
     }
   }
-  else if (query1){
+  else if (query1) {
     if (scroll < 150) {
-    $(".main-nav").removeClass("scroll");
+      $(".main-nav").removeClass("scroll");
     }
     if (scroll >= 150) {
       $(".main-nav").addClass("scroll");
     }
   }
-  else{
+  else {
     if (scroll < 100) {
-    $(".main-nav").removeClass("scroll");
+      $(".main-nav").removeClass("scroll");
     }
     if (scroll >= 100) {
       $(".main-nav").addClass("scroll");
@@ -46,11 +46,11 @@ $(document).ready(function () {
   //   $(".cta-create span").text("Explore now");
   // }
 
-  $('#player-container-bc_html5_api').click(function() {
+  $('#player-container-bc_html5_api').click(function () {
     currentVibbifyState = !currentVibbifyState;
   });
 
-  $('.vjs-play-control').click(function() {
+  $('.vjs-play-control').click(function () {
     currentVibbifyState = !currentVibbifyState;
   });
 
@@ -59,59 +59,59 @@ $(document).ready(function () {
     $('#thank-you-msg').show();
   };
 
-  var $container  = $('.cards-col'),
-  $articles = $container.children('.card'),
-  timeout;
+  var $container = $('.cards-col'),
+    $articles = $container.children('.card'),
+    timeout;
 
-  $articles.on( 'mouseenter', function( event ) {
-      
-    var $article  = $(this);
-    clearTimeout( timeout );
-    timeout = setTimeout( function() {
-      
-      if( $article.hasClass('active') ) return false;
-      
+  $articles.on('mouseenter', function (event) {
+
+    var $article = $(this);
+    clearTimeout(timeout);
+    timeout = setTimeout(function () {
+
+      if ($article.hasClass('active')) return false;
+
       $articles.not($article).removeClass('active').addClass('blur');
-      
+
       $article.removeClass('blur').addClass('active');
-      
-    }, 75 );
-    
+
+    }, 75);
+
   });
 
-  $container.on( 'mouseleave', function( event ) {
-    
-    clearTimeout( timeout );
+  $container.on('mouseleave', function (event) {
+
+    clearTimeout(timeout);
     $articles.removeClass('active blur');
-    
+
   });
 
-  if ($('#video-player').length){
+  if ($('#video-player').length) {
     var video = document.getElementById('video-player');
-    video.addEventListener('click',function(){
-        currentVibbifyState = 1;
-        video.play();
-    },false);
+    video.addEventListener('click', function () {
+      currentVibbifyState = 1;
+      video.play();
+    }, false);
 
-    setTimeout(function (){
+    setTimeout(function () {
       video.play();
     }, 200);
 
   }
 
-  if ($('#video-player-ce').length){
+  if ($('#video-player-ce').length) {
 
-  var videoCe = document.getElementById('video-player-ce');
-    videoCe.addEventListener('click',function(){
-        videoCe.play();
-    },false);
+    var videoCe = document.getElementById('video-player-ce');
+    videoCe.addEventListener('click', function () {
+      videoCe.play();
+    }, false);
   }
 
-  if ($('#gaming-tabs').length){
-    $('.accordion-gaming-tabs').each(function() {
+  if ($('#gaming-tabs').length) {
+    $('.accordion-gaming-tabs').each(function () {
       $(this).children('li').first().children('a').addClass('is-active');
     });
-    $('.accordion-gaming-tabs').on('click', 'li > a.tab-link', function(event) {
+    $('.accordion-gaming-tabs').on('click', 'li > a.tab-link', function (event) {
       if (!$(this).hasClass('is-active')) {
         event.preventDefault();
         var accordionTabs = $(this).closest('.accordion-gaming-tabs');
@@ -121,64 +121,64 @@ $(document).ready(function () {
         event.preventDefault();
       }
     });
-  } 
+  }
 
-  $("#lol-btn").click(function() {
-    $("#iframe").attr("src", "https://www.vibby.com/embed/collection/Q1Yshc2If?cover=false");  
+  $("#lol-btn").click(function () {
+    $("#iframe").attr("src", "https://www.vibby.com/embed/collection/Q1Yshc2If?cover=false");
   });
 
-  $("#dota2-btn").click(function() {
-    $("#iframe").attr("src", "https://www.vibby.com/embed/collection/XyvpR5h8z?cover=false");  
+  $("#dota2-btn").click(function () {
+    $("#iframe").attr("src", "https://www.vibby.com/embed/collection/XyvpR5h8z?cover=false");
   });
 
-  $("#vainglory-btn").click(function() {
+  $("#vainglory-btn").click(function () {
     $("#iframe").attr("src", "https://www.vibby.com/embed/collection/XkTmn52UG?cover=false");
   });
 
-  $("#cod-btn").click(function() {
+  $("#cod-btn").click(function () {
     $("#iframe").attr("src", "https://www.vibby.com/embed/collection/m1YjgCbDG?cover=false");
   });
 
-  $("#csgo-btn").click(function() {
+  $("#csgo-btn").click(function () {
     $("#iframe").attr("src", "https://www.vibby.com/embed/collection/m1nN0c2LM?cover=false");
   });
 
   // Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
+  $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function (event) {
+      // On-page links
+      if (
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        &&
+        location.hostname == this.hostname
+      ) {
+        // Figure out element to scroll to
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+          // Only prevent default if animation is actually gonna happen
+          event.preventDefault();
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000, function () {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+            $target.focus();
+            if ($target.is(":focus")) { // Checking if the target was focused
+              return false;
+            } else {
+              $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+              $target.focus(); // Set focus again
+            };
+          });
+        }
       }
-    }
-  });
+    });
 
   // Get media - with autoplay disabled (audio or video)
   // var media = $('video');
@@ -209,7 +209,35 @@ $('a[href*="#"]')
   //     //}
   // }
   // $(document).on('scroll', checkMedia);
-  
+
+
+  $('.accordion-tabs').each(function () {
+    $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
+  });
+  $('.accordion-tabs').on('click', 'li > a.tab-link', function (event) {
+    if (!$(this).hasClass('is-active')) {
+      event.preventDefault();
+      var accordionTabs = $(this).closest('.accordion-tabs');
+      accordionTabs.find('.is-open').removeClass('is-open').hide();
+
+      $(this).next().toggleClass('is-open').toggle();
+      accordionTabs.find('.is-active').removeClass('is-active');
+      $(this).addClass('is-active');
+    } else {
+      event.preventDefault();
+    }
+  });
+
+  var tabs = $('.tabs-titles li'); //grab tabs
+  var contents = $('.tabs-contents li'); //grab contents
+
+  tabs.bind('click', function () {
+    contents.hide(); //hide all contents
+    tabs.removeClass('current'); //remove 'current' classes
+    $(contents[$(this).index()]).show(); //show tab content that matches tab title index
+    $(this).addClass('current'); //add current class on clicked tab title
+  });
+
 });
 
 //mobile side menu
@@ -218,4 +246,3 @@ function addShowRightMenu(elem) {
   var mainNav = document.querySelector('.navs');
   mainNav.classList.toggle('mobile-menu');
 }
-
