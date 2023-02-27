@@ -30,7 +30,6 @@ nav.main-nav
     font-weight 500
     
     .container
-        overflow hidden
         // position relative
 
     ul,li
@@ -66,6 +65,35 @@ nav.main-nav
             +above($sm + 30)
                 &:not(:first-child)
                     margin-left 30px
+            
+            .dropdown
+                position relative
+                display inline-block
+                a 
+                    cursor pointer
+
+
+            .dropdown-content 
+                display none
+                position absolute
+                background-color #f9f9f9
+                color #2ca3ff
+                min-width 100px
+                height 160px
+                box-shadow 0px 8px 16px 0px rgba(0,0,0,0.2)
+                padding 12px 16px
+                z-index 1
+                a 
+                    display block
+
+
+            .dropdown:hover 
+                .dropdown-content 
+                    display block
+                    height 160px
+                    a
+                       color #2ca3ff
+
                 
 
     &.scroll
@@ -141,3 +169,6 @@ nav.main-nav
         background rgba(255,255,255,0.9)
     +below($sm)
         display none !important
+
+
+
