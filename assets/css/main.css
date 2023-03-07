@@ -624,7 +624,7 @@ medium {
   margin-top: 1.785714285714286em;
   text-align: left;
   overflow: visible;
-  height: 600px;
+  height: 640px;
   background-size: 100%;
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -648,8 +648,9 @@ medium {
   margin-right: auto;
   margin-bottom: 0px;
 }
-.accordion-tabs .tab-content.cm {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/cm-bg.png");
+.accordion-tabs .tab-content.cm img {
+  margin-top: 20px;
+  width: 100%;
 }
 .accordion-tabs .tab-content.education {
   background-image: url("https://s3-eu-west-1.amazonaws.com/vibby-static/LandingPage/landing/education-bg.png");
